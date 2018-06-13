@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="DBCommon" default="build" basedir=".">
+	<path id="source">
+		<pathelement location="src/" />
+	</path>
+
+	<path id="lib">
+		<fileset dir="lib" includes="**/*.jar" />
+	</path>
+
+	<property name="commomdir" value="../bin" />
+	<property name="jarname" value="DBCommon" />
+
+	<target name="javac" depends="clean" description="Compile java source to bytecode">
+		<mkdir dir="${commomdir}/classes" />
+		<javac srcdir="src" includes="**" encoding="utf-8" destdir="${commomdir}/classes" source="1.8" target="1.8" nowarn="true" debug="true" debuglevel="lines,vars,source" includeAntRuntime="false">
+			<classpath refid="lib" />
+		</javac>
+		<copy todir="${commomdir}/classes">
+			<fileset dir="src" excludes="**/*.java" />
+		</copy>
+	</target>
+
+	<target name="build" depends="javac" description="Create a jar file">
+		<zip destfile="${commomdir}/${jarname}.jar" basedir="${commomdir}/classes" />
+		<delete dir="${commomdir}/classes" failonerror="false" />
+	</target>
+
+	<target name="clean" description="Cleans this project">
+		<delete dir="bin" failonerror="false" />
+		<delete dir="${commomdir}/classes" failonerror="false" />
+		<delete file="${commomdir}/${jarname}.jar" failonerror="false" />
+	</target>
+</project>
