@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.linyun.data.mapper.ClubDiamondLogMapper"> 
+     
+     <!-- 俱乐部里面玩家开启牌局，消耗创始人钻石记录 -->
+     <insert id="addOneRecordwithCostDiamond"  parameterType="ClubDiamondLog"> 
+            insert into t_club_diamond_log (clubId,roomNum,userId,diamond,type,createTime,remark)
+            values (#{clubId},#{roomNum},#{userId},#{diamond},#{type},now(),#{remark})
+     </insert>
+</mapper>

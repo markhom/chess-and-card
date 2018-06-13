@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linyun.data.mapper.GameRoundLogMapper">
+
+  <insert id="addGameRoundLog" parameterType="GameRoundLog">
+  insert into t_game_round_log_h5(clubId,roomNum,round,bankerId,player1,cards1,cardType1,baseScore1,
+  getScore1,getScoreTotal1,isRobBanker1,robBankerNum1,player2,cards2,cardType2,baseScore2,	getScore2,getScoreTotal2,isRobBanker2,
+  robBankerNum2,player3,cards3,	cardType3,baseScore3,getScore3,getScoreTotal3,isRobBanker3,robBankerNum3,player4,
+  cards4,cardType4,baseScore4,getScore4,getScoreTotal4,isRobBanker4,robBankerNum4,	player5,cards5,	cardType5,baseScore5,
+  getScore5,getScoreTotal5,isRobBanker5,robBankerNum5,	player6,cards6,cardType6,baseScore6,getScore6,getScoreTotal6,isRobBanker6,robBankerNum6,updateTime)
+  values(#{clubId},	#{roomNum},	#{round},#{bankerId},#{player1},#{cards1},#{cardType1},	#{baseScore1},#{getScore1},#{getScoreTotal1},#{isRobBanker1},
+  #{robBankerNum1},	#{player2},	#{cards2},#{cardType2},	#{baseScore2},#{getScore2},	#{getScoreTotal2},#{isRobBanker2},#{robBankerNum2},#{player3},#{cards3},
+  #{cardType3},#{baseScore3},#{getScore3},#{getScoreTotal3},#{isRobBanker3},#{robBankerNum3},#{player4},#{cards4},#{cardType4},#{baseScore4},#{getScore4},#{getScoreTotal4},
+  #{isRobBanker4},#{robBankerNum4},	#{player5},	#{cards5},#{cardType5},#{baseScore5},#{getScore5},#{getScoreTotal5},#{isRobBanker5},#{robBankerNum5},	
+  #{player6},#{cards6},	#{cardType6},#{baseScore6},#{getScore6},#{getScoreTotal6},#{isRobBanker6},#{robBankerNum6},now())
+  
+  </insert>
+  
+  <select id="getRoundDetails"   parameterType ="Integer"  resultType = "GameRoundLog">
+  
+   select * from t_game_round_log_h5 where clubId = #{clubId} and roomNum = #{roomNum} and round = #{round} order by updateTime desc limit 1
+  </select>
+</mapper>

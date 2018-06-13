@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linyun.data.mapper.OrderMapper">
+   
+   <insert id ="saveOrder"  parameterType="Order">
+     insert into t_order(orderId,userId,diamond,amount,status,createTime,updateTime) values
+     (#{orderId},#{userId},#{diamond},#{amount},#{status},now(),now())
+   </insert>
+
+   <update id="updateOrderStatus" parameterType="Map">
+    update t_order set status = #{status}, updateTime = now() where orderId = #{orderId}
+   </update>
+   
+   <select id="selectByOrderId" parameterType ="String"   resultType="Order">
+    select * from t_order where orderId = #{orderId}
+   </select>
+
+</mapper>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.linyun.data.mapper.TaurusLogMapper">
+	 <resultMap type="TaurusLog" id="BaseResultMap">
+           <id  column="id"  property="id"/>
+           <result  column="roomNum"  property="roomNum"/>
+           <result  column="roundTotal"  property="roundTotal"/>
+           <result  column="playedRound"  property="playedRound"/>           
+           <result  column="bankerMode"  property="bankerMode"/>
+           <result  column="baseScore"  property="baseScore"/>
+           <result  column="allCompareBaseScore"  property="allCompareBaseScore"/>
+           <result  column="roomOwnerId"  property="roomOwnerId"/>
+           <result  column="payMode"  property="payMode"/>
+           <result  column="playerId1"  property="playerId1"/>
+           <result  column="score1"  property="score1"/>
+           <result  column="headImgUrl1"  property="headImgUrl1"/>
+           <result  column="nickName1"  property="nickName1"/>
+           <result  column="playerId2"  property="playerId2"/>
+           <result  column="score2"  property="score2"/>
+           <result  column="headImgUrl2"  property="headImgUrl2"/>
+           <result  column="nickName2"  property="nickName2"/>
+           <result  column="playerId3"  property="playerId3"/>
+           <result  column="score3"  property="score3"/>
+           <result  column="headImgUrl3"  property="headImgUrl3"/>
+           <result  column="nickName3"  property="nickName3"/>
+           <result  column="playerId4"  property="playerId4"/>
+           <result  column="score4"  property="score4"/>
+           <result  column="headImgUrl4"  property="headImgUrl4"/>
+           <result  column="nickName4"  property="nickName4"/>
+           <result  column="playerId5"  property="playerId5"/>
+           <result  column="score5"  property="score5"/>
+           <result  column="headImgUrl5"  property="headImgUrl5"/>
+           <result  column="nickName5"  property="nickName5"/>
+           <result  column="playerId6"  property="playerId6"/>
+           <result  column="score6"  property="score6"/>
+           <result  column="headImgUrl6"  property="headImgUrl6"/>
+           <result  column="nickName6"  property="nickName6"/>
+           <result  column="roundIndex1"  property="roundIndex1"/>
+           <result  column="roundIndex2"  property="roundIndex2"/>
+           <result  column="roundIndex3"  property="roundIndex3"/>
+           <result  column="roundIndex4"  property="roundIndex4"/>
+           <result  column="roundIndex5"  property="roundIndex5"/>
+           <result  column="roundIndex6"  property="roundIndex6"/>
+           <result  column="roundIndex7"  property="roundIndex7"/>
+           <result  column="roundIndex8"  property="roundIndex8"/>
+           <result  column="roundIndex9"  property="roundIndex9"/>
+           <result  column="roundIndex10"  property="roundIndex10"/>
+           <result  column="roundIndex11"  property="roundIndex11"/>
+           <result  column="roundIndex12"  property="roundIndex12"/>
+           <result  column="roundIndex13"  property="roundIndex13"/>
+           <result  column="roundIndex14"  property="roundIndex14"/>
+           <result  column="roundIndex15"  property="roundIndex15"/>
+           <result  column="roundIndex16"  property="roundIndex16"/>
+           <result  column="roundIndex17"  property="roundIndex17"/>
+           <result  column="roundIndex18"  property="roundIndex18"/>
+           <result  column="roundIndex19"  property="roundIndex19"/>
+           <result  column="roundIndex20"  property="roundIndex20"/>  
+           <result  column="updateTime"  property="updateTime"/>  
+           <result  column="createTime"  property="createTime"/>
+           <result  column= "clubId"  property = "clubId"/>
+      </resultMap>
+
+      <!--新增一局的结果记录  -->
+     <insert id="addGameRecord"  parameterType="TaurusLog">
+           insert into t_game_log (roomNum,roundTotal,playedRound,bankerMode,baseScore,allCompareBaseScore,roomOwnerId,payMode,
+           playerId1,score1,headImgUrl1,nickName1,
+           playerId2,score2,headImgUrl2,nickName2,
+           playerId3,score3,headImgUrl3,nickName3,
+           playerId4,score4,headImgUrl4,nickName4,
+           playerId5,score5,headImgUrl5,nickName5,
+           playerId6,score6,headImgUrl6,nickName6,
+           roundIndex1,roundIndex2,roundIndex3,roundIndex4,roundIndex5,roundIndex6,roundIndex7,roundIndex8,roundIndex9,roundIndex10,
+           roundIndex11,roundIndex12,roundIndex13,roundIndex14,roundIndex15,roundIndex16,roundIndex17,roundIndex18,roundIndex19,roundIndex20,
+           updateTime,createTime,clubId) 
+           values(#{roomNum},#{roundTotal},#{playedRound},#{bankerMode},#{baseScore},#{allCompareBaseScore},#{roomOwnerId},#{payMode},
+           #{playerId1},#{score1},#{headImgUrl1},#{nickName1},
+           #{playerId2},#{score2},#{headImgUrl2},#{nickName2},
+           #{playerId3},#{score3},#{headImgUrl3},#{nickName3},
+           #{playerId4},#{score4},#{headImgUrl4},#{nickName4},
+           #{playerId5},#{score5},#{headImgUrl5},#{nickName5},
+           #{playerId6},#{score6},#{headImgUrl6},#{nickName6},
+           #{roundIndex1},#{roundIndex2},#{roundIndex3},#{roundIndex4},#{roundIndex5},#{roundIndex6},#{roundIndex7},#{roundIndex8},#{roundIndex9},#{roundIndex10},
+           #{roundIndex11},#{roundIndex12},#{roundIndex13},#{roundIndex14},#{roundIndex15},#{roundIndex16},#{roundIndex17},#{roundIndex18},#{roundIndex19},#{roundIndex20},
+           now(),now(),#{clubId})
+     </insert>
+     
+	 <!--查找最新的一局游戏记录  -->
+    <select id="getOneRecord" parameterType="Integer" resultMap="BaseResultMap">
+        select * from t_game_log where roomNum = #{roomNum} order by updateTime desc limit 1
+    </select>
+     
+      <!--新增一局的结果记录  -->
+    <update id="updateRecord"  parameterType="TaurusLog">
+		update t_game_log set 
+		roomNum=#{roomNum},roundTotal=#{roundTotal},playedRound=#{playedRound},bankerMode=#{bankerMode},baseScore=#{baseScore},allCompareBaseScore=#{allCompareBaseScore},roomOwnerId=#{roomOwnerId},payMode=#{payMode},
+		playerId1=#{playerId1},score1=#{score1},headImgUrl1=#{headImgUrl1},nickName1=#{nickName1},
+		playerId2=#{playerId2},score2=#{score2},headImgUrl2=#{headImgUrl2},nickName2=#{nickName2},
+		playerId3=#{playerId3},score3=#{score3},headImgUrl3=#{headImgUrl3},nickName3=#{nickName3},
+		playerId4=#{playerId4},score4=#{score4},headImgUrl4=#{headImgUrl4},nickName4=#{nickName4},
+		playerId5=#{playerId5},score5=#{score5},headImgUrl5=#{headImgUrl5},nickName5=#{nickName5},
+		playerId6=#{playerId6},score6=#{score6},headImgUrl6=#{headImgUrl6},nickName6=#{nickName6},
+		roundIndex1=#{roundIndex1},roundIndex2=#{roundIndex2},roundIndex3=#{roundIndex3},roundIndex4=#{roundIndex4},roundIndex5=#{roundIndex5},
+		roundIndex6=#{roundIndex6},roundIndex7=#{roundIndex7},roundIndex8=#{roundIndex8},roundIndex9=#{roundIndex9},roundIndex10=#{roundIndex10},
+		roundIndex11=#{roundIndex11},roundIndex12=#{roundIndex12},roundIndex13=#{roundIndex13},roundIndex14=#{roundIndex14},roundIndex15=#{roundIndex15},
+		roundIndex16=#{roundIndex16},roundIndex17=#{roundIndex17},roundIndex18=#{roundIndex18},roundIndex19=#{roundIndex19},roundIndex20=#{roundIndex20},
+		updateTime=now(),clubId=#{clubId}
+        where id=#{id}
+     </update>
+     
+     <!-- 用户拉取最新三天的游戏战绩 -->
+	 <select id="getUserGameRecard"  parameterType="TaurusLog"  resultMap="BaseResultMap">
+	       select * from t_game_log
+	         <where>  
+	              <if test="condition.userId != null and condition.userId !=''">
+	                 ( playerId1 = #{condition.userId} or
+	             </if> 
+	              <if test="condition.userId != null and condition.userId != '' ">
+	                  playerId2 = #{condition.userId} or
+	             </if> 
+	              <if test="condition.userId != null and condition.userId != '' ">
+	                 playerId3 = #{condition.userId} or
+	             </if>
+	              <if test="condition.userId != null and condition.userId != '' ">
+	                  playerId4 = #{condition.userId} or
+	             </if>
+	             <if test="condition.userId != null and condition.userId != '' ">
+	                 playerId5 = #{condition.userId} or
+	             </if>
+	             <if test="condition.userId != null and condition.userId != '' ">
+	                 playerId6 = #{condition.userId} )
+	             </if>
+	        </where> 
+	             and DateDiff(now(),updateTime)&lt;3 order by updateTime desc
+	       
+	 </select>
+	 
+	 <!-- 创建房间时，根据生成的房间号查询战绩总表中是否有这个房间号的记录，有==重新生成 ，确保查询战绩的3天内，生成的房间号唯一 -->
+	 <select id="getUserOnlyRoomNumInFourDays"  parameterType="Integer"  resultMap="BaseResultMap" >
+	       select * from t_game_log where roomNum = #{roomNum} and DateDiff(now(),updateTime)&lt;4 order by updateTime desc
+	 </select>
+	 
+	 <!-- 通过房间号找到TaurusLog对象 -->
+	 <select id="getUserGameLogByRoomNum"  parameterType="Integer"  resultMap="BaseResultMap"> 
+	       select * from t_game_log where roomNum = #{roomNum} and DateDiff(now(),updateTime)&lt;4 order by updateTime desc
+	 </select>
+	 
+	
+
+</mapper>

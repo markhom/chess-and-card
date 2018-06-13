@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.linyun.data.mapper.CommonMapper">
+
+       <resultMap type="Marquee" id="MarqueeResultMap">
+            <id  column = "id"  property="id" />
+            <result  column = "content"  property="content" />
+            <result  column = "voild"  property="voild" />
+            <result  column = "createTime"  property="createTime" />
+            <result  column = "updateTime"  property="updateTime" />
+            <result  column = "pId"  property="pId" />
+       </resultMap>
+       
+       <resultMap type="GiftCode" id="GiftCodeMap">
+            <id  column = "id"  property="id" />
+            <result  column = "giftCode"  property="giftCode" />
+            <result  column = "presentDiamond"  property="presentDiamond" />
+            <result  column = "createTime"  property="createTime" />
+       </resultMap>
+       
+       
+       <resultMap type="UserNickName" id="NickNameResultMap">
+             <id  column="id"  property="id" />
+             <result  column="nickName"  property="nickName"/>
+       </resultMap>
+
+       
+       <!--用户绑定邀请码时，拉取赠送钻石的配置信息  type： 1-绑定邀请码送钻石数量 -->
+       <select id="getBindRefCodePresentDiamond"  resultType="GameConfig"> 
+            select * from t_game_activity_config where type = 1 limit 1
+       </select>
+
+       <!--拉取公告内容信息  -->
+       <select id="getNoticeContent"  resultType="Notice">
+           select * from t_notice order by createTime desc limit 1
+       </select>
+       
+        <!-- 更新公告 -->
+       <update id="updateNoticeContent" parameterType="map">
+            update t_notice set content = #{content},updateTime = now() where id = #{id}
+       </update>
+       
+       <!--拉取礼品码列表  -->
+       <select id="getAllGiftCode"  resultMap="GiftCodeMap">
+            select * from t_gift_code
+       </select>
+       
+       <!--拉取跑马灯  -->
+       <select id="getMarqueeList"  parameterType="Integer"  resultMap="MarqueeResultMap">
+            select * from t_marquee where voild = #{statue} order by pId
+       </select>
+       
+       <!--拉取一条跑马灯  -->
+       <select id="getMarqueeById" parameterType="Integer" resultType="Marquee">
+            select * from t_marquee where id = #{id}
+       </select>
+       
+       <!-- 更新跑马灯 -->
+       <update id="updateMarquee" parameterType="Marquee"> 
+            update t_marquee set 
+            <if test="condition.content != null and condition.content !='' ">
+                 content = #{condition.content},
+            </if>
+            <if test="condition.voild != null and condition.voild !='' ">
+                 voild = #{condition.voild},
+            </if>
+                updateTime = now() where id = #{condition.id}
+       </update>
+
+       <!-- 拉取玩家的昵称的集合 -->
+        <select id="getUserNickName"  resultMap="NickNameResultMap"> 
+             select * from t_nick_name 
+        </select>
+       
+       <!--玩家拉取代理商的qq群，微信公众号的信息  -->
+       <select id="getCustomServiceInfo"  resultType="CustomService"> 
+            select * from t_qq_service limit 1
+       </select>
+       
+      <!--     获取百人牛牛的所有场次配置 -->
+      <select id="selectAllFieldConfig" resultType="FieldConfig">
+          select * from t_field_config order by typeId
+      </select>
+    <!--   修改百人牛牛场次配置 -->
+    <update id="updateFieldConfig"  parameterType="FieldConfig">
+      update t_field_config set entryLimit = #{entryLimit},min_bet=#{min_bet},rate=#{rate},isOpen=#{isOpen},updateTime = now()
+      where typeId = #{typeId}
+    </update>
+    <!--   获取充值钻石折扣区间 -->
+      <select id = "selectAllSectionConfig"  resultType="SectionConfig">
+          select * from t_sectionconfig order by secType
+      </select>
+      
+    <!--   获取支付方式配置 -->
+    <select id="selectAllPayConfig"  resultType="PayConfig">
+        select * from t_payconfig where status = 1 order by sort
+    </select>
+       
+</mapper>

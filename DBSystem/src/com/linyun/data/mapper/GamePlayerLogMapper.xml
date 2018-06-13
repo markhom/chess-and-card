@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linyun.data.mapper.GamePlayerLogMapper">
+
+
+   <resultMap type="GamePlayerLog" id="baseResultMap">
+     <id column="id"  property="id"/>
+     <result column ="clubId"  property="clubId"/>
+     <result column="clubName" property="clubName"/>
+     <result column="roomNum"  property="roomNum" />
+     <result column="playerId" property="playerId"/>
+      <result column="score" property="score"/>
+      <result column="result" property="result"/>
+      <result column="buyScore" property="buyScore"/>
+      <result column="headImgUrl" property="headImgUrl"/>
+     <result column="nickName" property="nickName"/>
+     <result column="updateTime" property="updateTime"/>
+    <association property="clubRoomLog" javaType="ClubRoomLog">
+      <id property="id" column="c_id"/>
+      <result property="createTime" column="c_createTime"/>
+      <result property="updateTime" column="c_updateTime"/>
+    </association>
+   
+   </resultMap>
+   
+   <select id="getGameRecord" parameterType="Integer"  resultMap ="baseResultMap">
+     select t1.*, t2.createTime AS c_createTime, t2.updateTime AS c_updateTime from t_game_player_log t1, t_game_room_log t2 where t1.playerId=#{playerId}
+     and <![CDATA[DATEDIFF(NOW(),t1.updateTime)<=7]]> and t1.clubId = t2.clubId and t1.roomNum = t2.roomNum
+   </select>
+   
+   <insert id ="addGamePlayerLog"  parameterType ="GamePlayerLog">
+   insert into t_game_player_log(clubId,clubName,roomNum,playerId,score,buyScore,headImgUrl,nickName,updateTime)
+   values(#{clubId},#{clubName},#{roomNum},	#{playerId},#{score},#{buyScore},#{headImgUrl},#{nickName},now())
+   </insert>
+
+   <insert id="insertPlayerLogBatch"  parameterType="List">
+   insert into t_game_player_log(clubId,clubName,roomNum,playerId,score,buyScore,headImgUrl,nickName,updateTime)
+   values
+   <foreach collection="list"  index = "index" item="item"  separator=",">
+   (#{item.clubId},#{item.clubName},#{item.roomNum},#{item.playerId},#{item.score},#{item.buyScore},#{item.headImgUrl},
+   #{item.nickName},now())
+   </foreach>
+   </insert>
+   <select id="getAllPlayerLog"  parameterType="Integer"  resultType ="GamePlayerLog">
+    select * from t_game_player_log where clubId =#{clubId} and roomNum= #{roomNum} order by updateTime 
+   </select>
+   
+   <select id="getAllPlayerIds" parameterType="Integer"  resultType="Integer">
+    select playerId from t_game_player_log where clubId = #{clubId} and roomNum = #{roomNum} 
+   </select>
+   
+   <select id="getPlayerLogById" parameterType="Integer" resultType="GamePlayerLog">
+   select * from t_game_player_log where clubId =#{clubId} and roomNum= #{roomNum} and playerId=#{playerId}
+   </select>
+   
+   <update id="updatePlayerLog" parameterType="Integer">
+   update t_game_player_log set score=#{score},result=result+ #{result},isJoinGame= 1, updateTime= now() where clubId=#{clubId} and roomNum=#{roomNum} and playerId=#{playerId}
+    
+   </update>
+   
+   <update id="updatePlayerBuyscoreHistory" parameterType="Integer">
+     
+     update t_game_player_log set buyScore=buyScore + #{buyScore},updateTime= now() where clubId=#{clubId} and roomNum=#{roomNum} and playerId=#{playerId}
+   </update>
+   
+</mapper>

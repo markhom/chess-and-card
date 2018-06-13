@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.linyun.data.mapper.ClubOperateLogMapper"> 
+
+      <!-- 非俱乐部成员申请加入俱乐部,以及俱乐部成员操作生成的操作记录 -->
+      <insert id="addOneClubOperateLog" parameterType="ClubOperateLog"> 
+           insert into t_club_operate_log (clubId,operatorId,clubPosition,operateType,
+           createTime,remark) 
+           values (#{clubId},#{operatorId},#{clubPosition},#{operateType},
+           now(),#{remark})
+      </insert>
+
+</mapper>

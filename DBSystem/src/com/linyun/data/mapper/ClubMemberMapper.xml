@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linyun.data.mapper.ClubMemberMapper">
+
+     <!-- 私人俱乐部群主同意玩家的申请，俱乐部新增一个俱乐部成员 -->
+     <insert id="addOneClubMember"  parameterType="ClubMember"> 
+           insert into t_club_member(clubId,userId,diamondLimit,costDiamond,scoreLimit,costScore,currentScore,coinLimit,position,createTime) 
+           values(#{clubId},#{userId},#{diamondLimit},#{costDiamond},#{scoreLimit},#{costScore},#{currentScore},#{coinLimit},#{position},now())
+     </insert>
+
+     <!-- 删除私人俱乐部成员 -->
+     <delete id="delClubMember" parameterType="Integer"> 
+           delete from t_club_member where userId = #{0} and clubId = #{1}
+     </delete>
+     
+     <select id="getAllMember"  parameterType="Integer" resultType="ClubMember"> 
+         select * from t_club_member where clubId=#{clubId}
+     </select>
+     
+     <select id="getAllClubId" parameterType="Integer" resultType="String">
+     	select clubId from t_club_member where userId=#{userId} and <![CDATA[clubId >= 20000000]]>
+     </select>
+     
+      <!-- 查询一个成员对象 -->
+      <select id="getClubMemberByClubId"  parameterType="Integer"  resultType="ClubMember"> 
+         select * from t_club_member where clubId = #{clubId} and userId = #{userId}
+      </select>
+      
+     <!--俱乐部成员花费新增  -->
+     <update id="updateClubMemberCostDiamond"  parameterType ="Integer">
+         update t_club_member set costDiamond = #{costDiamond} where clubId = #{clubId} and userId = #{userId}
+     </update>
+     
+     <!-- 更新俱乐部群主总额度 -->
+     <select id="updateClubCreatorDiamondLimit" parameterType ="Integer">
+          update t_club_member set diamondLimit = #{diamondLimit} where clubId = #{clubId} and userId = #{userId}
+     </select>
+     
+     <!--增加俱乐部成员可消耗钻石额度  -->
+     <update id="addDiamondLimit"  parameterType ="Integer">
+         update t_club_member set diamondLimit = #{diamondLimit} where clubId = #{clubId} and userId = #{userId}
+     </update>
+     
+     <!-- 更新俱乐部群主分配给群成员的积分额度 -->
+     <update id= "updateClubMemberScoreLimit" parameterType = "Integer">
+         update t_club_member set scoreLimit = #{scoreLimit}, currentScore = #{currentScore}  where clubId = #{clubId} and userId = #{userId}
+     </update>
+    <!--  更新俱乐部成员当前的积分牌 -->
+     <update id= "updateClubMemberCurrentScore" parameterType = "Integer">
+         update t_club_member set currentScore = #{currentScore} where clubId = #{clubId} and userId = #{userId}
+     </update>
+    <!--   更新俱乐部成员的金币限额 -->
+    <update id="updateClubMemberCoinLimit"  parameterType="Integer">
+       update t_club_member set coinLimit= #{coinLimit} where clubId =#{clubId} and userId = #{userId}
+    </update>
+     
+</mapper>

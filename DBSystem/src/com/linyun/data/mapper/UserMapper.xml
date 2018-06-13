@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.linyun.data.mapper.UserMapper">
+      
+      <resultMap type="User" id="BaseResultMap">
+           <id  column="userId"  property="userId"/>
+           <result  column="wxId"  property="wxId"/>
+           <result  column="platformId" property="platformId"/>
+           <result  column="userName"  property="userName"/>
+           <result  column="sex"  property="sex"/>
+           <result  column="nickName"  property="nickName"/>
+           <result  column="headImgUrl"  property="headImgUrl"/>
+           <result  column="loginAddress"  property="loginAddress"/>
+           <result  column="registerIp"  property="registerIp"/>
+           <result  column="loginIp"  property="loginIp"/>
+           <result  column="diamond"  property="diamond"/>
+           <result  column="coin"   property="coin"/>
+           <result  column="roundNum"  property="roundNum"/>
+           <result  column="registerTime"  property="registerTime"/>
+           <result  column="loginTime"  property="loginTime"/>
+           <result  column="sessionId"  property="sessionId"/>
+           <result  column="isFrozen"  property="isFrozen"/>
+           <result  column="inviteCode"  property="inviteCode"/>
+           <result  column="tableNum"  property="tableNum"/>
+           <result  column="isProxy"  property="isProxy"/>
+           <result  column="applyClubCount"  property = "applyClubCount"/>
+           <result  column="clubCount"  property="clubCount"/>
+           <result  column="phoneNum"  property="phoneNum"/>
+      </resultMap> 
+      
+      <!-- 用户注册 -->
+      <insert id="register"  parameterType="User">
+           insert into t_user (phoneNum,platformId,userName,wxId,sex,nickName,headImgUrl,loginAddress,registerIp,loginIp,
+           diamond,coin,roundNum,registerTime,loginTime,sessionId,isFrozen,inviteCode,applyClubCount,clubCount)
+           values(#{phoneNum},#{platformId},#{userName},#{wxId},#{sex},#{nickName},#{headImgUrl},#{loginAddress},#{registerIp},#{loginIp},
+           #{diamond},#{coin},#{roundNum},now(),now(),#{sessionId},#{isFrozen},#{inviteCode},#{applyClubCount},#{clubCount})
+      </insert>
+      
+       <!-- 用户通过微信id登录 -->
+       <select id="getUserByWXId"  parameterType="String"  resultMap="BaseResultMap"> 
+            select * from t_user where wxId = #{wxId}
+       </select>
+       
+       <!-- 外接平台玩家登录 -->
+       <select id="getPlatformUser"  parameterType="Map"  resultMap="BaseResultMap">
+           select * from t_user where platformId = #{platformId} and userName =#{userName}
+       </select>
+       
+       <!-- 更新用户的登录时间 -->
+       <update id="updateLoginInfo"  parameterType="map">
+            update t_user set loginTime = now(),loginIp=#{ip},loginAddress=#{loginAddress} where userId = #{userId}
+       </update>
+
+        <!-- 获取已经注册的用户 -->
+       <select id="getExistUser"  parameterType="Integer"  resultMap="BaseResultMap"> 
+            select * from t_user where userId = #{userId}
+       </select>  
+       
+       <!-- 玩家通过userId登录时，更新玩家的sessionId -->
+       <update id="updateUserSessionId"  parameterType="map"> 
+            update t_user set sessionId = #{sessionId},loginTime = now() where userId = #{userId}
+       </update>
+       
+       <!--绑定玩家的邀请码  -->
+       <update id="updateUserInviteCode"  parameterType="Map" >
+            update t_user set inviteCode = #{inviteCode} where userId = #{userId}
+       </update>
+
+        <!-- 获取已经注册的用户 -->
+       <update id="updateDiamond"  parameterType="Map" > 
+            update t_user set diamond = #{diamond} where userId = #{userId}
+       </update>  
+       
+       <update id="updateCoin"  parameterType="Map">
+            update t_user set coin = #{coin} where userId = #{userId}
+       </update>
+       
+       <!-- 更新玩家游戏的局数 -->
+       <update id="updateRoundNum"  parameterType="Map" > 
+            update t_user set roundNum = #{roundNum} where userId = #{userId}
+       </update> 
+
+       <!-- 更新玩家微信信息 -->
+       <update id="updateUserWxInfo"  parameterType="Map" > 
+            update t_user set nickName=#{nickName},headImgUrl=#{headImgUrl} where userId = #{userId}
+       </update> 
+       
+       <!-- 更新玩家是否在桌子内 -->
+       <update id="updateUserTableNum"  parameterType="Map" > 
+            update t_user set tableNum=#{tableNum} where userId = #{userId}
+       </update>
+      
+       <!-- 获取所有玩家的id -->
+       <select id="getAllUserIdList" resultType="Integer"> 
+            select userId from t_user;
+       </select>
+       
+       <!-- 玩家绑定礼品码 -->
+       <update id="bindGiftCode"  parameterType="GiftCodeBindInfo" > 
+           insert into t_gift_code_bind_info (userId,giftCode,diamond,createTime)
+           values (#{userId},#{giftCode},#{diamond},now())
+       </update>
+     
+       <!-- 获取玩家所有已经绑定的礼品码 -->
+       <select id="getBindGiftCode"  parameterType="Integer" resultType="String"> 
+            select giftCode from t_gift_code_bind_info where userId = #{userId}
+       </select> 
+       
+       <!-- 玩家已加入俱乐部数量+1  -->
+       <update id="incrementUserJoinClubCount"  parameterType="Integer"> 
+           update t_user set clubCount=clubCount+1 where userId = #{userId}
+       </update>
+       
+        <!-- 玩家已加入俱乐部数量-1  -->
+       <update id="decrementUserJoinClubCount"  parameterType="Integer"> 
+           update t_user set clubCount=clubCount-1 where userId = #{userId}
+       </update>
+       
+        <!--玩家申请加入俱乐部数量+1  -->
+       <update id="incrementUserApplyClubCount"  parameterType="Integer"> 
+           update t_user set applyClubCount=applyClubCount+1 where userId = #{userId}
+       </update>
+       
+        <!-- 玩家申请加入俱乐部数量-1  -->
+       <update id="decrementUserApplyClubCount"  parameterType="Integer"> 
+           update t_user set applyClubCount=applyClubCount-1 where userId = #{userId}
+       </update>
+       
+        <!-- 更新玩家的注册ip、登录ip、以及登录地址、登录时间  -->
+       <update id="updateRegisterInfo"  parameterType="Map"> 
+           update t_user set registerIp=#{registerIp},loginIp=#{loginIp},loginAddress=#{loginAddress},loginTime=now() where userId = #{userId}
+       </update>
+       
+        <!-- 更新玩家的登录ip、以及登录地址 、登录时间 -->
+       <update id="updateUserLoginInfo"  parameterType="Map"> 
+           update t_user set loginIp=#{loginIp},loginAddress=#{loginAddress},loginTime=now() where userId = #{userId}
+       </update>
+       
+       <!-- 设置玩家为代理 -->
+       <update id="setProxy" parameterType="Integer">
+       		update t_user set isProxy=1 where userId=#{userId}
+       </update>
+       <!-- 取消玩家的代理身份 -->
+       <update id="cancelProxy" parameterType="Integer">
+       		update t_user set isProxy=0 where userId=#{userId}
+       </update>
+       
+        <!-- 玩家冻结和解冻 -->
+       <update id="setUserFrozenStatue"  parameterType="User">
+            update t_user set
+            <choose>
+                 <when test="condition.isFrozen == 1">
+                     isFrozen = 1 
+                 </when>
+                 <otherwise>
+                      isFrozen = 0
+                 </otherwise>
+            </choose>
+            where userId = #{condition.userId}
+       </update>
+       
+       <!-- 通过手机号获取用户 -->
+       <select id="getUserByPhoneNum" parameterType="Long" resultType="User">
+       		select * from t_user where phoneNum=#{phoneNum}
+       </select>
+       
+       <!-- 更新用户的昵称 -->
+       <update id="updateUserNickName" parameterType="Map">
+       		update t_user set nickName=#{nickName} where userId=#{userId}
+       </update>
+       
+       <!--自动登录更新时间  -->
+       <update id="updateUserLoginTime"  parameterType="Integer">
+            update t_user set loginTime = now() where userId = #{userId}
+       </update>
+       
+</mapper>

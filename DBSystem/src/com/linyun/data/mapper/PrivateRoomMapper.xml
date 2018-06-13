@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.linyun.data.mapper.PrivateRoomMapper">
+      
+      <resultMap type="PrivateRoom" id="BaseResultMap">
+           <id  column="id"  property="id"/>
+           <result  column="roomStatus"  property="roomStatus"/>
+           <result  column="roomNum"  property="roomNum"/>
+           <result  column="roomOwnerId"  property="roomOwnerId"/>
+           <result  column="gameTime"    property="gameTime"/>
+           <result  column="joinGameScoreLimit"  property= "joinGameScoreLimit"/>
+           <result  column="upBankerMode"  property="upBankerMode"/>
+           <result  column="roundNum"  property="roundNum"/>
+           <result  column="seatNum"  property="seatNum"/>
+           <result  column="sitDownNum"  property="sitDownNum"/>
+           <result  column="baseScore"  property="baseScore"/>
+           <result  column="allCompareBaseScore"  property="allCompareBaseScore"/>
+           <result  column="payMode"  property="payMode"/>
+           <result  column="timesMode"  property="timesMode"/>
+           <result  column="allFace"  property="allFace"/>
+           <result  column="bomb"  property="bomb"/>
+           <result  column="allSmall"  property="allSmall"/>
+           <result  column="playerInjection"  property="playerInjection"/>
+           <result  column="noEnter"  property="noEnter"/>
+           <result  column="noShuffle"  property="noShuffle"/>
+           <result  column="seatNum"  property="seatNum"/>
+           <result  column="mostRobBanker"  property="mostRobBanker"/> 
+           <result  column="upBankerScore"  property="upBankerScore"/>
+           <result  column="clubId"  property = "clubId"/>
+      </resultMap>
+      
+       <!-- 创建房间 -->
+       <insert id="createPrivateRoom" parameterType="PrivateRoom">
+             insert into t_room (roomNum,gameTime,joinGameScoreLimit,upBankerMode,roundNum,seatNum,sitDownNum,baseScore,allCompareBaseScore,
+             payMode,timesMode,allFace,bomb,allSmall,playerInjection,noEnter,noShuffle,mostRobBanker,upBankerScore,roomOwnerId,createTime,clubId) 
+             values(#{roomNum},#{gameTime},#{joinGameScoreLimit},#{upBankerMode},#{roundNum},#{seatNum},#{sitDownNum},#{baseScore},#{allCompareBaseScore},
+             #{payMode},#{timesMode},#{allFace},#{bomb},#{allSmall},#{playerInjection},#{noEnter},#{noShuffle},
+             #{mostRobBanker},#{upBankerScore},#{roomOwnerId},now(),#{clubId})  
+       </insert>
+
+       <!-- 根据房间号查找房间 -->
+       <select id="getPrivateRoom" parameterType="Integer" resultMap="BaseResultMap">
+            select * from t_room where roomNum = #{roomNum}
+       </select>
+       
+       <!-- 根据房间号删除房间 -->
+       <delete id="deletePrivateRoom" parameterType="Integer">
+            delete from t_room where roomNum = #{roomNum}
+       </delete>
+       
+		<!-- 根据房间号更新房间状态为开始游戏 -->
+       <update id="startGame" parameterType="Integer">
+            update t_room set roomStatus=1 where roomNum = #{roomNum}
+       </update>
+       
+       <!-- 根据房间号增加坐下的人数 -->
+       <update id="addOnePlayer" parameterType="Integer">
+            update t_room set sitDownNum=sitDownNum+1 where roomNum = #{roomNum}
+       </update>
+       
+       <!-- 根据房间号减去坐下的人数 -->
+       <update id="removeOnePlayer" parameterType="Integer">
+            update t_room set sitDownNum=sitDownNum-1 where roomNum = #{roomNum}
+       </update>
+       
+       <!-- 好友场房间获取超时集合，超时时间三十分钟-->
+       <select id="getTimeoutList" resultType="String">
+           select roomNum from t_room  <![CDATA[where createTime <= DATE_ADD(now(),INTERVAL -30 MINUTE) ]]> 
+           and roomStatus=0 and clubId = 0
+       </select>
+       
+       <!-- 获取俱乐部房间的超时房间号集合 -->
+       <select id="getClubTimeOutRoomList"  resultType="Integer">    
+           select roomNum from t_room  <![CDATA[where createTime <= DATE_ADD(now(),INTERVAL -30 MINUTE) and clubId > 0]]> 
+           and roomStatus=0 
+       </select>
+       
+       <!-- 服务器启动时做清空房间表处理 -->
+       <delete id="deleteAllRooms">
+          delete from t_room
+       </delete>
+       
+        <!-- 更新房间的局数 -->
+       <update id="updateRoundNum"  parameterType="Map" > 
+            update t_room set roundNum = #{roundNum} where roomNum = #{roomNum}
+       </update> 
+       
+       <!-- 获取俱乐部房间列表 -->
+       <select id="getClubRoomList" parameterType="Integer"  resultMap="BaseResultMap">
+            select * from t_room where clubId = #{clubId}
+       </select>
+       
+</mapper>

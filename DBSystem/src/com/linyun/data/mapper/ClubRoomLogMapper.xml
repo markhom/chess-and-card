@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace = "com.linyun.data.mapper.ClubRoomLogMapper">
+
+  <resultMap id ="BaseResultMap" type="ClubRoomLog">
+    
+    <id column ="id" property="id"/>
+    <result column="clubId" property="clubId"/>
+    <result column="roomNum" property="roomNum"/>
+    <result column="playedRound" property="playedRound"/>
+    <result column="scoreLimit"  property="scoreLimit"/>
+    <result column="gameTime" property="gameTime" />
+    <result column="bankerMode" property="bankerMode"/>
+    <result column="baseScore"  property="baseScore"/>
+    <result column="allCompareBaseScore" property="allCompareBaseScore"/>
+    <result column="roomOwnerId"  property="roomOwnerId"/>
+    <result column="createTime"  property="createTime"/>
+    <result column="updateTime"  property="updateTime"/>
+    
+  </resultMap>
+  
+  <insert id="addClubRoomLog"  parameterType="ClubRoomLog">
+    insert into t_game_room_log (clubId,roomNum, playedRound ,scoreLimit,gameTime, bankerMode, baseScore, allCompareBaseScore, roomOwnerId,
+ createTime, updateTime) values (#{clubId},#{roomNum},#{playedRound},#{scoreLimit},#{gameTime},#{bankerMode},#{baseScore},#{allCompareBaseScore},
+ #{roomOwnerId},now(), now())
+  </insert>
+ 
+  <update id="updateRoomRound" parameterType="Integer">
+    
+    update t_game_room_log set playedRound=#{playedRound},updateTime =now() where roomNum =#{roomNum};
+  </update>
+  
+  <select id="getOnlyRoomNumInfourDays" parameterType ="Integer" resultType ="ClubRoomLog">
+    
+    select * from t_game_room_log where roomNum = #{roomNum} and <![CDATA[DateDiff(now(),updateTime)<=7]]>
+  </select>
+  
+  <select id="getClubRoomLogByRoomId"  parameterType = "Integer" resultType ="ClubRoomLog">
+    select * from t_game_room_log where roomNum= #{roomNum} order by updateTime desc limit 1
+  </select>
+ 
+</mapper>

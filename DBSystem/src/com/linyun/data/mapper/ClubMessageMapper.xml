@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linyun.data.mapper.ClubMessageMapper">
+
+     <resultMap type="ClubMessage" id="BaseResultMap">
+          <id  column="id"  property="id" />
+          <result column= "clubId"  property="clubId" />
+          <result column= "applyId"  property="applyId" />
+          <result column= "userId"  property="userId" />
+          <result column= "type"  property="type" />
+          <result column= "content"  property="content" />
+          <result column= "isRead"  property="isRead" />
+          <result column= "createTime"  property="createTime" />
+     </resultMap> 
+
+
+     <!-- 俱乐部成员操作，生成对应的消息记录 -->
+     <insert id="addOneClubMessage"  parameterType="ClubMessage">
+          insert into t_club_msg (clubId,userId,applyId,type,content,isRead,createTime) 
+          values (#{clubId},#{userId},#{applyId},#{type},#{content},#{isRead},now())
+     </insert>
+     
+	<!-- 根据玩家id拉取所有消息  -->
+    <select id="getAllMessage"  parameterType="Integer"  resultMap="BaseResultMap">
+           select * from t_club_msg where userId = #{userId}
+    </select>
+    
+    <!-- 根据消息id获取消息  -->
+    <select id="getMessage"  parameterType="Integer"  resultMap="BaseResultMap">
+       select * from t_club_msg where id = #{msgId}
+    </select>
+    
+     <!-- 根据消息id删除消息  -->
+    <delete id="delMsg"  parameterType="Integer">
+       delete from t_club_msg where id=#{msgId}
+    </delete>
+    
+    <!-- 读取消息  -->
+    <update id="readMessage"  parameterType="Integer">
+       update t_club_msg set isRead=1 where id = #{msgId}
+    </update>
+    
+     <!-- 查找所有超时未处理的俱乐部申请消息  -->
+    <select id="getAllTimeoutNoHandleMsg"  resultMap="BaseResultMap">
+       select * from t_club_msg where type=1 and <![CDATA[createTime <= date_add(now(),interval -2 day)]]>
+    </select>
+	
+    <!-- 备份消息  -->
+    <insert id="bakClubMsg">
+	   insert into t_club_msg_bak select * from t_club_msg where <![CDATA[createTime <= date_add(now(),interval -2 day)]]>
+    </insert>
+    
+    <!-- 删除三天前的消息  -->
+    <delete id="delTimeoutClubMsg">
+		delete from t_club_msg where <![CDATA[createTime <= date_add(now(),interval -2 day)]]>
+    </delete>
+	
+	<!--删除俱乐部时，查询该俱乐部所有没有处理的申请消息  -->
+	<select id="selectAllApplyMsgInDelClub"  parameterType="Integer"  resultMap="BaseResultMap">
+	    select * from t_club_msg where clubId = #{clubId} and type=1
+	</select>
+	
+	<!-- 是否重复申请 -->
+	<select id="isApplyJoinClub"  parameterType="Integer"  resultMap="BaseResultMap">
+	    select * from t_club_msg where clubId = #{clubId} and applyId = #{applyId}
+	</select>
+	
+	<!--拉取玩家未读消息  -->
+	<select id="getUserUnreadMsg"  parameterType="Integer" resultMap="BaseResultMap">
+	    select * from t_club_msg where userId = #{userId} and isRead = 0
+	</select>
+	
+	
+</mapper>

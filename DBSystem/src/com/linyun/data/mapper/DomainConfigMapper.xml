@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linyun.data.mapper.DomainConfigMapper">
+
+     <resultMap id="domainConfigMap"  type="DomainConfig">
+      <id column="id"  property="id"/>
+      <result column="platformId" property="platformId"/>
+      <result column="domainName" property="domainName"/>
+      <result column="createTime" property="createTime"/>
+     </resultMap>
+    
+       <!--  获取对应平台的域名 -->
+       <select id="getDomainNames"  parameterType="Integer"  resultMap="domainConfigMap">
+         select * from t_platform_domain_config where platformId = #{platformId}
+       </select>
+       
+       <!-- 删除无效域名 -->
+       <delete id="deleteDomain" parameterType="Integer" > 
+         delete from t_platform_domain_config where id =#{id}
+       </delete>
+       
+       <!-- 新增域名 -->
+       <insert id="addDomainName" parameterType="DomainConfig">
+         insert into t_platform_domain_config (platformId,domainName,createTime) values(#{platformId},#{domainName},now())
+       </insert>
+</mapper>

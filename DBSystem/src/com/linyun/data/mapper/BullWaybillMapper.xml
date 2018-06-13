@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linyun.data.mapper.BullWaybillMapper">
+
+  <insert id = "addBullWaybill"  parameterType="BullWaybill">
+    
+    insert into t_bull_waybill(roomType, round, banker_result,banker_cards,player1_result,player1_cards,player2_result,player2_cards,
+    player3_result,player3_cards,updateTime) values (#{roomType},#{round},#{banker_result},#{banker_cards},#{player1_result},#{player1_cards},
+    #{player2_result},#{player2_cards},#{player3_result},#{player3_cards},now())
+    
+  </insert>
+  
+  <select id= "selectWaybill"  parameterType="Integer"   resultType="BullWaybill">
+  
+   select * from t_bull_waybill where roomType = #{roomType} order by round DESC limit 9
+  </select>
+  
+  <select id="getLastRoundResult"  parameterType="Map"  resultType="BullWaybill">
+   select * from t_bull_waybill where roomType=#{roomType} and round =#{round} order by updateTime DESC LIMIT 1
+  </select>
+
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linyun.data.mapper.BullGameLogMapper">
+
+  <insert id="addBullGameLog"  parameterType="BullGameLog">
+    
+    insert into t_bull_game_log(roomType,round,userId,player1_bet,player2_bet,player3_bet,bet_total,reward_total,isBanker,
+ createTime) values(#{roomType},#{round},#{userId},#{player1_bet},#{player2_bet},#{player3_bet},#{bet_total},#{reward_total},
+ #{isBanker},now())
+  </insert>
+  
+
+
+</mapper>

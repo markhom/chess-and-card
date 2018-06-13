@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.linyun.data.mapper.TaurusRoundLogMapper">
+     
+     <resultMap type="TaurusRoundLog" id="BaseResultMap">
+		<id column="id" property="id" />
+		<result column="roundIndex" property="roundIndex" />
+		<result column="roomNum" property="roomNum" />
+		<result column="round" property="round" />
+		<result column="roomOwner" property="roomOwner" />
+		<result column="chooseBaseScore" property="chooseBaseScore" />
+		<result column="bankerId" property="bankerId" />
+
+		<result column="player1" property="playerId1" />
+		<result column="cards1" property="cards1" />
+		<result column="cardType1" property="cardType1" />
+		<result column="baseScore1" property="baseScore1" />
+		<result column="getScore1" property="getScore1" />
+		<result column="isRobBanker1" property="isRobBanker1" />
+		<result column="robBankerNum1" property="robBankerNum1" />
+		<result column="getScoreTotal1"  property="getScoreTotal1"/>
+
+		<result column="player2" property="playerId2" />
+		<result column="cards2" property="cards2" />
+		<result column="cardType2" property="cardType2" />
+		<result column="baseScore2" property="baseScore2" />
+		<result column="getScore2" property="getScore2" />
+		<result column="isRobBanker2" property="isRobBanker2" />
+		<result column="robBankerNum2" property="robBankerNum2" />
+		<result column="getScoreTotal2"  property="getScoreTotal2"/>
+
+		<result column="player3" property="playerId3" />
+		<result column="cards3" property="cards3" />
+		<result column="cardType3" property="cardType3" />
+		<result column="baseScore3" property="baseScore3" />
+		<result column="getScore3" property="getScore3" />
+		<result column="isRobBanker3" property="isRobBanker3" />
+		<result column="robBankerNum3" property="robBankerNum3" />
+		<result column="getScoreTotal3"  property="getScoreTotal3"/>
+
+		<result column="player4" property="playerId4" />
+		<result column="cards4" property="cards4" />
+		<result column="cardType4" property="cardType4" />
+		<result column="baseScore4" property="baseScore4" />
+		<result column="getScore4" property="getScore4" />
+		<result column="isRobBanker4" property="isRobBanker4" />
+		<result column="robBankerNum4" property="robBankerNum4" />
+		<result column="getScoreTotal4"  property="getScoreTotal4"/>
+
+		<result column="player5" property="playerId5" />
+		<result column="cards5" property="cards5" />
+		<result column="cardType5" property="cardType5" />
+		<result column="baseScore5" property="baseScore5" />
+		<result column="getScore5" property="getScore5" />
+		<result column="isRobBanker5" property="isRobBanker5" />
+		<result column="robBankerNum5" property="robBankerNum5" />
+		<result column="getScoreTotal5"  property="getScoreTotal5"/>
+
+		<result column="player6" property="playerId6" />
+		<result column="cards6" property="cards6" />
+		<result column="cardType6" property="cardType6" />
+		<result column="baseScore6" property="baseScore6" />
+		<result column="getScore6" property="getScore6" />
+		<result column="isRobBanker6" property="isRobBanker6" />
+		<result column="robBankerNum6" property="robBankerNum6" />
+		<result column="getScoreTotal6"  property="getScoreTotal6"/>
+
+		<result column="updateTime" property="updateTime" />
+	</resultMap>
+
+     <!-- 每一局牌中每个玩家的手牌的结果记录 -->
+     <insert id="addOneRoundRecord"  parameterType="TaurusRoundLog">
+           insert into t_game_round_log (roundIndex,roomNum,round,roomOwner,bankerId,chooseBaseScore,
+           player1,cards1,cardType1,baseScore1,getScore1,isRobBanker1,robBankerNum1,getScoreTotal1,
+           player2,cards2,cardType2,baseScore2,getScore2,isRobBanker2,robBankerNum2,getScoreTotal2,
+           player3,cards3,cardType3,baseScore3,getScore3,isRobBanker3,robBankerNum3,getScoreTotal3,
+           player4,cards4,cardType4,baseScore4,getScore4,isRobBanker4,robBankerNum4,getScoreTotal4,
+           player5,cards5,cardType5,baseScore5,getScore5,isRobBanker5,robBankerNum5,getScoreTotal5,
+           player6,cards6,cardType6,baseScore6,getScore6,isRobBanker6,robBankerNum6,getScoreTotal6,
+           updateTime) 
+           values (#{roundIndex},#{roomNum},#{round},#{roomOwner},#{bankerId},#{chooseBaseScore},
+           #{playerId1},#{cards1},#{cardType1},#{baseScore1},#{getScore1},#{isRobBanker1},#{robBankerNum1},#{getScoreTotal1},
+           #{playerId2},#{cards2},#{cardType2},#{baseScore2},#{getScore2},#{isRobBanker2},#{robBankerNum2},#{getScoreTotal2},
+           #{playerId3},#{cards3},#{cardType3},#{baseScore3},#{getScore3},#{isRobBanker3},#{robBankerNum3},#{getScoreTotal3},
+           #{playerId4},#{cards4},#{cardType4},#{baseScore4},#{getScore4},#{isRobBanker4},#{robBankerNum4},#{getScoreTotal4},
+           #{playerId5},#{cards5},#{cardType5},#{baseScore5},#{getScore5},#{isRobBanker5},#{robBankerNum5},#{getScoreTotal5},
+           #{playerId6},#{cards6},#{cardType6},#{baseScore6},#{getScore6},#{isRobBanker6},#{robBankerNum6},#{getScoreTotal6},
+           now())
+     </insert>
+     
+     <!-- 根据房间号得到一场（10 or 20）局的玩家游戏的手牌的集合 -->
+	<select id="getUserEveryRoundHandCardLog" parameterType="Integer"  resultMap="BaseResultMap">
+         select * from t_game_round_log where roomNum = #{roomNum} and DateDiff(now(),updateTime)&lt;4 order by updateTime desc
+	</select>
+	
+	 <!--通过每局游戏的唯一索引，得到这局手牌的记录对象  -->
+	 <select id="getHandCardByRoomIndex"  parameterType="String"  resultMap="BaseResultMap">
+	      select * from t_game_round_log where roundIndex = #{roundIndex} limit 1
+	 </select>
+
+
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.linyun.data.mapper.ClubConfigMapper">
+
+     <!-- 更新公共俱乐部每个玩家可消耗的房卡额度 -->
+     <update id="updateClubConfigByType"  parameterType="Integer"> 
+          update t_club_config set count = #{count} where configType = #{type}
+     </update>
+     
+     <!--查询所有配置的具体值  -->
+     <select id="getValueFromConfig"  resultType="Integer">
+          select count from t_club_config order by configType
+     </select>
+     
+</mapper>

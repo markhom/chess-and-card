@@ -1,0 +1,8 @@
+import com.linyun.bottom.bootstrap.*;
+import com.linyun.bottom.rmi.RemoteConfig;
+
+
+// loading bootstrap configuration
+BootstrapProperties bootstrap = new BootstrapProperties();
+bootstrap.protocol="socket"; // http or socket
+bootstrap.port=22110;

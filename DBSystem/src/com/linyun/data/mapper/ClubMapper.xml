@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linyun.data.mapper.ClubMapper">
+      
+	<resultMap type="Club" id="BaseResultMap">
+		<id  column = "id"  property="id" />
+		<result column = "clubId" property = "clubId"/>
+		<result column = "clubName" property = "clubName"/>
+		<result column = "clubType" property = "clubType"/>
+		<result column ="diamondPercent" property="diamondPercent"/>
+		<result column ="expandRate" property="expandRate"/>
+		<result column ="scoreRate"  property="scoreRate" />
+		<result column="scorePool"  property="scorePool" />
+		<result column ="coinPool"  property="coinPool" />
+		<result column = "iconUrl" property = "iconUrl"/>
+		<result column = "creatorId" property = "creatorId"/>
+		<result column = "city" property = "city"/>
+		<result column = "peopleCount" property = "peopleCount"/>
+		<result column = "createTime" property = "createTime"/>
+		<result column = "modifyTime" property = "modifyTime"/>
+		<result column = "clubIntroduce" property = "clubIntroduce"/>
+	</resultMap>
+      
+    <!-- 创建俱乐部 -->
+	<insert id="createClub" parameterType="Club">
+		insert into t_club (clubId,clubName,clubType,diamondPercent,expandRate,scoreRate,scorePool,coinPool,iconUrl,creatorId,
+		city,peopleCount,createTime,modifyTime,clubIntroduce) 
+		values (#{clubId},#{clubName},#{clubType},#{diamondPercent},#{expandRate},#{scoreRate},#{scorePool},#{coinPool},#{iconUrl},#{creatorId},
+		#{city},#{peopleCount},now(),now(),#{clubIntroduce})
+	</insert>
+	<!-- 设置俱乐部的扣钻百分比 -->
+	<update id="updateClubPercent" parameterType = "Integer">
+	  update t_club set diamondPercent = #{diamondPercent} where clubId =#{clubId}
+	</update>
+	
+	<!-- 设置俱乐部的金币池 -->
+	<update id="updateClubCoinPool" parameterType="Integer">
+	   update t_club set coinPool = #{coinPool} where clubId = #{clubId}
+	</update>
+	<!-- 设置俱乐部的底分倍率 -->
+	<update id="updateClubRate" parameterType="Integer">
+	  update t_club set expandRate=#{expandRate},scoreRate =#{scoreRate} where clubId=#{clubId}
+	</update>
+	<!-- 更新俱乐部的积分池 -->
+	<update id ="updateClubScorePool" parameterType= "Integer">
+	  update t_club set scorePool =#{scorePool} where clubId = #{clubId} 
+	</update>
+	<!-- 通过clubId查找私人俱乐部 -->
+	<select id="getClub" parameterType="Integer"  resultMap="BaseResultMap">
+		select * from t_club where clubId = #{clubId} 
+	</select>
+      
+	<!-- 查询出所有的俱乐部 -->
+	<select id="getAllClub"  resultMap="BaseResultMap"> 
+		select * from t_club
+	</select>
+
+	<!-- 俱乐部的人数+1 -->
+	<update id="incrementClubCountOne" parameterType="Integer"> 
+		update t_club set peopleCount=peopleCount+1 where clubId = #{clubId}
+	</update>
+	
+	<!-- 俱乐部的人数-1 -->
+	<update id="decrementClubCountOne" parameterType="Integer"> 
+		update t_club set peopleCount=peopleCount-1 where clubId = #{clubId}
+	</update>
+
+	<!-- 更新俱乐部信息 -->
+	<update id="updateClubConfigInfo" parameterType="Club"> 
+		update t_club set
+		    <if test="condition.clubName != null and condition.clubName !=''">
+		           clubName=#{condition.clubName},
+		    </if>
+		    <if test="condition.clubIntroduce != null and condition.clubIntroduce !=''">
+		          clubIntroduce=#{condition.clubIntroduce},
+		    </if>
+		    <if test="condition.iconUrl != null and condition.iconUrl != ''">
+		          iconUrl=#{condition.iconUrl},
+		    </if>
+		      modifyTime = now() where clubId = #{condition.clubId}
+	</update>
+
+	<!-- 玩家是否已有创建俱乐部 -->
+	<select id="getClubByCreatorId"  parameterType="Integer"  resultMap="BaseResultMap">
+	    select * from t_club where creatorId = #{userId}
+	</select>
+	
+	<!-- 删除俱乐部 -->
+	<delete id="delClub"  parameterType="Integer" > 
+	    delete from t_club where clubId=#{clubId}
+	</delete>
+
+</mapper>
