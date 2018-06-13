@@ -1,0 +1,15 @@
+import com.linyun.bottom.bootstrap.*;
+import com.linyun.bottom.rmi.RemoteConfig;
+
+// loading bootstrap configuration
+BootstrapProperties bootstrap = new BootstrapProperties();
+bootstrap.protocol="http"; // http or socket
+bootstrap.port=2216;
+
+
+// loading remote resource
+remotes = new RemoteConfig[]{
+new RemoteConfig("DBSystem","localhost",22110),
+new RemoteConfig("GameTaurus","localhost",52212),
+new RemoteConfig("ClubGameTaurus","localhost",52215)
+};
