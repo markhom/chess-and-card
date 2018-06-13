@@ -1,0 +1,33 @@
+[7;31m2018-06-12 09:10:28,726 - ERROR [New I/O worker #24:DefaultObjectFrameDecoder@66] - Exception message : 
+[mjava.lang.RuntimeException: org.apache.ibatis.exceptions.PersistenceException
+	at com.linyun.bottom.util.JavaSerializeUtils.deserialize(JavaSerializeUtils.java:60)
+	at com.linyun.bottom.rmi.DefaultObjectFrameDecoder.decode(DefaultObjectFrameDecoder.java:61)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:310)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:555)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[7;31m2018-06-12 09:10:31,571 - ERROR [pool-9-thread-1:JuiceInvocationHandler@64] - Latch request time out..
+[m[2;32m2018-06-12 09:46:13,378 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-12 09:46:13,380 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-12 09:46:13,380 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-12 09:46:13,624 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-12 09:46:13,625 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-12 09:46:13,625 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-12 09:46:13,680 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-12 09:46:13,681 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-12 09:46:13,758 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-12 09:46:13,767 - INFO  [main:ServerBootstrap@103] - Application PID:	11672
+[m

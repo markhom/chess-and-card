@@ -1,0 +1,191 @@
+[2;32m2018-06-11 16:26:18,451 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 16:26:18,453 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 16:26:18,453 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 16:26:18,706 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 16:26:18,706 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 16:26:18,706 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 16:26:18,759 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 16:26:18,759 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 16:26:19,187 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 16:26:19,452 - INFO  [main:ServerBootstrap@103] - Application PID:	8276
+[m[2;32m2018-06-11 17:04:57,004 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 17:04:57,006 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 17:04:57,006 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 17:04:57,242 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 17:04:57,242 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 17:04:57,242 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 17:04:57,295 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 17:04:57,295 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 17:04:57,363 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 17:04:57,372 - INFO  [main:ServerBootstrap@103] - Application PID:	10112
+[m[2;32m2018-06-11 17:11:21,999 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 17:11:22,000 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 17:11:22,001 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 17:11:22,226 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 17:11:22,226 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 17:11:22,226 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 17:11:22,285 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 17:11:22,285 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 17:11:22,354 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 17:11:22,364 - INFO  [main:ServerBootstrap@103] - Application PID:	9140
+[m[2;32m2018-06-11 17:18:02,935 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 17:18:02,937 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 17:18:02,937 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 17:18:03,162 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 17:18:03,162 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 17:18:03,163 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 17:18:03,222 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 17:18:03,224 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 17:18:03,311 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 17:18:03,326 - INFO  [main:ServerBootstrap@103] - Application PID:	6668
+[m[7;31m2018-06-11 17:33:58,463 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x7857f617, /127.0.0.1:23626 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-06-11 17:33:58,497 - ERROR [JUICE-SERVER-Handler-8-2-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x5a9f779c, /127.0.0.1:23628 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-06-11 17:33:58,497 - ERROR [JUICE-SERVER-Handler-8-3-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x6edbf912, /127.0.0.1:23627 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-06-11 17:34:56,189 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 17:34:56,191 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 17:34:56,191 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 17:34:56,420 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 17:34:56,420 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 17:34:56,420 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 17:34:56,488 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 17:34:56,488 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 17:34:56,590 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 17:34:56,599 - INFO  [main:ServerBootstrap@103] - Application PID:	8004
+[m[2;32m2018-06-11 18:21:47,347 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:21:47,349 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 18:21:47,349 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 18:21:47,588 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:21:47,588 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 18:21:47,588 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 18:21:47,705 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 18:21:47,705 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 18:21:47,787 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 18:21:47,801 - INFO  [main:ServerBootstrap@103] - Application PID:	7708
+[m[2;32m2018-06-11 18:29:47,686 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:29:47,687 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 18:29:47,688 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 18:29:47,915 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:29:47,915 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 18:29:47,916 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 18:29:47,970 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 18:29:47,970 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 18:29:48,053 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 18:29:48,069 - INFO  [main:ServerBootstrap@103] - Application PID:	7960
+[m[2;32m2018-06-11 18:35:08,474 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:35:08,476 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 18:35:08,476 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 18:35:08,708 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:35:08,708 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 18:35:08,708 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 18:35:08,757 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 18:35:08,757 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 18:35:08,863 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 18:35:08,877 - INFO  [main:ServerBootstrap@103] - Application PID:	10784
+[m[2;32m2018-06-11 18:36:17,893 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:36:17,895 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 18:36:17,895 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 18:36:18,123 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:36:18,123 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 18:36:18,123 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 18:36:18,173 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 18:36:18,173 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 18:36:18,246 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 18:36:18,269 - INFO  [main:ServerBootstrap@103] - Application PID:	11108
+[m[2;32m2018-06-11 18:38:40,588 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:38:40,590 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 18:38:40,590 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 18:38:40,818 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:38:40,818 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 18:38:40,818 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 18:38:40,865 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 18:38:40,865 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 18:38:40,946 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 18:38:40,957 - INFO  [main:ServerBootstrap@103] - Application PID:	10868
+[m[2;32m2018-06-11 18:41:27,026 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:41:27,028 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 18:41:27,028 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 18:41:27,258 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:41:27,259 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 18:41:27,259 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 18:41:27,306 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 18:41:27,306 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 18:41:27,376 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 18:41:27,384 - INFO  [main:ServerBootstrap@103] - Application PID:	6844
+[m[2;32m2018-06-11 18:49:12,918 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:49:12,919 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 18:49:12,920 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 18:49:13,150 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 18:49:13,150 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 18:49:13,150 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 18:49:13,201 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 18:49:13,201 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 18:49:13,272 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 18:49:13,283 - INFO  [main:ServerBootstrap@103] - Application PID:	6900
+[m[2;32m2018-06-11 19:22:45,506 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 19:22:45,508 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-11 19:22:45,508 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-11 19:22:45,733 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-11 19:22:45,734 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-11 19:22:45,734 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-11 19:22:45,775 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-11 19:22:45,775 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-11 19:22:45,846 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-11 19:22:45,854 - INFO  [main:ServerBootstrap@103] - Application PID:	9328
+[m

@@ -1,0 +1,196 @@
+[2;32m2018-04-19 15:58:12,123 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-19 15:58:12,127 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-19 15:58:12,127 - INFO  [main:ServerBootstrap@77] - Server port:	2112
+[m[2;32m2018-04-19 15:58:12,414 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-19 15:58:12,415 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-19 15:58:12,415 - INFO  [main:ServerBootstrap@77] - Server port:	52112
+[m[2;32m2018-04-19 15:58:12,485 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-19 15:58:12,485 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22100
+[m[2;32m2018-04-19 15:58:12,582 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-19 15:58:12,591 - INFO  [main:ServerBootstrap@103] - Application PID:	36452
+[m[2;32m2018-04-19 16:35:40,224 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-19 16:35:40,226 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-19 16:35:40,226 - INFO  [main:ServerBootstrap@77] - Server port:	2112
+[m[2;32m2018-04-19 16:35:40,592 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-19 16:35:40,593 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-19 16:35:40,593 - INFO  [main:ServerBootstrap@77] - Server port:	52112
+[m[2;32m2018-04-19 16:35:40,683 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-19 16:35:40,683 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22100
+[m[2;32m2018-04-19 16:35:40,791 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-19 16:35:40,799 - INFO  [main:ServerBootstrap@103] - Application PID:	33708
+[m[2;32m2018-04-19 17:21:24,598 - INFO  [Thread-31:GameServer@396] - in enter room, userId is 10361roomNum is 539989
+[m[2;32m2018-04-19 17:21:24,615 - INFO  [Thread-31:GameServer@433] - room539989不存在，创建房间
+[m[7;31m2018-04-19 17:21:24,629 - ERROR [Thread-31:GameServer@478] - 
+[mjava.lang.NullPointerException
+	at com.linyun.middle.common.taurus.utils.MessageUtils.getEnterRoomMessage(MessageUtils.java:135)
+	at com.linyun.game.taurus.service.GameServer.enterRoom(GameServer.java:455)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.linyun.bottom.handler.DefaultJuiceHandler.handlerDefaultRequest(DefaultJuiceHandler.java:63)
+	at com.linyun.bottom.handler.DefaultJuiceHandler.handlerRequest(DefaultJuiceHandler.java:36)
+	at com.linyun.bottom.handler.DefaultJuiceControl.nextHandler(DefaultJuiceControl.java:61)
+	at com.linyun.bottom.handler.DefaultJuiceControl.nextHandler(DefaultJuiceControl.java:54)
+	at com.linyun.bottom.util.threadpool.JuiceThreadPool$JuiceWorkThread.run(JuiceThreadPool.java:71)
+[2;32m2018-04-19 17:22:44,325 - INFO  [New I/O worker #1:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-19 17:22:44,325 - INFO  [New I/O worker #1:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，539989
+[m[2;32m2018-04-19 17:23:07,133 - INFO  [Thread-122:GameServer@396] - in enter room, userId is 10361roomNum is 539989
+[m[7;31m2018-04-19 17:23:07,152 - ERROR [Thread-122:GameServer@478] - 
+[mjava.lang.NullPointerException
+	at com.linyun.middle.common.taurus.utils.MessageUtils.getEnterRoomMessage(MessageUtils.java:135)
+	at com.linyun.game.taurus.service.GameServer.enterRoom(GameServer.java:455)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.linyun.bottom.handler.DefaultJuiceHandler.handlerDefaultRequest(DefaultJuiceHandler.java:63)
+	at com.linyun.bottom.handler.DefaultJuiceHandler.handlerRequest(DefaultJuiceHandler.java:36)
+	at com.linyun.bottom.handler.DefaultJuiceControl.nextHandler(DefaultJuiceControl.java:61)
+	at com.linyun.bottom.handler.DefaultJuiceControl.nextHandler(DefaultJuiceControl.java:54)
+	at com.linyun.bottom.util.threadpool.JuiceThreadPool$JuiceWorkThread.run(JuiceThreadPool.java:71)
+[2;32m2018-04-19 17:23:26,628 - INFO  [New I/O worker #2:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-19 17:23:26,629 - INFO  [New I/O worker #2:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，539989
+[m[2;32m2018-04-19 17:23:31,542 - INFO  [Thread-61:GameServer@396] - in enter room, userId is 10361roomNum is 539989
+[m[7;31m2018-04-19 17:23:31,552 - ERROR [Thread-61:GameServer@478] - 
+[mjava.lang.NullPointerException
+	at com.linyun.middle.common.taurus.utils.MessageUtils.getEnterRoomMessage(MessageUtils.java:135)
+	at com.linyun.game.taurus.service.GameServer.enterRoom(GameServer.java:455)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.linyun.bottom.handler.DefaultJuiceHandler.handlerDefaultRequest(DefaultJuiceHandler.java:63)
+	at com.linyun.bottom.handler.DefaultJuiceHandler.handlerRequest(DefaultJuiceHandler.java:36)
+	at com.linyun.bottom.handler.DefaultJuiceControl.nextHandler(DefaultJuiceControl.java:61)
+	at com.linyun.bottom.handler.DefaultJuiceControl.nextHandler(DefaultJuiceControl.java:54)
+	at com.linyun.bottom.util.threadpool.JuiceThreadPool$JuiceWorkThread.run(JuiceThreadPool.java:71)
+[2;32m2018-04-19 17:23:35,178 - INFO  [New I/O worker #3:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-19 17:23:35,178 - INFO  [New I/O worker #3:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，539989
+[m[2;32m2018-04-19 17:23:53,897 - INFO  [Thread-73:GameServer@396] - in enter room, userId is 10361roomNum is 539989
+[m[7;31m2018-04-19 17:23:53,912 - ERROR [Thread-73:GameServer@478] - 
+[mjava.lang.NullPointerException
+	at com.linyun.middle.common.taurus.utils.MessageUtils.getEnterRoomMessage(MessageUtils.java:135)
+	at com.linyun.game.taurus.service.GameServer.enterRoom(GameServer.java:455)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.linyun.bottom.handler.DefaultJuiceHandler.handlerDefaultRequest(DefaultJuiceHandler.java:63)
+	at com.linyun.bottom.handler.DefaultJuiceHandler.handlerRequest(DefaultJuiceHandler.java:36)
+	at com.linyun.bottom.handler.DefaultJuiceControl.nextHandler(DefaultJuiceControl.java:61)
+	at com.linyun.bottom.handler.DefaultJuiceControl.nextHandler(DefaultJuiceControl.java:54)
+	at com.linyun.bottom.util.threadpool.JuiceThreadPool$JuiceWorkThread.run(JuiceThreadPool.java:71)
+[2;32m2018-04-19 17:25:58,389 - INFO  [Thread-5:GameServer@864] - in applyDissolution , userId is 10361
+[m[7;31m2018-04-19 17:25:58,398 - ERROR [Thread-5:GameServer@901] - 玩家申请解散房间失败，桌子不存在,userId=10361
+[m[2;32m2018-04-19 17:26:00,785 - INFO  [New I/O worker #4:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-19 17:26:00,786 - INFO  [New I/O worker #4:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，539989
+[m[2;32m2018-04-19 17:26:03,526 - INFO  [Thread-7:GameServer@396] - in enter room, userId is 10361roomNum is 539989
+[m[2;32m2018-04-19 17:26:03,536 - INFO  [Thread-7:GameServer@457] - userId10361进入房间539989成功
+[m[2;32m2018-04-19 17:26:05,758 - INFO  [Thread-80:GameServer@762] - in roomOwnerDissolution , userId is 10361,roomNum is 539989
+[m[2;32m2018-04-19 17:26:05,860 - INFO  [Thread-80:RedisResource@405] - 房间roomNum=539989解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 17:26:14,089 - INFO  [Thread-60:GameServer@396] - in enter room, userId is 10361roomNum is 787165
+[m[2;32m2018-04-19 17:26:14,098 - INFO  [Thread-60:GameServer@439] - room787165从资源池获取房间
+[m[2;32m2018-04-19 17:26:14,098 - INFO  [Thread-60:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-19 17:26:14,099 - INFO  [Thread-60:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-19 17:26:14,099 - INFO  [Thread-60:GameServer@457] - userId10361进入房间787165成功
+[m[2;32m2018-04-19 17:28:23,237 - INFO  [Thread-150:GameServer@762] - in roomOwnerDissolution , userId is 10361,roomNum is 787165
+[m[2;32m2018-04-19 17:28:23,320 - INFO  [Thread-150:RedisResource@405] - 房间roomNum=787165解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 17:29:53,786 - INFO  [Thread-14:GameServer@396] - in enter room, userId is 10361roomNum is 857269
+[m[2;32m2018-04-19 17:29:53,791 - INFO  [Thread-14:GameServer@439] - room857269从资源池获取房间
+[m[2;32m2018-04-19 17:29:53,791 - INFO  [Thread-14:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-19 17:29:53,791 - INFO  [Thread-14:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-19 17:29:53,791 - INFO  [Thread-14:GameServer@457] - userId10361进入房间857269成功
+[m[2;32m2018-04-19 17:30:03,384 - INFO  [Thread-39:GameServer@762] - in roomOwnerDissolution , userId is 10361,roomNum is 857269
+[m[2;32m2018-04-19 17:30:03,467 - INFO  [Thread-39:RedisResource@405] - 房间roomNum=857269解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 17:34:37,360 - INFO  [Thread-104:GameServer@396] - in enter room, userId is 10361roomNum is 692460
+[m[2;32m2018-04-19 17:34:37,371 - INFO  [Thread-104:GameServer@439] - room692460从资源池获取房间
+[m[2;32m2018-04-19 17:34:37,371 - INFO  [Thread-104:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-19 17:34:37,371 - INFO  [Thread-104:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-19 17:34:37,372 - INFO  [Thread-104:GameServer@457] - userId10361进入房间692460成功
+[m[2;32m2018-04-19 17:35:15,210 - INFO  [Thread-29:GameServer@762] - in roomOwnerDissolution , userId is 10361,roomNum is 692460
+[m[2;32m2018-04-19 17:35:15,224 - INFO  [Thread-29:RedisResource@405] - 房间roomNum=692460解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 17:36:07,993 - INFO  [Thread-46:GameServer@396] - in enter room, userId is 10361roomNum is 886541
+[m[2;32m2018-04-19 17:36:26,740 - INFO  [Thread-46:GameServer@439] - room886541从资源池获取房间
+[m[2;32m2018-04-19 17:36:27,892 - INFO  [Thread-46:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-19 17:36:28,731 - INFO  [Thread-46:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-19 17:36:37,860 - INFO  [Thread-46:GameServer@457] - userId10361进入房间886541成功
+[m[2;32m2018-04-19 17:36:53,873 - INFO  [New I/O worker #1:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-19 17:36:53,874 - INFO  [New I/O worker #1:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，886541
+[m[2;32m2018-04-19 17:43:05,678 - INFO  [Thread-45:GameServer@396] - in enter room, userId is 10279roomNum is 929946
+[m[2;32m2018-04-19 17:43:05,688 - INFO  [Thread-45:GameServer@433] - room929946不存在，创建房间
+[m[2;32m2018-04-19 17:43:05,688 - INFO  [Thread-45:GameServer@460] - userId10279进入房间929946成功
+[m[2;32m2018-04-19 17:43:18,092 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@190] - 玩家10279<掉线>
+[m[2;32m2018-04-19 17:43:18,093 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@207] - 玩家10279未加入桌子，在房间内掉线，929946
+[m[2;32m2018-04-19 17:44:32,626 - INFO  [Thread-6:GameServer@396] - in enter room, userId is 10361roomNum is 886541
+[m[2;32m2018-04-19 17:44:32,636 - INFO  [Thread-6:GameServer@460] - userId10361进入房间886541成功
+[m[2;32m2018-04-19 17:46:07,100 - INFO  [New I/O worker #3:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-19 17:46:07,101 - INFO  [New I/O worker #3:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，886541
+[m[2;32m2018-04-19 17:46:13,473 - INFO  [Thread-122:GameServer@396] - in enter room, userId is 10361roomNum is 886541
+[m[2;32m2018-04-19 17:46:13,484 - INFO  [Thread-122:GameServer@460] - userId10361进入房间886541成功
+[m[2;32m2018-04-19 17:47:01,148 - INFO  [Thread-144:GameServer@765] - in roomOwnerDissolution , userId is 10361,roomNum is 886541
+[m[2;32m2018-04-19 17:47:01,154 - INFO  [Thread-144:RedisResource@405] - 房间roomNum=886541解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 17:47:14,707 - INFO  [Thread-8:GameServer@396] - in enter room, userId is 10361roomNum is 650895
+[m[2;32m2018-04-19 17:47:14,715 - INFO  [Thread-8:GameServer@439] - room650895从资源池获取房间
+[m[2;32m2018-04-19 17:47:14,715 - INFO  [Thread-8:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-19 17:47:14,715 - INFO  [Thread-8:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-19 17:47:14,715 - INFO  [Thread-8:GameServer@460] - userId10361进入房间650895成功
+[m[2;32m2018-04-19 17:48:33,419 - INFO  [New I/O worker #5:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-19 17:48:33,420 - INFO  [New I/O worker #5:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，650895
+[m[2;32m2018-04-19 17:48:41,723 - INFO  [Thread-115:GameServer@396] - in enter room, userId is 10361roomNum is 650895
+[m[2;32m2018-04-19 17:48:41,729 - INFO  [Thread-115:GameServer@460] - userId10361进入房间650895成功
+[m[2;32m2018-04-19 17:48:42,620 - INFO  [Thread-82:GameServer@765] - in roomOwnerDissolution , userId is 10361,roomNum is 650895
+[m[2;32m2018-04-19 17:48:42,625 - INFO  [Thread-82:RedisResource@405] - 房间roomNum=650895解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 17:48:48,264 - INFO  [Thread-40:GameServer@396] - in enter room, userId is 10361roomNum is 440533
+[m[2;32m2018-04-19 17:48:48,270 - INFO  [Thread-40:GameServer@439] - room440533从资源池获取房间
+[m[2;32m2018-04-19 17:48:48,270 - INFO  [Thread-40:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-19 17:48:48,270 - INFO  [Thread-40:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-19 17:48:48,270 - INFO  [Thread-40:GameServer@460] - userId10361进入房间440533成功
+[m[2;32m2018-04-19 17:49:26,206 - INFO  [New I/O worker #7:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-19 17:49:26,206 - INFO  [New I/O worker #7:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，440533
+[m[2;32m2018-04-19 17:49:31,410 - INFO  [Thread-119:GameServer@396] - in enter room, userId is 10361roomNum is 440533
+[m[2;32m2018-04-19 17:49:31,421 - INFO  [Thread-119:GameServer@460] - userId10361进入房间440533成功
+[m[2;32m2018-04-19 17:49:32,461 - INFO  [Thread-137:GameServer@765] - in roomOwnerDissolution , userId is 10361,roomNum is 440533
+[m[2;32m2018-04-19 17:49:32,530 - INFO  [Thread-137:RedisResource@405] - 房间roomNum=440533解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 17:49:38,448 - INFO  [Thread-151:GameServer@396] - in enter room, userId is 10361roomNum is 292093
+[m[2;32m2018-04-19 17:49:38,465 - INFO  [Thread-151:GameServer@439] - room292093从资源池获取房间
+[m[2;32m2018-04-19 17:49:38,466 - INFO  [Thread-151:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-19 17:49:38,466 - INFO  [Thread-151:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-19 17:49:38,467 - INFO  [Thread-151:GameServer@460] - userId10361进入房间292093成功
+[m[2;32m2018-04-19 17:51:02,081 - INFO  [New I/O worker #1:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-19 17:51:02,082 - INFO  [New I/O worker #1:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，292093
+[m[2;32m2018-04-19 17:52:02,243 - INFO  [Thread-117:GameServer@396] - in enter room, userId is 10361roomNum is 292093
+[m[2;32m2018-04-19 17:52:02,250 - INFO  [Thread-117:GameServer@460] - userId10361进入房间292093成功
+[m[2;32m2018-04-19 17:52:04,310 - INFO  [Thread-131:GameServer@765] - in roomOwnerDissolution , userId is 10361,roomNum is 292093
+[m[2;32m2018-04-19 17:52:04,316 - INFO  [Thread-131:RedisResource@405] - 房间roomNum=292093解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 17:52:11,784 - INFO  [Thread-135:GameServer@396] - in enter room, userId is 10361roomNum is 158480
+[m[2;32m2018-04-19 17:52:11,791 - INFO  [Thread-135:GameServer@439] - room158480从资源池获取房间
+[m[2;32m2018-04-19 17:52:11,791 - INFO  [Thread-135:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-19 17:52:11,791 - INFO  [Thread-135:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-19 17:52:11,791 - INFO  [Thread-135:GameServer@460] - userId10361进入房间158480成功
+[m[2;32m2018-04-19 18:13:40,957 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=929946解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 18:13:41,010 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 929946超时，被解散
+[m[2;32m2018-04-19 18:22:40,982 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=158480解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-19 18:22:41,028 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 158480超时，被解散
+[m[7;31m2018-04-19 19:07:23,476 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0xb00132cc, /192.168.0.8:51046 => /192.168.0.109:2112]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-04-19 19:07:23,481 - INFO  [New I/O worker #3:GameServer@190] - 玩家10361<掉线>
+[m

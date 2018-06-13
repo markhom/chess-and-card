@@ -1,0 +1,39 @@
+[2;32m2018-05-10 12:20:43,161 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-10 12:20:43,165 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-05-10 12:20:43,165 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-05-10 12:20:43,481 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-10 12:20:43,482 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-05-10 12:20:43,483 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-05-10 12:20:43,607 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-05-10 12:20:43,608 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-05-10 12:20:43,699 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-05-10 12:20:43,710 - INFO  [main:ServerBootstrap@103] - Application PID:	13492
+[m[2;32m2018-05-10 12:45:35,816 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-10 12:45:35,819 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-05-10 12:45:35,819 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-05-10 12:45:36,146 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-10 12:45:36,146 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-05-10 12:45:36,146 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-05-10 12:45:36,246 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-05-10 12:45:36,246 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-05-10 12:45:36,343 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-05-10 12:45:36,352 - INFO  [main:ServerBootstrap@103] - Application PID:	13896
+[m[2;32m2018-05-10 14:16:05,676 - INFO  [Thread-42:GameServer@405] - in enter room, userId is 10349roomNum is 696390
+[m[2;32m2018-05-10 14:16:05,706 - INFO  [Thread-42:GameServer@442] - room696390不存在，创建房间
+[m[2;32m2018-05-10 14:16:05,721 - INFO  [Thread-42:GameServer@473] - userId10349进入房间696390成功
+[m[2;32m2018-05-10 14:16:28,829 - INFO  [Thread-87:GameServer@405] - in enter room, userId is 10273roomNum is 696390
+[m[2;32m2018-05-10 14:16:28,838 - INFO  [Thread-87:GameServer@473] - userId10273进入房间696390成功
+[m[2;32m2018-05-10 14:16:31,028 - INFO  [Thread-132:GameServer@520] - in exit room, userId is 10273roomNum is 696390
+[m[2;32m2018-05-10 14:16:32,706 - INFO  [Thread-105:GameServer@784] - in roomOwnerDissolution , userId is 10349,roomNum is 696390
+[m[2;32m2018-05-10 14:16:32,793 - INFO  [Thread-105:RedisResource@405] - 房间roomNum=696390解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-05-10 14:58:11,502 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-10 14:58:11,505 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-05-10 14:58:11,505 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-05-10 14:58:11,786 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-10 14:58:11,786 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-05-10 14:58:11,786 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-05-10 14:58:11,846 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-05-10 14:58:11,846 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-05-10 14:58:11,918 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-05-10 14:58:11,925 - INFO  [main:ServerBootstrap@103] - Application PID:	13684
+[m

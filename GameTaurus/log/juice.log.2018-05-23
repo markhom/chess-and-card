@@ -1,0 +1,60 @@
+[7;31m2018-05-23 09:38:57,938 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x99d427c6, /127.0.0.1:21320 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-05-23 09:38:57,954 - ERROR [JUICE-SERVER-Handler-8-3-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0xd620cfad, /127.0.0.1:21321 :> /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-05-23 09:38:57,953 - ERROR [JUICE-SERVER-Handler-8-2-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x59d9add9, /127.0.0.1:21322 :> /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more

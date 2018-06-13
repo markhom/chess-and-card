@@ -1,0 +1,75 @@
+[2;32m2018-04-03 11:59:55,300 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-03 11:59:55,303 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-03 11:59:55,303 - INFO  [main:ServerBootstrap@77] - Server port:	2112
+[m[2;32m2018-04-03 11:59:55,597 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-03 11:59:55,598 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-03 11:59:55,598 - INFO  [main:ServerBootstrap@77] - Server port:	52112
+[m[2;32m2018-04-03 11:59:55,662 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-03 11:59:55,662 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22100
+[m[2;32m2018-04-03 11:59:55,744 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-03 11:59:55,753 - INFO  [main:ServerBootstrap@103] - Application PID:	13120
+[m[7;31m2018-04-03 11:59:56,023 - ERROR [New I/O worker #19:DefaultObjectFrameDecoder@66] - Exception message : 
+[mjava.lang.RuntimeException: org.apache.ibatis.exceptions.PersistenceException
+	at com.linyun.bottom.util.JavaSerializeUtils.deserialize(JavaSerializeUtils.java:60)
+	at com.linyun.bottom.rmi.DefaultObjectFrameDecoder.decode(DefaultObjectFrameDecoder.java:61)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:310)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:555)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[7;31m2018-04-03 11:59:58,761 - ERROR [pool-9-thread-1:JuiceInvocationHandler@64] - Latch request time out..
+[m[7;31m2018-04-03 12:00:25,782 - ERROR [New I/O worker #24:DefaultObjectFrameDecoder@66] - Exception message : 
+[mjava.lang.RuntimeException: org.apache.ibatis.exceptions.PersistenceException
+	at com.linyun.bottom.util.JavaSerializeUtils.deserialize(JavaSerializeUtils.java:60)
+	at com.linyun.bottom.rmi.DefaultObjectFrameDecoder.decode(DefaultObjectFrameDecoder.java:61)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:310)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:555)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[7;31m2018-04-03 12:00:28,751 - ERROR [pool-11-thread-1:JuiceInvocationHandler@64] - Latch request time out..
+[m[2;32m2018-04-03 12:13:00,033 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-03 12:13:00,035 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-03 12:13:00,035 - INFO  [main:ServerBootstrap@77] - Server port:	2112
+[m[2;32m2018-04-03 12:13:00,326 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-03 12:13:00,326 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-03 12:13:00,326 - INFO  [main:ServerBootstrap@77] - Server port:	52112
+[m[2;32m2018-04-03 12:13:00,399 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-03 12:13:00,399 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22100
+[m[2;32m2018-04-03 12:13:00,496 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-03 12:13:00,505 - INFO  [main:ServerBootstrap@103] - Application PID:	11460
+[m[2;32m2018-04-03 14:23:04,397 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-03 14:23:04,399 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-03 14:23:04,399 - INFO  [main:ServerBootstrap@77] - Server port:	2112
+[m[2;32m2018-04-03 14:23:04,686 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-03 14:23:04,686 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-03 14:23:04,686 - INFO  [main:ServerBootstrap@77] - Server port:	52112
+[m[2;32m2018-04-03 14:23:04,751 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-03 14:23:04,751 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22100
+[m[2;32m2018-04-03 14:23:04,838 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-03 14:23:04,846 - INFO  [main:ServerBootstrap@103] - Application PID:	14912
+[m

@@ -1,0 +1,147 @@
+[2;32m2018-06-01 09:49:35,201 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 09:49:35,204 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-01 09:49:35,204 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-01 09:49:35,511 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 09:49:35,511 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-01 09:49:35,511 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-01 09:49:35,586 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-01 09:49:35,586 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-01 09:49:35,667 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-01 09:49:35,677 - INFO  [main:ServerBootstrap@103] - Application PID:	25060
+[m[2;32m2018-06-01 10:34:34,969 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 10:34:34,972 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-01 10:34:34,972 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-01 10:34:35,278 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 10:34:35,278 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-01 10:34:35,279 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-01 10:34:35,438 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-01 10:34:35,438 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-01 10:34:35,518 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-01 10:34:35,526 - INFO  [main:ServerBootstrap@103] - Application PID:	83188
+[m[2;32m2018-06-01 11:59:10,324 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 11:59:10,326 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-01 11:59:10,326 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-01 11:59:10,668 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 11:59:10,668 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-01 11:59:10,668 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-01 11:59:10,827 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-01 11:59:10,827 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-01 11:59:10,907 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-01 11:59:10,913 - INFO  [main:ServerBootstrap@103] - Application PID:	135968
+[m[2;32m2018-06-01 12:52:51,127 - INFO  [Thread-37:LobbyServer@455] - userId:10349拉取公告
+[m[2;32m2018-06-01 12:52:51,127 - INFO  [Thread-29:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 12:52:51,176 - INFO  [Thread-115:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-01 12:52:51,179 - INFO  [Thread-76:LobbyServer@761] - userId:10349get contact info
+[m[2;32m2018-06-01 12:52:51,180 - INFO  [Thread-115:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[2;32m2018-06-01 14:47:52,621 - INFO  [Thread-78:LobbyServer@455] - userId:10349拉取公告
+[m[2;32m2018-06-01 14:47:52,621 - INFO  [Thread-82:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 14:47:52,710 - INFO  [Thread-55:LobbyServer@761] - userId:10349get contact info
+[m[2;32m2018-06-01 14:47:52,710 - INFO  [Thread-35:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-01 14:47:52,713 - INFO  [Thread-35:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[2;32m2018-06-01 14:48:22,624 - INFO  [Thread-108:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-01 14:48:22,626 - INFO  [Thread-108:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[2;32m2018-06-01 14:48:22,634 - INFO  [Thread-142:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 14:48:52,630 - INFO  [Thread-126:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 14:49:22,623 - INFO  [Thread-90:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-01 14:49:22,649 - INFO  [Thread-90:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[2;32m2018-06-01 14:49:22,649 - INFO  [Thread-72:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 14:49:52,654 - INFO  [Thread-19:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 14:50:18,524 - INFO  [Thread-38:LobbyServer@455] - userId:10349拉取公告
+[m[2;32m2018-06-01 14:50:18,530 - INFO  [Thread-128:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 14:50:18,538 - INFO  [Thread-113:LobbyServer@761] - userId:10349get contact info
+[m[2;32m2018-06-01 14:50:18,539 - INFO  [Thread-34:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-01 14:50:18,551 - INFO  [Thread-34:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[2;32m2018-06-01 14:50:48,526 - INFO  [Thread-30:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 14:50:48,557 - INFO  [Thread-88:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-01 14:50:48,559 - INFO  [Thread-88:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[2;32m2018-06-01 14:51:18,507 - INFO  [Thread-21:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 15:20:06,710 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 15:20:06,712 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-01 15:20:06,712 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-01 15:20:07,105 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 15:20:07,105 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-01 15:20:07,105 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-01 15:20:07,419 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-01 15:20:07,419 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-01 15:20:07,500 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-01 15:20:07,525 - INFO  [main:ServerBootstrap@103] - Application PID:	136688
+[m[2;32m2018-06-01 15:21:46,514 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 15:21:46,516 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-01 15:21:46,517 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-01 15:21:46,912 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-01 15:21:46,913 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-01 15:21:46,913 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-01 15:21:47,183 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-01 15:21:47,183 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-01 15:21:47,273 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-01 15:21:47,283 - INFO  [main:ServerBootstrap@103] - Application PID:	145824
+[m[2;32m2018-06-01 15:31:41,272 - INFO  [Thread-21:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 15:31:41,272 - INFO  [Thread-71:LobbyServer@455] - userId:10349拉取公告
+[m[2;32m2018-06-01 15:31:41,326 - INFO  [Thread-119:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-01 15:31:41,326 - INFO  [Thread-135:LobbyServer@761] - userId:10349get contact info
+[m[2;32m2018-06-01 15:31:41,333 - INFO  [Thread-119:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[2;32m2018-06-01 16:06:50,148 - INFO  [Thread-113:LobbyServer@455] - userId:10349拉取公告
+[m[2;32m2018-06-01 16:06:50,153 - INFO  [Thread-63:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-01 16:06:50,156 - INFO  [Thread-53:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-01 16:06:50,158 - INFO  [Thread-74:LobbyServer@761] - userId:10349get contact info
+[m[2;32m2018-06-01 16:06:50,165 - INFO  [Thread-53:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[7;31m2018-06-01 18:32:28,923 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x60b5f83e, /127.0.0.1:46515 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-06-01 18:32:28,924 - ERROR [JUICE-SERVER-Handler-8-3-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0xf69f728a, /127.0.0.1:46513 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-06-01 18:32:28,923 - ERROR [JUICE-SERVER-Handler-8-3-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x31c1f526, /127.0.0.1:46514 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more

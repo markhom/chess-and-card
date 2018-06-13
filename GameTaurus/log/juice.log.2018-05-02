@@ -1,0 +1,1492 @@
+[2;32m2018-04-28 09:50:59,125 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 09:50:59,129 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-28 09:50:59,129 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-04-28 09:50:59,420 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 09:50:59,420 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-28 09:50:59,422 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-04-28 09:50:59,496 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-28 09:50:59,496 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-04-28 09:50:59,582 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-28 09:50:59,589 - INFO  [main:ServerBootstrap@103] - Application PID:	7916
+[m[2;32m2018-04-28 10:26:52,943 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 10:26:52,945 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-28 10:26:52,946 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-04-28 10:26:53,237 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 10:26:53,238 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-28 10:26:53,238 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-04-28 10:26:53,337 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-28 10:26:53,338 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-04-28 10:26:53,464 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-28 10:26:53,476 - INFO  [main:ServerBootstrap@103] - Application PID:	8716
+[m[2;32m2018-04-28 11:47:03,684 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 11:47:03,687 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-28 11:47:03,687 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-04-28 11:47:04,070 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 11:47:04,070 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-28 11:47:04,071 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-04-28 11:47:04,184 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-28 11:47:04,184 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-04-28 11:47:04,396 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-28 11:47:04,406 - INFO  [main:ServerBootstrap@103] - Application PID:	15904
+[m[2;32m2018-04-28 11:47:24,572 - INFO  [Thread-85:GameServer@396] - in enter room, userId is 10360roomNum is 762577
+[m[2;32m2018-04-28 11:47:24,597 - INFO  [Thread-85:GameServer@433] - room762577不存在，创建房间
+[m[2;32m2018-04-28 11:47:24,608 - INFO  [Thread-85:GameServer@460] - userId10360进入房间762577成功
+[m[2;32m2018-04-28 11:49:13,793 - INFO  [New I/O worker #1:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 11:49:13,794 - INFO  [New I/O worker #1:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，762577
+[m[2;32m2018-04-28 11:49:21,344 - INFO  [Thread-98:GameServer@396] - in enter room, userId is 10360roomNum is 103594
+[m[2;32m2018-04-28 11:49:21,367 - INFO  [Thread-98:GameServer@433] - room103594不存在，创建房间
+[m[2;32m2018-04-28 11:49:21,368 - INFO  [Thread-98:GameServer@460] - userId10360进入房间103594成功
+[m[2;32m2018-04-28 11:50:54,127 - INFO  [New I/O worker #2:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 11:50:54,127 - INFO  [New I/O worker #2:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，103594
+[m[2;32m2018-04-28 11:51:13,601 - INFO  [Thread-148:GameServer@396] - in enter room, userId is 10360roomNum is 184787
+[m[2;32m2018-04-28 11:51:13,621 - INFO  [Thread-148:GameServer@433] - room184787不存在，创建房间
+[m[2;32m2018-04-28 11:51:13,622 - INFO  [Thread-148:GameServer@460] - userId10360进入房间184787成功
+[m[2;32m2018-04-28 11:52:34,906 - INFO  [New I/O worker #3:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 11:52:34,907 - INFO  [New I/O worker #3:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，184787
+[m[2;32m2018-04-28 11:52:53,209 - INFO  [Thread-57:GameServer@396] - in enter room, userId is 10360roomNum is 103149
+[m[2;32m2018-04-28 11:52:53,231 - INFO  [Thread-57:GameServer@433] - room103149不存在，创建房间
+[m[2;32m2018-04-28 11:52:53,231 - INFO  [Thread-57:GameServer@460] - userId10360进入房间103149成功
+[m[2;32m2018-04-28 11:53:31,096 - INFO  [New I/O worker #4:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 11:53:31,097 - INFO  [New I/O worker #4:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，103149
+[m[2;32m2018-04-28 11:53:37,009 - INFO  [Thread-41:GameServer@396] - in enter room, userId is 10360roomNum is 992900
+[m[2;32m2018-04-28 11:53:37,039 - INFO  [Thread-41:GameServer@433] - room992900不存在，创建房间
+[m[2;32m2018-04-28 11:53:37,039 - INFO  [Thread-41:GameServer@460] - userId10360进入房间992900成功
+[m[2;32m2018-04-28 11:54:49,251 - INFO  [New I/O worker #5:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 11:54:49,252 - INFO  [New I/O worker #5:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，992900
+[m[7;31m2018-04-28 11:54:55,909 - ERROR [JUICE-SERVER-Handler-8-2-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0xb0674640, /127.0.0.1:12111 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-04-28 11:54:55,929 - ERROR [JUICE-SERVER-Handler-8-3-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x5fe50e45, /127.0.0.1:12110 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-04-28 11:54:55,910 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0xcd10f683, /127.0.0.1:12112 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-04-28 11:55:20,591 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 11:55:20,593 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-28 11:55:20,593 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-04-28 11:55:20,878 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 11:55:20,878 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-28 11:55:20,878 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-04-28 11:55:20,957 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-28 11:55:20,958 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-04-28 11:55:21,057 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-28 11:55:21,070 - INFO  [main:ServerBootstrap@103] - Application PID:	15880
+[m[2;32m2018-04-28 12:03:16,928 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 12:03:16,930 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-28 12:03:16,930 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-04-28 12:03:17,219 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 12:03:17,219 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-28 12:03:17,219 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-04-28 12:03:17,284 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-28 12:03:17,284 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-04-28 12:03:17,368 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-28 12:03:17,377 - INFO  [main:ServerBootstrap@103] - Application PID:	11592
+[m[2;32m2018-04-28 12:03:29,889 - INFO  [Thread-33:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:03:29,908 - INFO  [Thread-33:GameServer@433] - room246645不存在，创建房间
+[m[2;32m2018-04-28 12:03:29,919 - INFO  [Thread-33:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:04:15,925 - INFO  [New I/O worker #1:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 12:04:15,926 - INFO  [New I/O worker #1:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，246645
+[m[2;32m2018-04-28 12:04:21,191 - INFO  [Thread-148:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:04:21,212 - INFO  [Thread-148:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:05:04,310 - INFO  [New I/O worker #2:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 12:05:04,311 - INFO  [New I/O worker #2:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，246645
+[m[2;32m2018-04-28 12:10:47,973 - INFO  [Thread-134:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:10:47,988 - INFO  [Thread-134:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:11:59,728 - INFO  [New I/O worker #3:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 12:11:59,729 - INFO  [New I/O worker #3:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，246645
+[m[2;32m2018-04-28 12:12:05,723 - INFO  [Thread-63:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:12:05,741 - INFO  [Thread-63:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:13:59,667 - INFO  [New I/O worker #4:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 12:13:59,668 - INFO  [New I/O worker #4:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，246645
+[m[2;32m2018-04-28 12:14:06,000 - INFO  [Thread-67:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:14:06,007 - INFO  [Thread-67:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:14:53,016 - INFO  [New I/O worker #5:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 12:14:53,018 - INFO  [New I/O worker #5:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，246645
+[m[2;32m2018-04-28 12:15:01,381 - INFO  [Thread-5:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:15:01,402 - INFO  [Thread-5:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:15:24,935 - INFO  [Thread-4:GameServer@588] - in enter table, userId is 10360,tableId is 246645
+[m[2;32m2018-04-28 12:15:24,948 - INFO  [Thread-4:GameServer@658] - 桌子246645不存在，创建桌子
+[m[2;32m2018-04-28 12:19:27,555 - INFO  [New I/O worker #6:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 12:19:27,557 - INFO  [New I/O worker #6:GameServer@212] - 玩家10360加入桌子，在房间内掉线,246645
+[m[2;32m2018-04-28 12:19:32,816 - INFO  [Thread-44:GameServer@322] - 用户10360 游戏外重连
+[m[2;32m2018-04-28 12:19:32,817 - INFO  [Thread-44:GameServer@362] - 用户10360游戏外重连246645成功
+[m[2;32m2018-04-28 12:19:35,272 - INFO  [Thread-78:GameServer@507] - in exit room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:21:40,744 - INFO  [Thread-60:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:21:40,770 - INFO  [Thread-60:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:21:45,944 - INFO  [Thread-144:GameServer@588] - in enter table, userId is 10360,tableId is 246645
+[m[2;32m2018-04-28 12:21:45,956 - INFO  [Thread-144:GameServer@658] - 桌子246645不存在，创建桌子
+[m[2;32m2018-04-28 12:21:45,956 - INFO  [Thread-144:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 12:21:45,956 - INFO  [Thread-144:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:246645
+[m[2;32m2018-04-28 12:22:40,408 - INFO  [Thread-23:GameServer@507] - in exit room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:23:25,532 - INFO  [Thread-8:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:23:25,543 - INFO  [Thread-8:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:23:27,064 - INFO  [Thread-89:GameServer@588] - in enter table, userId is 10360,tableId is 246645
+[m[2;32m2018-04-28 12:23:27,084 - INFO  [Thread-89:GameServer@658] - 桌子246645不存在，创建桌子
+[m[2;32m2018-04-28 12:23:27,085 - INFO  [Thread-89:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 12:23:27,085 - INFO  [Thread-89:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:246645
+[m[2;32m2018-04-28 12:24:13,566 - INFO  [New I/O worker #1:GameServer@190] - 玩家10360<掉线>
+[m[7;31m2018-04-28 12:24:15,909 - ERROR [Thread-159:GameSessionImpl@107] - channel is disconnected, so close channel future=true
+[m[7;31m2018-04-28 12:24:15,909 - ERROR [Thread-159:GameSessionImpl@96] - can't connect by channel!
+[m[7;31m2018-04-28 12:24:23,387 - ERROR [Thread-89:GameSessionImpl@107] - channel is disconnected, so close channel future=true
+[m[7;31m2018-04-28 12:24:23,388 - ERROR [Thread-89:GameSessionImpl@96] - can't connect by channel!
+[m[2;32m2018-04-28 12:24:23,395 - INFO  [Thread-117:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:24:23,406 - INFO  [Thread-117:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:24:23,684 - INFO  [New I/O worker #2:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 12:24:23,685 - INFO  [New I/O worker #2:GameServer@212] - 玩家10360加入桌子，在房间内掉线,246645
+[m[2;32m2018-04-28 12:24:27,449 - INFO  [Thread-122:GameServer@322] - 用户10360 游戏外重连
+[m[2;32m2018-04-28 12:24:27,450 - INFO  [Thread-122:GameServer@362] - 用户10360游戏外重连246645成功
+[m[2;32m2018-04-28 12:24:29,494 - INFO  [Thread-49:GameServer@507] - in exit room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:24:34,604 - INFO  [Thread-13:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:24:34,611 - INFO  [Thread-13:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:24:38,200 - INFO  [Thread-127:GameServer@588] - in enter table, userId is 10360,tableId is 246645
+[m[2;32m2018-04-28 12:24:38,213 - INFO  [Thread-127:GameServer@658] - 桌子246645不存在，创建桌子
+[m[2;32m2018-04-28 12:24:38,213 - INFO  [Thread-127:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 12:24:38,213 - INFO  [Thread-127:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:246645
+[m[2;32m2018-04-28 12:28:28,392 - INFO  [Thread-145:GameServer@507] - in exit room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:28:39,034 - INFO  [Thread-116:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:28:39,048 - INFO  [Thread-116:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:28:41,289 - INFO  [Thread-15:GameServer@588] - in enter table, userId is 10360,tableId is 246645
+[m[2;32m2018-04-28 12:28:41,299 - INFO  [Thread-15:GameServer@658] - 桌子246645不存在，创建桌子
+[m[2;32m2018-04-28 12:28:41,299 - INFO  [Thread-15:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 12:28:41,300 - INFO  [Thread-15:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:246645
+[m[7;31m2018-04-28 12:29:11,458 - ERROR [Thread-15:DefaultJuiceHandler@68] - com.linyun.middle.common.taurus.utils.MessageUtils.getSelfEnterTableMessage(Lcom/linyun/middle/common/taurus/room/TaurusRoom;Lcom/linyun/middle/common/taurus/table/TaurusTable;B)Lcom/linyun/bottom/util/OutputMessage;
+[m[2;32m2018-04-28 12:29:29,368 - INFO  [Thread-82:GameServer@507] - in exit room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:29:32,723 - INFO  [Thread-47:GameServer@396] - in enter room, userId is 10360roomNum is 246645
+[m[2;32m2018-04-28 12:29:32,734 - INFO  [Thread-47:GameServer@460] - userId10360进入房间246645成功
+[m[2;32m2018-04-28 12:29:37,801 - INFO  [Thread-141:GameServer@396] - in enter room, userId is 10371roomNum is 246645
+[m[2;32m2018-04-28 12:29:37,827 - INFO  [Thread-141:GameServer@460] - userId10371进入房间246645成功
+[m[2;32m2018-04-28 12:29:41,352 - INFO  [Thread-69:GameServer@396] - in enter room, userId is 10372roomNum is 246645
+[m[2;32m2018-04-28 12:29:41,360 - INFO  [Thread-69:GameServer@460] - userId10372进入房间246645成功
+[m[2;32m2018-04-28 12:29:43,437 - INFO  [Thread-126:GameServer@588] - in enter table, userId is 10371,tableId is 246645
+[m[2;32m2018-04-28 12:29:43,448 - INFO  [Thread-126:GameServer@658] - 桌子246645不存在，创建桌子
+[m[2;32m2018-04-28 12:29:43,448 - INFO  [Thread-126:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 12:29:43,448 - INFO  [Thread-126:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:246645
+[m[7;31m2018-04-28 12:29:43,453 - ERROR [Thread-126:DefaultJuiceHandler@68] - com.linyun.middle.common.taurus.utils.MessageUtils.getSelfEnterTableMessage(Lcom/linyun/middle/common/taurus/room/TaurusRoom;Lcom/linyun/middle/common/taurus/table/TaurusTable;B)Lcom/linyun/bottom/util/OutputMessage;
+[m[2;32m2018-04-28 12:29:48,743 - INFO  [Thread-150:GameServer@588] - in enter table, userId is 10360,tableId is 246645
+[m[7;31m2018-04-28 12:29:48,755 - ERROR [Thread-150:DefaultJuiceHandler@68] - com.linyun.middle.common.taurus.utils.MessageUtils.getSelfEnterTableMessage(Lcom/linyun/middle/common/taurus/room/TaurusRoom;Lcom/linyun/middle/common/taurus/table/TaurusTable;B)Lcom/linyun/bottom/util/OutputMessage;
+[m[2;32m2018-04-28 12:30:11,856 - INFO  [Thread-35:GameServer@588] - in enter table, userId is 10371,tableId is 246645
+[m[7;31m2018-04-28 12:30:11,867 - ERROR [Thread-35:GameServer@707] - com.linyun.bottom.common.exception.GameException: 玩家在加入桌子时，重复加入桌子，userId=10371,roomId=246645
+[m[2;32m2018-04-28 12:30:13,857 - INFO  [Thread-78:GameServer@588] - in enter table, userId is 10371,tableId is 246645
+[m[7;31m2018-04-28 12:30:13,864 - ERROR [Thread-78:GameServer@707] - com.linyun.bottom.common.exception.GameException: 玩家在加入桌子时，重复加入桌子，userId=10371,roomId=246645
+[m[2;32m2018-04-28 12:30:19,166 - INFO  [Thread-91:GameServer@588] - in enter table, userId is 10360,tableId is 246645
+[m[7;31m2018-04-28 12:30:19,175 - ERROR [Thread-91:GameServer@707] - com.linyun.bottom.common.exception.GameException: 玩家在加入桌子时，重复加入桌子，userId=10360,roomId=246645
+[m[2;32m2018-04-28 12:30:56,362 - INFO  [Thread-29:GameServer@588] - in enter table, userId is 10360,tableId is 246645
+[m[7;31m2018-04-28 12:31:06,675 - ERROR [Thread-29:GameServer@707] - com.linyun.bottom.common.exception.GameException: 玩家在加入桌子时，重复加入桌子，userId=10360,roomId=246645
+[m[2;32m2018-04-28 14:01:32,357 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 14:01:32,360 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-28 14:01:32,360 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-04-28 14:01:32,707 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 14:01:32,707 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-28 14:01:32,707 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-04-28 14:01:32,777 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-28 14:01:32,777 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-04-28 14:01:32,894 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-28 14:01:32,921 - INFO  [main:ServerBootstrap@103] - Application PID:	8108
+[m[2;32m2018-04-28 14:01:33,411 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=246645解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-28 14:01:33,648 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 246645超时，被解散
+[m[2;32m2018-04-28 14:01:49,713 - INFO  [Thread-51:GameServer@396] - in enter room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:01:49,727 - INFO  [Thread-51:GameServer@433] - room458979不存在，创建房间
+[m[2;32m2018-04-28 14:01:49,738 - INFO  [Thread-51:GameServer@460] - userId10360进入房间458979成功
+[m[2;32m2018-04-28 14:01:55,218 - INFO  [Thread-81:GameServer@396] - in enter room, userId is 10371roomNum is 458979
+[m[2;32m2018-04-28 14:01:55,233 - INFO  [Thread-81:GameServer@460] - userId10371进入房间458979成功
+[m[2;32m2018-04-28 14:01:58,609 - INFO  [Thread-21:GameServer@396] - in enter room, userId is 10372roomNum is 458979
+[m[2;32m2018-04-28 14:01:58,617 - INFO  [Thread-21:GameServer@460] - userId10372进入房间458979成功
+[m[2;32m2018-04-28 14:02:38,304 - INFO  [Thread-23:GameServer@588] - in enter table, userId is 10360,tableId is 458979
+[m[2;32m2018-04-28 14:02:38,323 - INFO  [Thread-23:GameServer@658] - 桌子458979不存在，创建桌子
+[m[2;32m2018-04-28 14:12:13,739 - INFO  [Thread-15:GameServer@507] - in exit room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:12:19,612 - INFO  [New I/O worker #5:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 14:12:19,612 - INFO  [New I/O worker #5:GameServer@207] - 玩家10371未加入桌子，在房间内掉线，458979
+[m[2;32m2018-04-28 14:12:19,694 - INFO  [New I/O worker #6:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 14:12:19,695 - INFO  [New I/O worker #6:GameServer@207] - 玩家10372未加入桌子，在房间内掉线，458979
+[m[2;32m2018-04-28 14:12:41,980 - INFO  [Thread-107:GameServer@396] - in enter room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:12:41,995 - INFO  [Thread-107:GameServer@460] - userId10360进入房间458979成功
+[m[2;32m2018-04-28 14:12:45,383 - INFO  [Thread-119:GameServer@588] - in enter table, userId is 10360,tableId is 458979
+[m[2;32m2018-04-28 14:12:45,395 - INFO  [Thread-119:GameServer@658] - 桌子458979不存在，创建桌子
+[m[2;32m2018-04-28 14:12:45,396 - INFO  [Thread-119:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 14:12:45,396 - INFO  [Thread-119:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:458979
+[m[2;32m2018-04-28 14:13:05,155 - INFO  [Thread-74:GameServer@507] - in exit room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:13:11,087 - INFO  [Thread-152:GameServer@396] - in enter room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:13:11,103 - INFO  [Thread-152:GameServer@460] - userId10360进入房间458979成功
+[m[2;32m2018-04-28 14:13:11,636 - INFO  [Thread-141:GameServer@396] - in enter room, userId is 10371roomNum is 458979
+[m[2;32m2018-04-28 14:13:11,650 - INFO  [Thread-141:GameServer@460] - userId10371进入房间458979成功
+[m[2;32m2018-04-28 14:13:12,175 - INFO  [Thread-32:GameServer@396] - in enter room, userId is 10372roomNum is 458979
+[m[2;32m2018-04-28 14:13:12,188 - INFO  [Thread-32:GameServer@460] - userId10372进入房间458979成功
+[m[2;32m2018-04-28 14:13:23,398 - INFO  [Thread-51:GameServer@588] - in enter table, userId is 10360,tableId is 458979
+[m[2;32m2018-04-28 14:13:23,404 - INFO  [Thread-51:GameServer@658] - 桌子458979不存在，创建桌子
+[m[2;32m2018-04-28 14:13:23,405 - INFO  [Thread-51:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 14:13:23,405 - INFO  [Thread-51:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:458979
+[m[2;32m2018-04-28 14:15:23,534 - INFO  [New I/O worker #2:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 14:15:23,535 - INFO  [New I/O worker #2:GameServer@207] - 玩家10372未加入桌子，在房间内掉线，458979
+[m[2;32m2018-04-28 14:15:23,594 - INFO  [New I/O worker #8:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:15:23,595 - INFO  [New I/O worker #8:GameServer@212] - 玩家10360加入桌子，在房间内掉线,458979
+[m[2;32m2018-04-28 14:15:23,665 - INFO  [New I/O worker #1:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 14:15:23,666 - INFO  [New I/O worker #1:GameServer@207] - 玩家10371未加入桌子，在房间内掉线，458979
+[m[2;32m2018-04-28 14:17:06,131 - INFO  [Thread-73:GameServer@322] - 用户10360 游戏外重连
+[m[2;32m2018-04-28 14:17:06,132 - INFO  [Thread-73:GameServer@362] - 用户10360游戏外重连458979成功
+[m[2;32m2018-04-28 14:17:07,596 - INFO  [Thread-113:GameServer@507] - in exit room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:17:12,458 - INFO  [Thread-97:GameServer@396] - in enter room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:17:12,471 - INFO  [Thread-97:GameServer@460] - userId10360进入房间458979成功
+[m[2;32m2018-04-28 14:17:23,218 - INFO  [Thread-109:GameServer@396] - in enter room, userId is 10371roomNum is 458979
+[m[2;32m2018-04-28 14:17:23,236 - INFO  [Thread-109:GameServer@460] - userId10371进入房间458979成功
+[m[2;32m2018-04-28 14:17:33,953 - INFO  [Thread-135:GameServer@588] - in enter table, userId is 10371,tableId is 458979
+[m[2;32m2018-04-28 14:17:33,961 - INFO  [Thread-135:GameServer@658] - 桌子458979不存在，创建桌子
+[m[2;32m2018-04-28 14:17:33,961 - INFO  [Thread-135:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 14:17:33,961 - INFO  [Thread-135:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:458979
+[m[2;32m2018-04-28 14:21:00,218 - INFO  [New I/O worker #4:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:21:00,218 - INFO  [New I/O worker #4:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，458979
+[m[2;32m2018-04-28 14:21:00,269 - INFO  [New I/O worker #5:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 14:21:00,269 - INFO  [New I/O worker #5:GameServer@212] - 玩家10371加入桌子，在房间内掉线,458979
+[m[2;32m2018-04-28 14:21:04,951 - INFO  [Thread-71:GameServer@322] - 用户10371 游戏外重连
+[m[2;32m2018-04-28 14:21:04,951 - INFO  [Thread-71:GameServer@362] - 用户10371游戏外重连458979成功
+[m[2;32m2018-04-28 14:21:06,935 - INFO  [Thread-117:GameServer@507] - in exit room, userId is 10371roomNum is 458979
+[m[2;32m2018-04-28 14:21:08,365 - INFO  [Thread-67:GameServer@396] - in enter room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:21:08,373 - INFO  [Thread-67:GameServer@460] - userId10360进入房间458979成功
+[m[2;32m2018-04-28 14:21:10,790 - INFO  [Thread-108:GameServer@396] - in enter room, userId is 10371roomNum is 458979
+[m[2;32m2018-04-28 14:21:10,801 - INFO  [Thread-108:GameServer@460] - userId10371进入房间458979成功
+[m[2;32m2018-04-28 14:21:12,103 - INFO  [Thread-150:GameServer@588] - in enter table, userId is 10371,tableId is 458979
+[m[2;32m2018-04-28 14:21:12,114 - INFO  [Thread-150:GameServer@658] - 桌子458979不存在，创建桌子
+[m[2;32m2018-04-28 14:21:12,114 - INFO  [Thread-150:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 14:21:12,115 - INFO  [Thread-150:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:458979
+[m[2;32m2018-04-28 14:21:32,904 - INFO  [Thread-17:GameServer@507] - in exit room, userId is 10371roomNum is 458979
+[m[2;32m2018-04-28 14:21:38,577 - INFO  [Thread-141:GameServer@507] - in exit room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:21:42,193 - INFO  [Thread-5:GameServer@396] - in enter room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:21:42,199 - INFO  [Thread-5:GameServer@439] - room458979从资源池获取房间
+[m[2;32m2018-04-28 14:21:42,199 - INFO  [Thread-5:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-28 14:21:42,200 - INFO  [Thread-5:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10360
+[m[2;32m2018-04-28 14:21:42,200 - INFO  [Thread-5:GameServer@460] - userId10360进入房间458979成功
+[m[2;32m2018-04-28 14:21:42,990 - INFO  [Thread-45:GameServer@396] - in enter room, userId is 10371roomNum is 458979
+[m[2;32m2018-04-28 14:21:42,996 - INFO  [Thread-45:GameServer@460] - userId10371进入房间458979成功
+[m[2;32m2018-04-28 14:25:41,990 - INFO  [New I/O worker #2:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 14:25:41,991 - INFO  [New I/O worker #2:GameServer@207] - 玩家10371未加入桌子，在房间内掉线，458979
+[m[2;32m2018-04-28 14:25:42,046 - INFO  [New I/O worker #1:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:25:42,046 - INFO  [New I/O worker #1:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，458979
+[m[2;32m2018-04-28 14:30:44,964 - INFO  [Thread-134:GameServer@396] - in enter room, userId is 10371roomNum is 458979
+[m[2;32m2018-04-28 14:30:44,970 - INFO  [Thread-134:GameServer@460] - userId10371进入房间458979成功
+[m[2;32m2018-04-28 14:30:45,668 - INFO  [Thread-108:GameServer@396] - in enter room, userId is 10360roomNum is 458979
+[m[2;32m2018-04-28 14:30:45,677 - INFO  [Thread-108:GameServer@460] - userId10360进入房间458979成功
+[m[2;32m2018-04-28 14:30:54,976 - INFO  [Thread-83:GameServer@588] - in enter table, userId is 10371,tableId is 458979
+[m[2;32m2018-04-28 14:30:54,985 - INFO  [Thread-83:GameServer@658] - 桌子458979不存在，创建桌子
+[m[2;32m2018-04-28 14:30:54,985 - INFO  [Thread-83:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 14:30:54,986 - INFO  [Thread-83:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:458979
+[m[2;32m2018-04-28 14:31:19,351 - INFO  [Thread-40:GameServer@507] - in exit room, userId is 10371roomNum is 458979
+[m[2;32m2018-04-28 14:32:32,954 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=458979解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-28 14:32:33,282 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 458979超时，被解散
+[m[2;32m2018-04-28 14:36:04,548 - INFO  [New I/O worker #4:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:40:23,367 - INFO  [Thread-105:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 14:40:23,385 - INFO  [Thread-105:GameServer@439] - room208730从资源池获取房间
+[m[2;32m2018-04-28 14:40:23,385 - INFO  [Thread-105:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-28 14:40:23,385 - INFO  [Thread-105:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10360
+[m[2;32m2018-04-28 14:40:23,386 - INFO  [Thread-105:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 14:42:16,695 - INFO  [New I/O worker #5:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:42:16,695 - INFO  [New I/O worker #5:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 14:42:25,358 - INFO  [Thread-90:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 14:42:25,374 - INFO  [Thread-90:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 14:42:32,372 - INFO  [Thread-111:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 14:42:32,379 - INFO  [Thread-111:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 14:42:39,236 - INFO  [Thread-149:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 14:42:39,245 - INFO  [Thread-149:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 14:42:39,246 - INFO  [Thread-149:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 14:42:39,246 - INFO  [Thread-149:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 14:45:21,171 - INFO  [Thread-85:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 14:47:09,863 - INFO  [New I/O worker #6:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:47:09,864 - INFO  [New I/O worker #6:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 14:47:16,496 - INFO  [Thread-19:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 14:47:16,516 - INFO  [Thread-19:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 14:47:23,829 - INFO  [Thread-157:GameServer@588] - in enter table, userId is 10360,tableId is 208730
+[m[2;32m2018-04-28 14:47:23,839 - INFO  [Thread-157:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 14:47:23,840 - INFO  [Thread-157:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 14:47:23,840 - INFO  [Thread-157:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 14:47:40,144 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:47:40,144 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@212] - 玩家10360加入桌子，在房间内掉线,208730
+[m[2;32m2018-04-28 14:49:52,299 - INFO  [Thread-79:GameServer@322] - 用户10360 游戏外重连
+[m[2;32m2018-04-28 14:49:52,301 - INFO  [Thread-79:GameServer@362] - 用户10360游戏外重连208730成功
+[m[2;32m2018-04-28 14:49:57,849 - INFO  [Thread-53:GameServer@507] - in exit room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 14:50:01,965 - INFO  [Thread-71:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 14:50:01,974 - INFO  [Thread-71:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 14:51:12,819 - INFO  [New I/O worker #2:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:51:12,819 - INFO  [New I/O worker #2:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 14:51:18,280 - INFO  [Thread-46:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 14:51:18,290 - INFO  [Thread-46:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 14:52:35,653 - INFO  [New I/O worker #3:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:52:35,654 - INFO  [New I/O worker #3:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 14:52:42,524 - INFO  [Thread-94:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 14:52:42,532 - INFO  [Thread-94:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 14:54:40,890 - INFO  [New I/O worker #4:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:54:40,891 - INFO  [New I/O worker #4:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 14:54:47,080 - INFO  [Thread-7:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 14:54:47,085 - INFO  [Thread-7:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 14:55:07,471 - INFO  [New I/O worker #5:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:55:07,472 - INFO  [New I/O worker #5:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 14:55:12,878 - INFO  [Thread-132:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 14:55:12,886 - INFO  [Thread-132:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 14:55:19,483 - INFO  [Thread-15:GameServer@588] - in enter table, userId is 10360,tableId is 208730
+[m[2;32m2018-04-28 14:55:19,489 - INFO  [Thread-15:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 14:55:19,489 - INFO  [Thread-15:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 14:55:19,489 - INFO  [Thread-15:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 14:55:40,223 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:55:40,223 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@212] - 玩家10360加入桌子，在房间内掉线,208730
+[m[2;32m2018-04-28 14:55:56,549 - INFO  [Thread-35:GameServer@252] - user 10360 reconnect
+[m[2;32m2018-04-28 14:55:56,549 - INFO  [Thread-35:GameServer@290] - userId10360重连208730成功
+[m[2;32m2018-04-28 14:56:17,726 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 14:56:17,726 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@212] - 玩家10360加入桌子，在房间内掉线,208730
+[m[2;32m2018-04-28 14:58:58,909 - INFO  [Thread-148:GameServer@322] - 用户10360 游戏外重连
+[m[2;32m2018-04-28 14:58:58,910 - INFO  [Thread-148:GameServer@362] - 用户10360游戏外重连208730成功
+[m[2;32m2018-04-28 15:00:46,729 - INFO  [New I/O worker #8:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:00:46,730 - INFO  [New I/O worker #8:GameServer@212] - 玩家10360加入桌子，在房间内掉线,208730
+[m[2;32m2018-04-28 15:00:52,109 - INFO  [Thread-37:GameServer@322] - 用户10360 游戏外重连
+[m[2;32m2018-04-28 15:00:52,109 - INFO  [Thread-37:GameServer@362] - 用户10360游戏外重连208730成功
+[m[2;32m2018-04-28 15:00:54,429 - INFO  [Thread-92:GameServer@507] - in exit room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 15:01:00,420 - INFO  [Thread-80:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 15:01:00,429 - INFO  [Thread-80:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 15:01:04,358 - INFO  [Thread-104:GameServer@588] - in enter table, userId is 10360,tableId is 208730
+[m[2;32m2018-04-28 15:01:04,365 - INFO  [Thread-104:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:01:04,365 - INFO  [Thread-104:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:01:04,365 - INFO  [Thread-104:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:01:12,551 - INFO  [Thread-158:GameServer@507] - in exit room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 15:01:15,614 - INFO  [Thread-40:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 15:01:15,624 - INFO  [Thread-40:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 15:01:19,418 - INFO  [Thread-24:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:01:19,424 - INFO  [Thread-24:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:01:22,248 - INFO  [Thread-56:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:01:22,255 - INFO  [Thread-56:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:01:22,255 - INFO  [Thread-56:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:01:22,255 - INFO  [Thread-56:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:02:08,279 - INFO  [Thread-60:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:02:11,840 - INFO  [Thread-90:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:02:11,846 - INFO  [Thread-90:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:02:13,342 - INFO  [Thread-157:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:02:13,348 - INFO  [Thread-157:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:02:13,348 - INFO  [Thread-157:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:02:13,348 - INFO  [Thread-157:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:02:15,790 - INFO  [Thread-72:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:03:53,134 - INFO  [New I/O worker #3:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:03:53,135 - INFO  [New I/O worker #3:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 15:04:00,555 - INFO  [Thread-75:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 15:04:00,563 - INFO  [Thread-75:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 15:04:00,800 - INFO  [Thread-107:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:00,806 - INFO  [Thread-107:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:04:12,282 - INFO  [Thread-29:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:04:12,293 - INFO  [Thread-29:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:04:12,293 - INFO  [Thread-29:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:04:12,293 - INFO  [Thread-29:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:04:15,327 - INFO  [Thread-125:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:18,941 - INFO  [Thread-68:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:18,951 - INFO  [Thread-68:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:04:20,233 - INFO  [Thread-155:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:04:20,237 - INFO  [Thread-155:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:04:20,238 - INFO  [Thread-155:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:04:20,238 - INFO  [Thread-155:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:04:21,631 - INFO  [Thread-17:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:24,862 - INFO  [Thread-116:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:24,869 - INFO  [Thread-116:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:04:25,569 - INFO  [Thread-48:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:04:25,572 - INFO  [Thread-48:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:04:25,572 - INFO  [Thread-48:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:04:25,572 - INFO  [Thread-48:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:04:27,295 - INFO  [Thread-113:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:30,699 - INFO  [Thread-70:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:30,708 - INFO  [Thread-70:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:04:31,386 - INFO  [Thread-145:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:04:31,392 - INFO  [Thread-145:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:04:31,392 - INFO  [Thread-145:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:04:31,392 - INFO  [Thread-145:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:04:32,751 - INFO  [Thread-11:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:35,748 - INFO  [Thread-34:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:35,756 - INFO  [Thread-34:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:04:36,367 - INFO  [Thread-99:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:04:36,376 - INFO  [Thread-99:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:04:36,376 - INFO  [Thread-99:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:04:36,376 - INFO  [Thread-99:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:04:37,976 - INFO  [Thread-53:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:41,006 - INFO  [Thread-16:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:04:41,024 - INFO  [Thread-16:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:04:42,256 - INFO  [Thread-3:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:04:42,260 - INFO  [Thread-3:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:04:42,260 - INFO  [Thread-3:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:04:42,261 - INFO  [Thread-3:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:04:57,192 - INFO  [Thread-102:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:05:34,358 - INFO  [Thread-83:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:05:34,374 - INFO  [Thread-83:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:05:35,456 - INFO  [Thread-92:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:05:35,466 - INFO  [Thread-92:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:05:35,466 - INFO  [Thread-92:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:05:35,467 - INFO  [Thread-92:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:05:37,535 - INFO  [Thread-106:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:05:40,956 - INFO  [Thread-110:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:05:40,967 - INFO  [Thread-110:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:05:45,424 - INFO  [Thread-111:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:06:10,481 - INFO  [Thread-47:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:06:10,492 - INFO  [Thread-47:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:06:15,878 - INFO  [Thread-51:GameServer@396] - in enter room, userId is 10372roomNum is 208730
+[m[2;32m2018-04-28 15:06:15,889 - INFO  [Thread-51:GameServer@460] - userId10372进入房间208730成功
+[m[2;32m2018-04-28 15:06:23,306 - INFO  [Thread-74:GameServer@588] - in enter table, userId is 10372,tableId is 208730
+[m[2;32m2018-04-28 15:06:23,314 - INFO  [Thread-74:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:06:23,315 - INFO  [Thread-74:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:06:23,315 - INFO  [Thread-74:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:06:29,703 - INFO  [Thread-153:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:06:35,248 - INFO  [Thread-80:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:06:39,481 - INFO  [Thread-65:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:06:39,487 - INFO  [Thread-65:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:06:41,106 - INFO  [Thread-100:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:06:43,073 - INFO  [Thread-69:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:06:46,388 - INFO  [Thread-6:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:06:46,400 - INFO  [Thread-6:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:06:47,880 - INFO  [Thread-149:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:06:52,384 - INFO  [Thread-15:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:06:57,457 - INFO  [Thread-93:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:06:57,470 - INFO  [Thread-93:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:08:26,359 - INFO  [New I/O worker #3:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 15:08:26,360 - INFO  [New I/O worker #3:GameServer@207] - 玩家10371未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 15:08:26,412 - INFO  [New I/O worker #6:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:08:26,412 - INFO  [New I/O worker #6:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 15:08:26,473 - INFO  [New I/O worker #8:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:08:26,474 - INFO  [New I/O worker #8:GameServer@212] - 玩家10372加入桌子，在房间内掉线,208730
+[m[2;32m2018-04-28 15:08:34,178 - INFO  [Thread-26:GameServer@322] - 用户10372 游戏外重连
+[m[2;32m2018-04-28 15:08:34,179 - INFO  [Thread-26:GameServer@362] - 用户10372游戏外重连208730成功
+[m[2;32m2018-04-28 15:08:39,180 - INFO  [Thread-104:GameServer@507] - in exit room, userId is 10372roomNum is 208730
+[m[2;32m2018-04-28 15:08:43,149 - INFO  [Thread-113:GameServer@322] - 用户10372 游戏外重连
+[m[7;31m2018-04-28 15:08:43,149 - ERROR [Thread-113:GameServer@367] - 玩家10372游戏外断线重连时，找不到房间
+[m[2;32m2018-04-28 15:09:04,228 - INFO  [Thread-120:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 15:09:04,242 - INFO  [Thread-120:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 15:09:04,351 - INFO  [Thread-59:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:09:04,361 - INFO  [Thread-59:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:09:04,729 - INFO  [Thread-132:GameServer@396] - in enter room, userId is 10372roomNum is 208730
+[m[2;32m2018-04-28 15:09:04,741 - INFO  [Thread-132:GameServer@460] - userId10372进入房间208730成功
+[m[2;32m2018-04-28 15:09:05,822 - INFO  [Thread-75:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:09:05,833 - INFO  [Thread-75:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:09:05,834 - INFO  [Thread-75:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:09:05,834 - INFO  [Thread-75:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:09:11,258 - INFO  [Thread-16:GameServer@588] - in enter table, userId is 10372,tableId is 208730
+[m[2;32m2018-04-28 15:09:24,659 - INFO  [Thread-154:GameServer@507] - in exit room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:09:27,626 - INFO  [Thread-40:GameServer@507] - in exit room, userId is 10372roomNum is 208730
+[m[2;32m2018-04-28 15:09:57,726 - INFO  [New I/O worker #6:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:09:57,726 - INFO  [New I/O worker #6:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，208730
+[m[2;32m2018-04-28 15:10:16,119 - INFO  [Thread-81:GameServer@396] - in enter room, userId is 10360roomNum is 208730
+[m[2;32m2018-04-28 15:10:16,129 - INFO  [Thread-81:GameServer@460] - userId10360进入房间208730成功
+[m[2;32m2018-04-28 15:10:17,456 - INFO  [Thread-22:GameServer@396] - in enter room, userId is 10371roomNum is 208730
+[m[2;32m2018-04-28 15:10:17,461 - INFO  [Thread-22:GameServer@460] - userId10371进入房间208730成功
+[m[2;32m2018-04-28 15:10:17,877 - INFO  [Thread-126:GameServer@396] - in enter room, userId is 10372roomNum is 208730
+[m[2;32m2018-04-28 15:10:17,883 - INFO  [Thread-126:GameServer@460] - userId10372进入房间208730成功
+[m[2;32m2018-04-28 15:10:18,815 - INFO  [Thread-76:GameServer@588] - in enter table, userId is 10371,tableId is 208730
+[m[2;32m2018-04-28 15:10:18,824 - INFO  [Thread-76:GameServer@658] - 桌子208730不存在，创建桌子
+[m[2;32m2018-04-28 15:10:18,825 - INFO  [Thread-76:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:10:18,825 - INFO  [Thread-76:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:208730
+[m[2;32m2018-04-28 15:10:29,735 - INFO  [Thread-83:GameServer@588] - in enter table, userId is 10372,tableId is 208730
+[m[2;32m2018-04-28 15:10:32,988 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=208730解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-28 15:10:34,371 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 208730超时，被解散
+[m[2;32m2018-04-28 15:10:36,568 - INFO  [New I/O worker #2:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 15:10:37,176 - INFO  [New I/O worker #3:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:10:37,906 - INFO  [New I/O worker #1:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:10:51,775 - INFO  [Thread-144:GameServer@396] - in enter room, userId is 10360roomNum is 802573
+[m[2;32m2018-04-28 15:10:51,783 - INFO  [Thread-144:GameServer@439] - room802573从资源池获取房间
+[m[2;32m2018-04-28 15:10:51,784 - INFO  [Thread-144:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-28 15:10:51,784 - INFO  [Thread-144:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10360
+[m[2;32m2018-04-28 15:10:51,784 - INFO  [Thread-144:GameServer@460] - userId10360进入房间802573成功
+[m[2;32m2018-04-28 15:10:58,007 - INFO  [Thread-158:GameServer@396] - in enter room, userId is 10371roomNum is 802573
+[m[2;32m2018-04-28 15:10:58,012 - INFO  [Thread-158:GameServer@460] - userId10371进入房间802573成功
+[m[2;32m2018-04-28 15:11:00,707 - INFO  [Thread-98:GameServer@396] - in enter room, userId is 10372roomNum is 802573
+[m[2;32m2018-04-28 15:11:00,716 - INFO  [Thread-98:GameServer@460] - userId10372进入房间802573成功
+[m[2;32m2018-04-28 15:11:02,334 - INFO  [Thread-137:GameServer@588] - in enter table, userId is 10371,tableId is 802573
+[m[2;32m2018-04-28 15:11:02,337 - INFO  [Thread-137:GameServer@658] - 桌子802573不存在，创建桌子
+[m[2;32m2018-04-28 15:11:02,337 - INFO  [Thread-137:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:11:02,337 - INFO  [Thread-137:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:802573
+[m[2;32m2018-04-28 15:11:03,248 - INFO  [Thread-14:GameServer@588] - in enter table, userId is 10372,tableId is 802573
+[m[2;32m2018-04-28 15:11:05,390 - INFO  [Thread-148:GameServer@588] - in enter table, userId is 10360,tableId is 802573
+[m[2;32m2018-04-28 15:11:08,823 - INFO  [Thread-101:GameServer@1014] - in start game, userId is 10360,tableId is 802573
+[m[2;32m2018-04-28 15:11:08,844 - INFO  [Thread-101:EngineFactory@31] - 游戏开始，初始化引擎，资源池中没有空闲引擎，new一个新的！模式--牛牛上庄
+[m[2;32m2018-04-28 15:11:08,854 - INFO  [pool-16-thread-1:GameEngine@308] - 1准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:11:09,054 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:11:11,053 - INFO  [pool-16-thread-1:GameEngine@1294] - 1庄家确定，押注阶段
+[m[2;32m2018-04-28 15:11:19,013 - INFO  [Thread-134:GameServer@1248] - in bet, userId is 10371bet_coin is 4
+[m[2;32m2018-04-28 15:11:19,567 - INFO  [Thread-138:GameServer@1248] - in bet, userId is 10372bet_coin is 4
+[m[2;32m2018-04-28 15:11:19,652 - INFO  [pool-16-thread-1:GameEngine@360] - 1发牌阶段
+[m[2;32m2018-04-28 15:11:19,856 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xd1,0xa1,0x71,0x52,0x41
+[m[2;32m2018-04-28 15:11:19,856 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xb4,0x73,0x34,0x51,0x13
+[m[2;32m2018-04-28 15:11:19,857 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xd4,0x82,0x23,0xb1,0x63
+[m[2;32m2018-04-28 15:11:19,858 - INFO  [pool-16-thread-1:GameEngine@370] - 1比牌阶段
+[m[2;32m2018-04-28 15:11:21,528 - INFO  [Thread-74:GameServer@1339] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:11:22,022 - INFO  [Thread-96:GameServer@1339] - in openCards, userId is 10371
+[m[2;32m2018-04-28 15:11:23,304 - INFO  [Thread-100:GameServer@1339] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:11:23,453 - INFO  [pool-16-thread-1:GameEngine@390] - 1进入庄家开牌阶段
+[m[2;32m2018-04-28 15:11:23,653 - INFO  [pool-16-thread-1:GameEngine@398] - 1发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:11:25,652 - INFO  [pool-16-thread-1:GameEngine@406] - 1比牌阶段
+[m[2;32m2018-04-28 15:11:26,543 - INFO  [pool-16-thread-1:GameEngine@426] - 1游戏结果
+[m[2;32m2018-04-28 15:11:26,543 - INFO  [pool-16-thread-1:GameEngine@436] - 1播放金币动画
+[m[2;32m2018-04-28 15:11:30,356 - INFO  [pool-16-thread-1:GameEngine@453] - 2准备阶段
+[m[2;32m2018-04-28 15:11:30,984 - INFO  [Thread-1:GameServer@1101] - in ready, userId is 10360
+[m[2;32m2018-04-28 15:11:31,513 - INFO  [Thread-2:GameServer@1101] - in ready, userId is 10371
+[m[2;32m2018-04-28 15:11:32,098 - INFO  [Thread-109:GameServer@1101] - in ready, userId is 10372
+[m[2;32m2018-04-28 15:11:32,252 - INFO  [pool-16-thread-1:GameEngine@308] - 2准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:11:32,452 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:11:34,452 - INFO  [pool-16-thread-1:GameEngine@1294] - 2庄家确定，押注阶段
+[m[2;32m2018-04-28 15:11:35,390 - INFO  [Thread-33:GameServer@1248] - in bet, userId is 10371bet_coin is 4
+[m[2;32m2018-04-28 15:11:35,926 - INFO  [Thread-108:GameServer@1248] - in bet, userId is 10372bet_coin is 4
+[m[2;32m2018-04-28 15:11:36,052 - INFO  [pool-16-thread-1:GameEngine@360] - 2发牌阶段
+[m[2;32m2018-04-28 15:11:36,252 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xc4,0x94,0x14,0xa3,0x41
+[m[2;32m2018-04-28 15:11:36,252 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xd2,0xc3,0x93,0x62,0x31
+[m[2;32m2018-04-28 15:11:36,253 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xb4,0xb3,0x73,0x44,0x22
+[m[2;32m2018-04-28 15:11:36,254 - INFO  [pool-16-thread-1:GameEngine@370] - 2比牌阶段
+[m[2;32m2018-04-28 15:11:37,874 - INFO  [Thread-80:GameServer@1339] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:11:38,543 - INFO  [Thread-150:GameServer@1339] - in openCards, userId is 10371
+[m[2;32m2018-04-28 15:11:39,137 - INFO  [Thread-125:GameServer@1339] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:11:39,253 - INFO  [pool-16-thread-1:GameEngine@390] - 2进入庄家开牌阶段
+[m[2;32m2018-04-28 15:11:39,453 - INFO  [pool-16-thread-1:GameEngine@398] - 2发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:11:41,453 - INFO  [pool-16-thread-1:GameEngine@406] - 2比牌阶段
+[m[2;32m2018-04-28 15:11:41,887 - INFO  [pool-16-thread-1:GameEngine@426] - 2游戏结果
+[m[2;32m2018-04-28 15:11:41,887 - INFO  [pool-16-thread-1:GameEngine@436] - 2播放金币动画
+[m[2;32m2018-04-28 15:11:46,017 - INFO  [pool-16-thread-1:GameEngine@453] - 3准备阶段
+[m[2;32m2018-04-28 15:11:46,492 - INFO  [Thread-44:GameServer@1101] - in ready, userId is 10360
+[m[2;32m2018-04-28 15:11:47,088 - INFO  [Thread-114:GameServer@1101] - in ready, userId is 10371
+[m[2;32m2018-04-28 15:11:47,656 - INFO  [Thread-84:GameServer@1101] - in ready, userId is 10372
+[m[2;32m2018-04-28 15:11:47,853 - INFO  [pool-16-thread-1:GameEngine@308] - 3准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:11:48,053 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:11:50,053 - INFO  [pool-16-thread-1:GameEngine@1294] - 3庄家确定，押注阶段
+[m[2;32m2018-04-28 15:11:50,751 - INFO  [Thread-135:GameServer@1248] - in bet, userId is 10371bet_coin is 4
+[m[2;32m2018-04-28 15:11:51,344 - INFO  [Thread-118:GameServer@1248] - in bet, userId is 10372bet_coin is 4
+[m[2;32m2018-04-28 15:11:51,469 - INFO  [pool-16-thread-1:GameEngine@360] - 3发牌阶段
+[m[2;32m2018-04-28 15:11:51,653 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xd2,0xc2,0x93,0x44,0x42
+[m[2;32m2018-04-28 15:11:51,653 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0x91,0x81,0x34,0x31,0x12
+[m[2;32m2018-04-28 15:11:51,654 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0x92,0x74,0x43,0xc4,0x54
+[m[2;32m2018-04-28 15:11:51,654 - INFO  [pool-16-thread-1:GameEngine@370] - 3比牌阶段
+[m[2;32m2018-04-28 15:11:53,055 - INFO  [Thread-54:GameServer@1339] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:11:53,765 - INFO  [Thread-132:GameServer@1339] - in openCards, userId is 10371
+[m[2;32m2018-04-28 15:11:54,543 - INFO  [Thread-70:GameServer@1339] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:11:54,653 - INFO  [pool-16-thread-1:GameEngine@390] - 3进入庄家开牌阶段
+[m[2;32m2018-04-28 15:11:54,854 - INFO  [pool-16-thread-1:GameEngine@398] - 3发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:11:56,853 - INFO  [pool-16-thread-1:GameEngine@406] - 3比牌阶段
+[m[2;32m2018-04-28 15:11:57,368 - INFO  [pool-16-thread-1:GameEngine@426] - 3游戏结果
+[m[2;32m2018-04-28 15:11:57,368 - INFO  [pool-16-thread-1:GameEngine@436] - 3播放金币动画
+[m[2;32m2018-04-28 15:12:01,570 - INFO  [pool-16-thread-1:GameEngine@453] - 4准备阶段
+[m[2;32m2018-04-28 15:12:02,433 - INFO  [Thread-35:GameServer@1101] - in ready, userId is 10360
+[m[2;32m2018-04-28 15:12:02,951 - INFO  [Thread-104:GameServer@1101] - in ready, userId is 10371
+[m[2;32m2018-04-28 15:12:03,449 - INFO  [Thread-112:GameServer@1101] - in ready, userId is 10372
+[m[2;32m2018-04-28 15:12:03,453 - INFO  [pool-16-thread-1:GameEngine@308] - 4准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:12:03,653 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:12:05,653 - INFO  [pool-16-thread-1:GameEngine@1294] - 4庄家确定，押注阶段
+[m[2;32m2018-04-28 15:12:06,664 - INFO  [Thread-28:GameServer@1248] - in bet, userId is 10371bet_coin is 4
+[m[2;32m2018-04-28 15:12:07,111 - INFO  [Thread-36:GameServer@1248] - in bet, userId is 10372bet_coin is 4
+[m[2;32m2018-04-28 15:12:07,253 - INFO  [pool-16-thread-1:GameEngine@360] - 4发牌阶段
+[m[2;32m2018-04-28 15:12:07,453 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xa1,0x73,0x32,0x52,0x13
+[m[2;32m2018-04-28 15:12:07,454 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xa2,0x61,0x44,0x54,0x23
+[m[2;32m2018-04-28 15:12:07,454 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xb1,0x64,0x42,0x81,0x33
+[m[2;32m2018-04-28 15:12:07,455 - INFO  [pool-16-thread-1:GameEngine@370] - 4比牌阶段
+[m[2;32m2018-04-28 15:12:13,385 - INFO  [Thread-123:GameServer@1339] - in openCards, userId is 10371
+[m[2;32m2018-04-28 15:12:13,975 - INFO  [Thread-52:GameServer@1339] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:12:14,828 - INFO  [Thread-103:GameServer@1339] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:12:14,854 - INFO  [pool-16-thread-1:GameEngine@390] - 4进入庄家开牌阶段
+[m[2;32m2018-04-28 15:12:15,054 - INFO  [pool-16-thread-1:GameEngine@398] - 4发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:12:17,054 - INFO  [pool-16-thread-1:GameEngine@406] - 4比牌阶段
+[m[2;32m2018-04-28 15:12:18,306 - INFO  [pool-16-thread-1:GameEngine@426] - 4游戏结果
+[m[2;32m2018-04-28 15:12:18,306 - INFO  [pool-16-thread-1:GameEngine@436] - 4播放金币动画
+[m[2;32m2018-04-28 15:12:21,649 - INFO  [pool-16-thread-1:GameEngine@453] - 5准备阶段
+[m[2;32m2018-04-28 15:12:22,102 - INFO  [Thread-56:GameServer@1101] - in ready, userId is 10360
+[m[2;32m2018-04-28 15:12:22,528 - INFO  [Thread-29:GameServer@1101] - in ready, userId is 10371
+[m[2;32m2018-04-28 15:12:23,326 - INFO  [Thread-134:GameServer@1101] - in ready, userId is 10372
+[m[2;32m2018-04-28 15:12:23,454 - INFO  [pool-16-thread-1:GameEngine@308] - 5准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:12:23,654 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:12:25,654 - INFO  [pool-16-thread-1:GameEngine@1294] - 5庄家确定，押注阶段
+[m[2;32m2018-04-28 15:12:26,574 - INFO  [Thread-116:GameServer@1248] - in bet, userId is 10371bet_coin is 4
+[m[2;32m2018-04-28 15:12:27,174 - INFO  [Thread-60:GameServer@1248] - in bet, userId is 10372bet_coin is 4
+[m[2;32m2018-04-28 15:12:27,254 - INFO  [pool-16-thread-1:GameEngine@360] - 5发牌阶段
+[m[2;32m2018-04-28 15:12:27,454 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0x84,0x81,0x44,0xa2,0x94
+[m[2;32m2018-04-28 15:12:27,455 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xb3,0xa4,0x83,0x62,0x11
+[m[2;32m2018-04-28 15:12:27,455 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xb2,0x63,0x42,0xa1,0x13
+[m[2;32m2018-04-28 15:12:27,455 - INFO  [pool-16-thread-1:GameEngine@370] - 5比牌阶段
+[m[2;32m2018-04-28 15:12:28,868 - INFO  [Thread-138:GameServer@1339] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:12:29,358 - INFO  [Thread-17:GameServer@1339] - in openCards, userId is 10371
+[m[2;32m2018-04-28 15:12:29,943 - INFO  [Thread-127:GameServer@1339] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:12:30,054 - INFO  [pool-16-thread-1:GameEngine@390] - 5进入庄家开牌阶段
+[m[2;32m2018-04-28 15:12:30,260 - INFO  [pool-16-thread-1:GameEngine@398] - 5发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:12:32,268 - INFO  [pool-16-thread-1:GameEngine@406] - 5比牌阶段
+[m[2;32m2018-04-28 15:12:32,902 - INFO  [pool-16-thread-1:GameEngine@426] - 5游戏结果
+[m[2;32m2018-04-28 15:12:32,902 - INFO  [pool-16-thread-1:GameEngine@436] - 5播放金币动画
+[m[2;32m2018-04-28 15:12:36,812 - INFO  [pool-16-thread-1:GameEngine@453] - 6准备阶段
+[m[2;32m2018-04-28 15:12:46,654 - INFO  [pool-16-thread-1:GameEngine@308] - 6准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:12:46,854 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[7;31m2018-04-28 15:12:46,862 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x9a1f3c9e, /192.168.0.18:49944 => /192.168.0.109:2212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-04-28 15:12:46,866 - INFO  [New I/O worker #4:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:12:46,866 - INFO  [New I/O worker #4:GameServer@212] - 玩家10360加入桌子，在房间内掉线,802573
+[m[2;32m2018-04-28 15:12:47,108 - INFO  [Thread-5:GameServer@252] - user 10372 reconnect
+[m[2;32m2018-04-28 15:12:47,109 - INFO  [Thread-5:GameServer@290] - userId10372重连802573成功
+[m[2;32m2018-04-28 15:12:47,325 - INFO  [Thread-88:GameServer@252] - user 10360 reconnect
+[m[2;32m2018-04-28 15:12:47,326 - INFO  [Thread-88:GameServer@290] - userId10360重连802573成功
+[m[7;31m2018-04-28 15:12:47,358 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x3e85453a, /192.168.0.18:49962 => /192.168.0.109:2212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-04-28 15:12:47,481 - INFO  [Thread-97:GameServer@252] - user 10371 reconnect
+[m[2;32m2018-04-28 15:12:47,482 - INFO  [Thread-97:GameServer@290] - userId10371重连802573成功
+[m[7;31m2018-04-28 15:12:47,716 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0xa3de77a5, /192.168.0.18:49956 => /192.168.0.109:2212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-04-28 15:12:48,855 - INFO  [pool-16-thread-1:GameEngine@1294] - 6庄家确定，押注阶段
+[m[2;32m2018-04-28 15:12:58,855 - INFO  [pool-16-thread-1:GameEngine@360] - 6发牌阶段
+[m[2;32m2018-04-28 15:12:59,054 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xb2,0x63,0x43,0x54,0x14
+[m[2;32m2018-04-28 15:12:59,054 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xd3,0x91,0x62,0x61,0x23
+[m[2;32m2018-04-28 15:12:59,054 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xc3,0x83,0x82,0x53,0x33
+[m[2;32m2018-04-28 15:12:59,055 - INFO  [pool-16-thread-1:GameEngine@370] - 6比牌阶段
+[m[2;32m2018-04-28 15:13:14,055 - INFO  [pool-16-thread-1:GameEngine@390] - 6进入庄家开牌阶段
+[m[2;32m2018-04-28 15:13:14,256 - INFO  [pool-16-thread-1:GameEngine@398] - 6发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:13:16,255 - INFO  [pool-16-thread-1:GameEngine@406] - 6比牌阶段
+[m[2;32m2018-04-28 15:13:16,707 - INFO  [pool-16-thread-1:GameEngine@426] - 6游戏结果
+[m[2;32m2018-04-28 15:13:16,708 - INFO  [pool-16-thread-1:GameEngine@436] - 6播放金币动画
+[m[2;32m2018-04-28 15:13:20,817 - INFO  [pool-16-thread-1:GameEngine@453] - 7准备阶段
+[m[2;32m2018-04-28 15:13:27,824 - INFO  [New I/O worker #8:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:13:27,824 - INFO  [New I/O worker #8:GameServer@212] - 玩家10360加入桌子，在房间内掉线,802573
+[m[2;32m2018-04-28 15:13:30,655 - INFO  [pool-16-thread-1:GameEngine@308] - 7准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:13:30,855 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:13:32,855 - INFO  [pool-16-thread-1:GameEngine@1294] - 7庄家确定，押注阶段
+[m[2;32m2018-04-28 15:13:33,160 - INFO  [Thread-21:GameServer@322] - 用户10360 游戏外重连
+[m[2;32m2018-04-28 15:13:33,161 - INFO  [Thread-21:GameServer@362] - 用户10360游戏外重连802573成功
+[m[2;32m2018-04-28 15:13:42,856 - INFO  [pool-16-thread-1:GameEngine@360] - 7发牌阶段
+[m[2;32m2018-04-28 15:13:43,056 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xc4,0xb2,0xa2,0x24,0x13
+[m[2;32m2018-04-28 15:13:43,057 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xb3,0x94,0x42,0x34,0x21
+[m[2;32m2018-04-28 15:13:43,058 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xb1,0x91,0x12,0x84,0x33
+[m[2;32m2018-04-28 15:13:43,059 - INFO  [pool-16-thread-1:GameEngine@370] - 7比牌阶段
+[m[2;32m2018-04-28 15:13:58,056 - INFO  [pool-16-thread-1:GameEngine@390] - 7进入庄家开牌阶段
+[m[2;32m2018-04-28 15:13:58,256 - INFO  [pool-16-thread-1:GameEngine@398] - 7发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:14:00,256 - INFO  [pool-16-thread-1:GameEngine@406] - 7比牌阶段
+[m[2;32m2018-04-28 15:14:00,690 - INFO  [pool-16-thread-1:GameEngine@426] - 7游戏结果
+[m[2;32m2018-04-28 15:14:00,690 - INFO  [pool-16-thread-1:GameEngine@436] - 7播放金币动画
+[m[2;32m2018-04-28 15:14:04,771 - INFO  [pool-16-thread-1:GameEngine@453] - 8准备阶段
+[m[2;32m2018-04-28 15:14:14,657 - INFO  [pool-16-thread-1:GameEngine@308] - 8准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:14:14,857 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:14:16,857 - INFO  [pool-16-thread-1:GameEngine@1294] - 8庄家确定，押注阶段
+[m[2;32m2018-04-28 15:14:26,856 - INFO  [pool-16-thread-1:GameEngine@360] - 8发牌阶段
+[m[2;32m2018-04-28 15:14:27,057 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xb2,0x71,0x34,0x33,0x21
+[m[2;32m2018-04-28 15:14:27,058 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xb4,0xb1,0xa4,0x94,0x41
+[m[2;32m2018-04-28 15:14:27,058 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0x53,0x43,0x13,0x32,0x24
+[m[2;32m2018-04-28 15:14:27,060 - INFO  [pool-16-thread-1:GameEngine@370] - 8比牌阶段
+[m[2;32m2018-04-28 15:14:42,058 - INFO  [pool-16-thread-1:GameEngine@390] - 8进入庄家开牌阶段
+[m[2;32m2018-04-28 15:14:42,257 - INFO  [pool-16-thread-1:GameEngine@398] - 8发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:14:44,257 - INFO  [pool-16-thread-1:GameEngine@406] - 8比牌阶段
+[m[2;32m2018-04-28 15:14:44,708 - INFO  [pool-16-thread-1:GameEngine@426] - 8游戏结果
+[m[2;32m2018-04-28 15:14:44,708 - INFO  [pool-16-thread-1:GameEngine@436] - 8播放金币动画
+[m[2;32m2018-04-28 15:14:48,801 - INFO  [pool-16-thread-1:GameEngine@453] - 9准备阶段
+[m[2;32m2018-04-28 15:14:58,657 - INFO  [pool-16-thread-1:GameEngine@308] - 9准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:14:58,857 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:15:00,858 - INFO  [pool-16-thread-1:GameEngine@1294] - 9庄家确定，押注阶段
+[m[2;32m2018-04-28 15:15:10,858 - INFO  [pool-16-thread-1:GameEngine@360] - 9发牌阶段
+[m[2;32m2018-04-28 15:15:11,058 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xc2,0xb3,0x93,0x74,0x63
+[m[2;32m2018-04-28 15:15:11,058 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xc1,0x92,0x13,0x91,0x52
+[m[2;32m2018-04-28 15:15:11,059 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0x44,0x43,0x21,0xb4,0x73
+[m[2;32m2018-04-28 15:15:11,059 - INFO  [pool-16-thread-1:GameEngine@370] - 9比牌阶段
+[m[2;32m2018-04-28 15:15:24,647 - INFO  [Thread-100:GameServer@507] - in exit room, userId is 10372roomNum is 802573
+[m[7;31m2018-04-28 15:15:24,647 - ERROR [Thread-100:GameServer@548] - 玩家userId10372退出房间失败，游戏已经开始
+[m[2;32m2018-04-28 15:15:26,058 - INFO  [pool-16-thread-1:GameEngine@390] - 9进入庄家开牌阶段
+[m[2;32m2018-04-28 15:15:26,258 - INFO  [pool-16-thread-1:GameEngine@398] - 9发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:15:28,258 - INFO  [pool-16-thread-1:GameEngine@406] - 9比牌阶段
+[m[2;32m2018-04-28 15:15:28,706 - INFO  [pool-16-thread-1:GameEngine@426] - 9游戏结果
+[m[2;32m2018-04-28 15:15:28,706 - INFO  [pool-16-thread-1:GameEngine@436] - 9播放金币动画
+[m[2;32m2018-04-28 15:15:32,805 - INFO  [pool-16-thread-1:GameEngine@453] - 10准备阶段
+[m[2;32m2018-04-28 15:15:42,659 - INFO  [pool-16-thread-1:GameEngine@308] - 10准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:15:42,859 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:15:44,859 - INFO  [pool-16-thread-1:GameEngine@1294] - 10庄家确定，押注阶段
+[m[2;32m2018-04-28 15:15:54,858 - INFO  [pool-16-thread-1:GameEngine@360] - 10发牌阶段
+[m[2;32m2018-04-28 15:15:55,058 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xb3,0xa4,0x81,0x61,0x31
+[m[2;32m2018-04-28 15:15:55,058 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xb2,0xa3,0xa1,0x92,0x51
+[m[2;32m2018-04-28 15:15:55,059 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xd4,0xd2,0x62,0x12,0x11
+[m[2;32m2018-04-28 15:15:55,059 - INFO  [pool-16-thread-1:GameEngine@370] - 10比牌阶段
+[m[2;32m2018-04-28 15:16:04,761 - INFO  [Thread-156:GameServer@1339] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:16:10,059 - INFO  [pool-16-thread-1:GameEngine@390] - 10进入庄家开牌阶段
+[m[2;32m2018-04-28 15:16:10,259 - INFO  [pool-16-thread-1:GameEngine@398] - 10发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:16:12,259 - INFO  [pool-16-thread-1:GameEngine@406] - 10比牌阶段
+[m[2;32m2018-04-28 15:16:12,666 - INFO  [pool-16-thread-1:GameEngine@426] - 10游戏结果
+[m[2;32m2018-04-28 15:16:12,783 - INFO  [pool-16-thread-1:GameEngine@1582] - 房间802573牌局完成，房间解散
+[m[2;32m2018-04-28 15:16:12,788 - INFO  [pool-16-thread-1:RedisResource@405] - 房间roomNum=802573解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-28 15:16:12,796 - INFO  [New I/O worker #1:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 15:16:12,797 - INFO  [New I/O worker #7:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:16:12,797 - INFO  [New I/O worker #2:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:16:52,848 - INFO  [Thread-91:GameServer@396] - in enter room, userId is 10360roomNum is 435479
+[m[2;32m2018-04-28 15:16:52,858 - INFO  [Thread-91:GameServer@439] - room435479从资源池获取房间
+[m[2;32m2018-04-28 15:16:52,858 - INFO  [Thread-91:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-28 15:16:52,859 - INFO  [Thread-91:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10360
+[m[2;32m2018-04-28 15:16:52,859 - INFO  [Thread-91:GameServer@460] - userId10360进入房间435479成功
+[m[2;32m2018-04-28 15:16:57,795 - INFO  [Thread-4:GameServer@396] - in enter room, userId is 10371roomNum is 435479
+[m[2;32m2018-04-28 15:16:57,803 - INFO  [Thread-4:GameServer@460] - userId10371进入房间435479成功
+[m[2;32m2018-04-28 15:17:01,131 - INFO  [Thread-86:GameServer@396] - in enter room, userId is 10372roomNum is 435479
+[m[2;32m2018-04-28 15:17:01,143 - INFO  [Thread-86:GameServer@460] - userId10372进入房间435479成功
+[m[2;32m2018-04-28 15:17:02,285 - INFO  [Thread-90:GameServer@588] - in enter table, userId is 10371,tableId is 435479
+[m[2;32m2018-04-28 15:17:02,293 - INFO  [Thread-90:GameServer@658] - 桌子435479不存在，创建桌子
+[m[2;32m2018-04-28 15:17:02,293 - INFO  [Thread-90:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:17:02,293 - INFO  [Thread-90:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:435479
+[m[2;32m2018-04-28 15:17:03,836 - INFO  [Thread-95:GameServer@588] - in enter table, userId is 10372,tableId is 435479
+[m[2;32m2018-04-28 15:17:05,840 - INFO  [Thread-7:GameServer@588] - in enter table, userId is 10360,tableId is 435479
+[m[2;32m2018-04-28 15:17:06,057 - INFO  [Thread-104:GameServer@1014] - in start game, userId is 10360,tableId is 435479
+[m[2;32m2018-04-28 15:17:06,060 - INFO  [Thread-104:EngineFactory@36] - 游戏开始，初始化引擎时,从资源池中获取引擎资源，模式--牛牛上庄
+[m[2;32m2018-04-28 15:17:06,260 - INFO  [pool-16-thread-1:GameEngine@308] - 1准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:17:06,460 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:17:08,460 - INFO  [pool-16-thread-1:GameEngine@1294] - 1庄家确定，押注阶段
+[m[2;32m2018-04-28 15:17:10,477 - INFO  [Thread-75:GameServer@1248] - in bet, userId is 10360bet_coin is 4
+[m[2;32m2018-04-28 15:17:11,591 - INFO  [Thread-111:GameServer@1248] - in bet, userId is 10372bet_coin is 4
+[m[2;32m2018-04-28 15:17:11,661 - INFO  [pool-16-thread-1:GameEngine@360] - 1发牌阶段
+[m[2;32m2018-04-28 15:17:11,861 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xa2,0xa1,0x43,0x22,0x14
+[m[2;32m2018-04-28 15:17:11,862 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0x73,0x71,0x62,0xc4,0x13
+[m[2;32m2018-04-28 15:17:11,863 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0x94,0x84,0x33,0x72,0x42
+[m[2;32m2018-04-28 15:17:11,865 - INFO  [pool-16-thread-1:GameEngine@370] - 1比牌阶段
+[m[2;32m2018-04-28 15:17:26,861 - INFO  [pool-16-thread-1:GameEngine@390] - 1进入庄家开牌阶段
+[m[2;32m2018-04-28 15:17:27,061 - INFO  [pool-16-thread-1:GameEngine@398] - 1发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:17:29,062 - INFO  [pool-16-thread-1:GameEngine@406] - 1比牌阶段
+[m[2;32m2018-04-28 15:17:30,294 - INFO  [pool-16-thread-1:GameEngine@426] - 1游戏结果
+[m[2;32m2018-04-28 15:17:30,295 - INFO  [pool-16-thread-1:GameEngine@436] - 1播放金币动画
+[m[2;32m2018-04-28 15:17:33,857 - INFO  [pool-16-thread-1:GameEngine@453] - 2准备阶段
+[m[7;31m2018-04-28 15:17:34,377 - ERROR [JUICE-SERVER-Handler-8-2-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x41450512, /192.168.0.18:50721 => /192.168.0.109:2212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-04-28 15:17:34,383 - INFO  [New I/O worker #5:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:17:34,383 - INFO  [New I/O worker #5:GameServer@212] - 玩家10372加入桌子，在房间内掉线,435479
+[m[2;32m2018-04-28 15:17:34,950 - INFO  [Thread-146:GameServer@252] - user 10371 reconnect
+[m[2;32m2018-04-28 15:17:34,950 - INFO  [Thread-146:GameServer@290] - userId10371重连435479成功
+[m[7;31m2018-04-28 15:17:34,952 - ERROR [JUICE-SERVER-Handler-8-2-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x74b00adb, /192.168.0.18:50703 => /192.168.0.109:2212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-04-28 15:17:34,953 - INFO  [New I/O worker #3:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:17:34,954 - INFO  [New I/O worker #3:GameServer@212] - 玩家10360加入桌子，在房间内掉线,435479
+[m[7;31m2018-04-28 15:17:35,015 - ERROR [JUICE-SERVER-Handler-8-2-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x1d66f93a, /192.168.0.18:50713 => /192.168.0.109:2212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-04-28 15:17:35,041 - INFO  [Thread-33:GameServer@252] - user 10360 reconnect
+[m[2;32m2018-04-28 15:17:35,041 - INFO  [Thread-33:GameServer@290] - userId10360重连435479成功
+[m[2;32m2018-04-28 15:17:35,257 - INFO  [Thread-83:GameServer@252] - user 10372 reconnect
+[m[2;32m2018-04-28 15:17:35,258 - INFO  [Thread-83:GameServer@290] - userId10372重连435479成功
+[m[2;32m2018-04-28 15:17:43,461 - INFO  [pool-16-thread-1:GameEngine@308] - 2准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:17:43,660 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:17:45,661 - INFO  [pool-16-thread-1:GameEngine@1294] - 2庄家确定，押注阶段
+[m[2;32m2018-04-28 15:17:55,661 - INFO  [pool-16-thread-1:GameEngine@360] - 2发牌阶段
+[m[2;32m2018-04-28 15:17:55,861 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xd4,0xc2,0xc1,0xa2,0x83
+[m[2;32m2018-04-28 15:17:55,861 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0x91,0x54,0x53,0x42,0x33
+[m[2;32m2018-04-28 15:17:55,861 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xb3,0x63,0x61,0x21,0x14
+[m[2;32m2018-04-28 15:17:55,862 - INFO  [pool-16-thread-1:GameEngine@370] - 2比牌阶段
+[m[2;32m2018-04-28 15:18:10,862 - INFO  [pool-16-thread-1:GameEngine@390] - 2进入庄家开牌阶段
+[m[2;32m2018-04-28 15:18:11,062 - INFO  [pool-16-thread-1:GameEngine@398] - 2发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:18:13,061 - INFO  [pool-16-thread-1:GameEngine@406] - 2比牌阶段
+[m[2;32m2018-04-28 15:18:13,547 - INFO  [pool-16-thread-1:GameEngine@426] - 2游戏结果
+[m[2;32m2018-04-28 15:18:13,547 - INFO  [pool-16-thread-1:GameEngine@436] - 2播放金币动画
+[m[2;32m2018-04-28 15:18:17,612 - INFO  [pool-16-thread-1:GameEngine@453] - 3准备阶段
+[m[2;32m2018-04-28 15:18:27,462 - INFO  [pool-16-thread-1:GameEngine@308] - 3准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:18:27,662 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:18:29,662 - INFO  [pool-16-thread-1:GameEngine@1294] - 3庄家确定，押注阶段
+[m[2;32m2018-04-28 15:18:39,663 - INFO  [pool-16-thread-1:GameEngine@360] - 3发牌阶段
+[m[2;32m2018-04-28 15:18:39,863 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0x93,0x63,0x51,0x32,0x23
+[m[2;32m2018-04-28 15:18:39,863 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xc2,0x72,0x42,0x13,0x12
+[m[2;32m2018-04-28 15:18:39,863 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xd4,0xd2,0xc3,0x82,0x43
+[m[2;32m2018-04-28 15:18:39,864 - INFO  [pool-16-thread-1:GameEngine@370] - 3比牌阶段
+[m[2;32m2018-04-28 15:18:54,864 - INFO  [pool-16-thread-1:GameEngine@390] - 3进入庄家开牌阶段
+[m[2;32m2018-04-28 15:18:55,064 - INFO  [pool-16-thread-1:GameEngine@398] - 3发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:18:57,063 - INFO  [pool-16-thread-1:GameEngine@406] - 3比牌阶段
+[m[2;32m2018-04-28 15:18:57,493 - INFO  [pool-16-thread-1:GameEngine@426] - 3游戏结果
+[m[2;32m2018-04-28 15:18:57,493 - INFO  [pool-16-thread-1:GameEngine@436] - 3播放金币动画
+[m[2;32m2018-04-28 15:19:01,594 - INFO  [pool-16-thread-1:GameEngine@453] - 4准备阶段
+[m[2;32m2018-04-28 15:19:11,462 - INFO  [pool-16-thread-1:GameEngine@308] - 4准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:19:11,662 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:19:13,663 - INFO  [pool-16-thread-1:GameEngine@1294] - 4庄家确定，押注阶段
+[m[2;32m2018-04-28 15:19:23,665 - INFO  [pool-16-thread-1:GameEngine@360] - 4发牌阶段
+[m[2;32m2018-04-28 15:19:23,863 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xd4,0x63,0x43,0xc3,0x33
+[m[2;32m2018-04-28 15:19:23,864 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xc1,0xb2,0x92,0x83,0x54
+[m[2;32m2018-04-28 15:19:23,864 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0x82,0x14,0x12,0x71,0x42
+[m[2;32m2018-04-28 15:19:23,865 - INFO  [pool-16-thread-1:GameEngine@370] - 4比牌阶段
+[m[2;32m2018-04-28 15:19:38,864 - INFO  [pool-16-thread-1:GameEngine@390] - 4进入庄家开牌阶段
+[m[2;32m2018-04-28 15:19:39,064 - INFO  [pool-16-thread-1:GameEngine@398] - 4发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:19:41,063 - INFO  [pool-16-thread-1:GameEngine@406] - 4比牌阶段
+[m[2;32m2018-04-28 15:19:41,548 - INFO  [pool-16-thread-1:GameEngine@426] - 4游戏结果
+[m[2;32m2018-04-28 15:19:41,548 - INFO  [pool-16-thread-1:GameEngine@436] - 4播放金币动画
+[m[2;32m2018-04-28 15:19:45,623 - INFO  [pool-16-thread-1:GameEngine@453] - 5准备阶段
+[m[2;32m2018-04-28 15:19:55,464 - INFO  [pool-16-thread-1:GameEngine@308] - 5准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:19:55,664 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:19:57,664 - INFO  [pool-16-thread-1:GameEngine@1294] - 5庄家确定，押注阶段
+[m[2;32m2018-04-28 15:20:07,665 - INFO  [pool-16-thread-1:GameEngine@360] - 5发牌阶段
+[m[2;32m2018-04-28 15:20:07,865 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0x53,0x34,0x21,0xc3,0x64
+[m[2;32m2018-04-28 15:20:07,865 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0x62,0x32,0x11,0x83,0x74
+[m[2;32m2018-04-28 15:20:07,865 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xc4,0xb4,0x71,0x44,0x23
+[m[2;32m2018-04-28 15:20:07,866 - INFO  [pool-16-thread-1:GameEngine@370] - 5比牌阶段
+[m[2;32m2018-04-28 15:20:22,866 - INFO  [pool-16-thread-1:GameEngine@390] - 5进入庄家开牌阶段
+[m[2;32m2018-04-28 15:20:23,065 - INFO  [pool-16-thread-1:GameEngine@398] - 5发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:20:25,065 - INFO  [pool-16-thread-1:GameEngine@406] - 5比牌阶段
+[m[2;32m2018-04-28 15:20:25,552 - INFO  [pool-16-thread-1:GameEngine@426] - 5游戏结果
+[m[2;32m2018-04-28 15:20:25,553 - INFO  [pool-16-thread-1:GameEngine@436] - 5播放金币动画
+[m[2;32m2018-04-28 15:20:29,630 - INFO  [pool-16-thread-1:GameEngine@453] - 6准备阶段
+[m[2;32m2018-04-28 15:20:39,465 - INFO  [pool-16-thread-1:GameEngine@308] - 6准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:20:39,666 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:20:41,665 - INFO  [pool-16-thread-1:GameEngine@1294] - 6庄家确定，押注阶段
+[m[2;32m2018-04-28 15:20:51,665 - INFO  [pool-16-thread-1:GameEngine@360] - 6发牌阶段
+[m[2;32m2018-04-28 15:20:51,865 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xb3,0xa3,0x83,0x52,0x13
+[m[2;32m2018-04-28 15:20:51,865 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0x93,0x64,0x51,0x61,0x31
+[m[2;32m2018-04-28 15:20:51,866 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0x73,0x63,0x43,0x12,0x11
+[m[2;32m2018-04-28 15:20:51,866 - INFO  [pool-16-thread-1:GameEngine@370] - 6比牌阶段
+[m[2;32m2018-04-28 15:21:06,866 - INFO  [pool-16-thread-1:GameEngine@390] - 6进入庄家开牌阶段
+[m[2;32m2018-04-28 15:21:07,065 - INFO  [pool-16-thread-1:GameEngine@398] - 6发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:21:09,065 - INFO  [pool-16-thread-1:GameEngine@406] - 6比牌阶段
+[m[2;32m2018-04-28 15:21:09,546 - INFO  [pool-16-thread-1:GameEngine@426] - 6游戏结果
+[m[2;32m2018-04-28 15:21:09,546 - INFO  [pool-16-thread-1:GameEngine@436] - 6播放金币动画
+[m[2;32m2018-04-28 15:21:13,665 - INFO  [pool-16-thread-1:GameEngine@453] - 7准备阶段
+[m[2;32m2018-04-28 15:21:23,466 - INFO  [pool-16-thread-1:GameEngine@308] - 7准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:21:23,666 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:21:25,666 - INFO  [pool-16-thread-1:GameEngine@1294] - 7庄家确定，押注阶段
+[m[2;32m2018-04-28 15:21:35,667 - INFO  [pool-16-thread-1:GameEngine@360] - 7发牌阶段
+[m[2;32m2018-04-28 15:21:35,866 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xa2,0x53,0x51,0x84,0x13
+[m[2;32m2018-04-28 15:21:35,866 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xd2,0xc4,0xc3,0x63,0x24
+[m[2;32m2018-04-28 15:21:35,867 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xa4,0x73,0x31,0x82,0x72
+[m[2;32m2018-04-28 15:21:35,867 - INFO  [pool-16-thread-1:GameEngine@370] - 7比牌阶段
+[m[2;32m2018-04-28 15:21:50,868 - INFO  [pool-16-thread-1:GameEngine@390] - 7进入庄家开牌阶段
+[m[2;32m2018-04-28 15:21:51,067 - INFO  [pool-16-thread-1:GameEngine@398] - 7发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:21:53,067 - INFO  [pool-16-thread-1:GameEngine@406] - 7比牌阶段
+[m[2;32m2018-04-28 15:21:53,513 - INFO  [pool-16-thread-1:GameEngine@426] - 7游戏结果
+[m[2;32m2018-04-28 15:21:53,513 - INFO  [pool-16-thread-1:GameEngine@436] - 7播放金币动画
+[m[2;32m2018-04-28 15:21:57,582 - INFO  [pool-16-thread-1:GameEngine@453] - 8准备阶段
+[m[2;32m2018-04-28 15:22:07,467 - INFO  [pool-16-thread-1:GameEngine@308] - 8准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:22:07,667 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:22:09,667 - INFO  [pool-16-thread-1:GameEngine@1294] - 8庄家确定，押注阶段
+[m[2;32m2018-04-28 15:22:10,727 - INFO  [New I/O worker #8:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:22:10,728 - INFO  [New I/O worker #8:GameServer@212] - 玩家10372加入桌子，在房间内掉线,435479
+[m[2;32m2018-04-28 15:22:10,815 - INFO  [New I/O worker #7:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:22:10,815 - INFO  [New I/O worker #7:GameServer@212] - 玩家10360加入桌子，在房间内掉线,435479
+[m[2;32m2018-04-28 15:22:10,871 - INFO  [New I/O worker #6:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 15:22:10,871 - INFO  [New I/O worker #6:GameServer@212] - 玩家10371加入桌子，在房间内掉线,435479
+[m[2;32m2018-04-28 15:22:14,667 - INFO  [pool-16-thread-1:GameEngine@360] - 8发牌阶段
+[m[2;32m2018-04-28 15:22:14,867 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xb3,0x91,0x73,0x51,0x24
+[m[2;32m2018-04-28 15:22:14,867 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0x42,0x34,0x33,0x93,0x12
+[m[2;32m2018-04-28 15:22:14,867 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xd2,0xb2,0x54,0x32,0x31
+[m[2;32m2018-04-28 15:22:14,867 - INFO  [pool-16-thread-1:GameEngine@370] - 8比牌阶段
+[m[2;32m2018-04-28 15:22:19,867 - INFO  [pool-16-thread-1:GameEngine@390] - 8进入庄家开牌阶段
+[m[2;32m2018-04-28 15:22:20,067 - INFO  [pool-16-thread-1:GameEngine@398] - 8发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:22:22,067 - INFO  [pool-16-thread-1:GameEngine@406] - 8比牌阶段
+[m[2;32m2018-04-28 15:22:22,517 - INFO  [pool-16-thread-1:GameEngine@426] - 8游戏结果
+[m[2;32m2018-04-28 15:22:22,518 - INFO  [pool-16-thread-1:GameEngine@436] - 8播放金币动画
+[m[2;32m2018-04-28 15:22:25,561 - INFO  [Thread-21:GameServer@322] - 用户10360 游戏外重连
+[m[2;32m2018-04-28 15:22:25,562 - INFO  [Thread-21:GameServer@362] - 用户10360游戏外重连435479成功
+[m[2;32m2018-04-28 15:22:26,598 - INFO  [pool-16-thread-1:GameEngine@453] - 9准备阶段
+[m[2;32m2018-04-28 15:22:33,984 - INFO  [Thread-16:GameServer@322] - 用户10372 游戏外重连
+[m[2;32m2018-04-28 15:22:33,985 - INFO  [Thread-16:GameServer@362] - 用户10372游戏外重连435479成功
+[m[2;32m2018-04-28 15:22:36,467 - INFO  [pool-16-thread-1:GameEngine@308] - 9准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:22:36,667 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:22:38,667 - INFO  [pool-16-thread-1:GameEngine@1294] - 9庄家确定，押注阶段
+[m[2;32m2018-04-28 15:22:43,508 - INFO  [Thread-104:GameServer@1248] - in bet, userId is 10360bet_coin is 4
+[m[2;32m2018-04-28 15:22:43,668 - INFO  [pool-16-thread-1:GameEngine@360] - 9发牌阶段
+[m[2;32m2018-04-28 15:22:43,868 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xd3,0xb4,0xb3,0x84,0x51
+[m[2;32m2018-04-28 15:22:43,868 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0x83,0x71,0x52,0x31,0x21
+[m[2;32m2018-04-28 15:22:43,868 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xc2,0xb2,0x74,0x43,0x11
+[m[2;32m2018-04-28 15:22:43,869 - INFO  [pool-16-thread-1:GameEngine@370] - 9比牌阶段
+[m[2;32m2018-04-28 15:22:46,127 - INFO  [Thread-66:GameServer@1339] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:22:47,154 - INFO  [Thread-42:GameServer@1339] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:22:48,868 - INFO  [pool-16-thread-1:GameEngine@390] - 9进入庄家开牌阶段
+[m[2;32m2018-04-28 15:22:49,068 - INFO  [pool-16-thread-1:GameEngine@398] - 9发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:22:51,068 - INFO  [pool-16-thread-1:GameEngine@406] - 9比牌阶段
+[m[2;32m2018-04-28 15:22:51,519 - INFO  [pool-16-thread-1:GameEngine@426] - 9游戏结果
+[m[2;32m2018-04-28 15:22:51,519 - INFO  [pool-16-thread-1:GameEngine@436] - 9播放金币动画
+[m[2;32m2018-04-28 15:22:55,605 - INFO  [pool-16-thread-1:GameEngine@453] - 10准备阶段
+[m[2;32m2018-04-28 15:23:05,468 - INFO  [pool-16-thread-1:GameEngine@308] - 10准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:23:05,668 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:23:07,668 - INFO  [pool-16-thread-1:GameEngine@1294] - 10庄家确定，押注阶段
+[m[2;32m2018-04-28 15:23:13,160 - INFO  [Thread-78:GameServer@1248] - in bet, userId is 10360bet_coin is 4
+[m[2;32m2018-04-28 15:23:13,268 - INFO  [pool-16-thread-1:GameEngine@360] - 10发牌阶段
+[m[2;32m2018-04-28 15:23:13,468 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:0,cards:0xd2,0xb4,0xa4,0x54,0x34
+[m[2;32m2018-04-28 15:23:13,469 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xb3,0xa2,0x82,0x81,0x53
+[m[2;32m2018-04-28 15:23:13,470 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0x42,0x41,0x21,0x83,0x71
+[m[2;32m2018-04-28 15:23:13,470 - INFO  [pool-16-thread-1:GameEngine@370] - 10比牌阶段
+[m[2;32m2018-04-28 15:23:16,166 - INFO  [Thread-137:GameServer@1339] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:23:17,019 - INFO  [Thread-142:GameServer@1339] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:23:18,469 - INFO  [pool-16-thread-1:GameEngine@390] - 10进入庄家开牌阶段
+[m[2;32m2018-04-28 15:23:18,669 - INFO  [pool-16-thread-1:GameEngine@398] - 10发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:23:20,669 - INFO  [pool-16-thread-1:GameEngine@406] - 10比牌阶段
+[m[2;32m2018-04-28 15:23:21,140 - INFO  [pool-16-thread-1:GameEngine@426] - 10游戏结果
+[m[2;32m2018-04-28 15:23:21,287 - INFO  [pool-16-thread-1:GameEngine@1582] - 房间435479牌局完成，房间解散
+[m[2;32m2018-04-28 15:23:21,289 - INFO  [pool-16-thread-1:RedisResource@405] - 房间roomNum=435479解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-28 15:23:21,292 - INFO  [New I/O worker #2:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:23:21,292 - INFO  [New I/O worker #1:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:25:04,280 - INFO  [Thread-146:GameServer@396] - in enter room, userId is 10360roomNum is 104051
+[m[2;32m2018-04-28 15:25:04,293 - INFO  [Thread-146:GameServer@439] - room104051从资源池获取房间
+[m[2;32m2018-04-28 15:25:04,293 - INFO  [Thread-146:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-28 15:25:04,293 - INFO  [Thread-146:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10360
+[m[2;32m2018-04-28 15:25:04,293 - INFO  [Thread-146:GameServer@460] - userId10360进入房间104051成功
+[m[2;32m2018-04-28 15:25:11,161 - INFO  [Thread-112:GameServer@396] - in enter room, userId is 10371roomNum is 104051
+[m[2;32m2018-04-28 15:25:11,171 - INFO  [Thread-112:GameServer@460] - userId10371进入房间104051成功
+[m[2;32m2018-04-28 15:25:13,855 - INFO  [Thread-134:GameServer@396] - in enter room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:25:13,866 - INFO  [Thread-134:GameServer@460] - userId10372进入房间104051成功
+[m[2;32m2018-04-28 15:25:19,871 - INFO  [Thread-102:GameServer@588] - in enter table, userId is 10371,tableId is 104051
+[m[2;32m2018-04-28 15:25:19,879 - INFO  [Thread-102:GameServer@658] - 桌子104051不存在，创建桌子
+[m[2;32m2018-04-28 15:25:19,879 - INFO  [Thread-102:GameServer@668] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:25:19,880 - INFO  [Thread-102:GameServer@670] - 从资源库获取对象，经过初始化之后的桌子号是:104051
+[m[2;32m2018-04-28 15:25:21,291 - INFO  [Thread-79:GameServer@588] - in enter table, userId is 10372,tableId is 104051
+[m[2;32m2018-04-28 15:31:44,700 - INFO  [Thread-47:GameServer@511] - in exit room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:31:45,932 - INFO  [Thread-43:GameServer@511] - in exit room, userId is 10371roomNum is 104051
+[m[2;32m2018-04-28 15:31:48,149 - INFO  [Thread-145:GameServer@511] - in exit room, userId is 10360roomNum is 104051
+[m[2;32m2018-04-28 15:31:51,245 - INFO  [Thread-108:GameServer@400] - in enter room, userId is 10360roomNum is 104051
+[m[2;32m2018-04-28 15:31:51,257 - INFO  [Thread-108:GameServer@443] - room104051从资源池获取房间
+[m[2;32m2018-04-28 15:31:51,257 - INFO  [Thread-108:GameServer@444] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-28 15:31:51,257 - INFO  [Thread-108:GameServer@446] - 从资源池中获取的上一个房间经过初始化后的房主：10360
+[m[2;32m2018-04-28 15:31:51,257 - INFO  [Thread-108:GameServer@464] - userId10360进入房间104051成功
+[m[2;32m2018-04-28 15:31:51,707 - INFO  [Thread-91:GameServer@400] - in enter room, userId is 10371roomNum is 104051
+[m[2;32m2018-04-28 15:31:51,717 - INFO  [Thread-91:GameServer@464] - userId10371进入房间104051成功
+[m[2;32m2018-04-28 15:31:52,244 - INFO  [Thread-79:GameServer@400] - in enter room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:31:52,251 - INFO  [Thread-79:GameServer@464] - userId10372进入房间104051成功
+[m[2;32m2018-04-28 15:31:54,234 - INFO  [Thread-121:GameServer@592] - in enter table, userId is 10371,tableId is 104051
+[m[2;32m2018-04-28 15:31:54,240 - INFO  [Thread-121:GameServer@662] - 桌子104051不存在，创建桌子
+[m[2;32m2018-04-28 15:31:54,240 - INFO  [Thread-121:GameServer@672] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:31:54,240 - INFO  [Thread-121:GameServer@674] - 从资源库获取对象，经过初始化之后的桌子号是:104051
+[m[2;32m2018-04-28 15:32:01,769 - INFO  [Thread-103:GameServer@252] - user 10371 reconnect
+[m[2;32m2018-04-28 15:32:01,770 - INFO  [Thread-103:GameServer@294] - userId10371重连104051成功
+[m[7;31m2018-04-28 15:32:01,775 - ERROR [JUICE-SERVER-Handler-8-4-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x397e2613, /192.168.0.18:52431 => /192.168.0.109:2212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-04-28 15:32:01,776 - ERROR [JUICE-SERVER-Handler-8-4-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x2b4476e3, /192.168.0.18:52435 => /192.168.0.109:2212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-04-28 15:32:01,782 - INFO  [New I/O worker #6:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:32:01,782 - INFO  [New I/O worker #6:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，104051
+[m[2;32m2018-04-28 15:32:01,783 - INFO  [New I/O worker #8:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:32:01,784 - INFO  [New I/O worker #8:GameServer@207] - 玩家10372未加入桌子，在房间内掉线，104051
+[m[2;32m2018-04-28 15:32:08,373 - INFO  [Thread-34:GameServer@400] - in enter room, userId is 10360roomNum is 104051
+[m[2;32m2018-04-28 15:32:08,383 - INFO  [Thread-34:GameServer@464] - userId10360进入房间104051成功
+[m[2;32m2018-04-28 15:32:09,328 - INFO  [Thread-71:GameServer@400] - in enter room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:32:09,336 - INFO  [Thread-71:GameServer@464] - userId10372进入房间104051成功
+[m[2;32m2018-04-28 15:32:13,451 - INFO  [Thread-83:GameServer@592] - in enter table, userId is 10372,tableId is 104051
+[m[2;32m2018-04-28 15:34:32,639 - INFO  [New I/O worker #5:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:34:32,640 - INFO  [New I/O worker #5:GameServer@212] - 玩家10372加入桌子，在房间内掉线,104051
+[m[2;32m2018-04-28 15:34:32,695 - INFO  [New I/O worker #4:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:34:32,695 - INFO  [New I/O worker #4:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，104051
+[m[2;32m2018-04-28 15:34:32,759 - INFO  [New I/O worker #3:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 15:34:32,760 - INFO  [New I/O worker #3:GameServer@212] - 玩家10371加入桌子，在房间内掉线,104051
+[m[2;32m2018-04-28 15:34:41,155 - INFO  [Thread-31:GameServer@326] - 用户10371 游戏外重连
+[m[2;32m2018-04-28 15:34:41,155 - INFO  [Thread-31:GameServer@366] - 用户10371游戏外重连104051成功
+[m[2;32m2018-04-28 15:34:43,238 - INFO  [Thread-97:GameServer@511] - in exit room, userId is 10371roomNum is 104051
+[m[2;32m2018-04-28 15:35:03,577 - INFO  [Thread-61:GameServer@326] - 用户10372 游戏外重连
+[m[2;32m2018-04-28 15:35:03,577 - INFO  [Thread-61:GameServer@366] - 用户10372游戏外重连104051成功
+[m[2;32m2018-04-28 15:35:04,725 - INFO  [Thread-150:GameServer@511] - in exit room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:35:07,726 - INFO  [Thread-32:GameServer@400] - in enter room, userId is 10360roomNum is 104051
+[m[2;32m2018-04-28 15:35:07,736 - INFO  [Thread-32:GameServer@464] - userId10360进入房间104051成功
+[m[2;32m2018-04-28 15:35:07,794 - INFO  [Thread-115:GameServer@400] - in enter room, userId is 10371roomNum is 104051
+[m[2;32m2018-04-28 15:35:07,806 - INFO  [Thread-115:GameServer@464] - userId10371进入房间104051成功
+[m[2;32m2018-04-28 15:35:09,175 - INFO  [Thread-64:GameServer@400] - in enter room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:35:09,183 - INFO  [Thread-64:GameServer@464] - userId10372进入房间104051成功
+[m[2;32m2018-04-28 15:35:10,430 - INFO  [Thread-5:GameServer@592] - in enter table, userId is 10372,tableId is 104051
+[m[2;32m2018-04-28 15:35:10,433 - INFO  [Thread-5:GameServer@662] - 桌子104051不存在，创建桌子
+[m[2;32m2018-04-28 15:35:10,433 - INFO  [Thread-5:GameServer@672] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:35:10,433 - INFO  [Thread-5:GameServer@674] - 从资源库获取对象，经过初始化之后的桌子号是:104051
+[m[2;32m2018-04-28 15:35:11,162 - INFO  [Thread-15:GameServer@592] - in enter table, userId is 10371,tableId is 104051
+[m[2;32m2018-04-28 15:38:13,376 - INFO  [New I/O worker #1:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 15:38:13,377 - INFO  [New I/O worker #1:GameServer@212] - 玩家10371加入桌子，在房间内掉线,104051
+[m[2;32m2018-04-28 15:38:13,439 - INFO  [New I/O worker #2:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:38:13,439 - INFO  [New I/O worker #2:GameServer@212] - 玩家10372加入桌子，在房间内掉线,104051
+[m[2;32m2018-04-28 15:38:13,501 - INFO  [New I/O worker #8:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:38:13,502 - INFO  [New I/O worker #8:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，104051
+[m[2;32m2018-04-28 15:38:19,594 - INFO  [Thread-64:GameServer@326] - 用户10372 游戏外重连
+[m[2;32m2018-04-28 15:38:19,594 - INFO  [Thread-64:GameServer@366] - 用户10372游戏外重连104051成功
+[m[2;32m2018-04-28 15:38:20,760 - INFO  [Thread-76:GameServer@511] - in exit room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:38:26,047 - INFO  [Thread-98:GameServer@326] - 用户10372 游戏外重连
+[m[7;31m2018-04-28 15:38:26,047 - ERROR [Thread-98:GameServer@371] - 玩家10372游戏外断线重连时，找不到房间
+[m[2;32m2018-04-28 15:38:27,105 - INFO  [Thread-109:GameServer@511] - in exit room, userId is 10372roomNum is 
+[m[2;32m2018-04-28 15:38:43,843 - INFO  [Thread-77:GameServer@326] - 用户10371 游戏外重连
+[m[2;32m2018-04-28 15:38:43,843 - INFO  [Thread-77:GameServer@366] - 用户10371游戏外重连104051成功
+[m[2;32m2018-04-28 15:38:45,056 - INFO  [Thread-130:GameServer@511] - in exit room, userId is 10371roomNum is 104051
+[m[2;32m2018-04-28 15:38:52,656 - INFO  [Thread-92:GameServer@400] - in enter room, userId is 10371roomNum is 104051
+[m[2;32m2018-04-28 15:38:52,663 - INFO  [Thread-92:GameServer@464] - userId10371进入房间104051成功
+[m[2;32m2018-04-28 15:38:53,715 - INFO  [Thread-108:GameServer@400] - in enter room, userId is 10360roomNum is 104051
+[m[2;32m2018-04-28 15:38:53,733 - INFO  [Thread-108:GameServer@464] - userId10360进入房间104051成功
+[m[2;32m2018-04-28 15:38:55,193 - INFO  [Thread-43:GameServer@400] - in enter room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:38:55,202 - INFO  [Thread-43:GameServer@464] - userId10372进入房间104051成功
+[m[2;32m2018-04-28 15:38:56,988 - INFO  [Thread-4:GameServer@592] - in enter table, userId is 10371,tableId is 104051
+[m[2;32m2018-04-28 15:38:56,993 - INFO  [Thread-4:GameServer@662] - 桌子104051不存在，创建桌子
+[m[2;32m2018-04-28 15:38:56,993 - INFO  [Thread-4:GameServer@672] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-28 15:38:56,994 - INFO  [Thread-4:GameServer@674] - 从资源库获取对象，经过初始化之后的桌子号是:104051
+[m[2;32m2018-04-28 15:38:59,234 - INFO  [Thread-69:GameServer@592] - in enter table, userId is 10372,tableId is 104051
+[m[2;32m2018-04-28 15:40:07,236 - INFO  [New I/O worker #8:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:40:07,237 - INFO  [New I/O worker #8:GameServer@212] - 玩家10372加入桌子，在房间内掉线,104051
+[m[2;32m2018-04-28 15:40:07,285 - INFO  [New I/O worker #7:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:40:07,285 - INFO  [New I/O worker #7:GameServer@207] - 玩家10360未加入桌子，在房间内掉线，104051
+[m[2;32m2018-04-28 15:40:07,327 - INFO  [New I/O worker #6:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 15:40:07,328 - INFO  [New I/O worker #6:GameServer@212] - 玩家10371加入桌子，在房间内掉线,104051
+[m[2;32m2018-04-28 15:40:42,854 - INFO  [Thread-127:GameServer@326] - 用户10372 游戏外重连
+[m[2;32m2018-04-28 15:40:42,854 - INFO  [Thread-127:GameServer@366] - 用户10372游戏外重连104051成功
+[m[2;32m2018-04-28 15:40:45,666 - INFO  [Thread-30:GameServer@511] - in exit room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:40:59,282 - INFO  [Thread-15:GameServer@326] - 用户10371 游戏外重连
+[m[2;32m2018-04-28 15:40:59,282 - INFO  [Thread-15:GameServer@366] - 用户10371游戏外重连104051成功
+[m[2;32m2018-04-28 15:41:01,210 - INFO  [Thread-129:GameServer@400] - in enter room, userId is 10372roomNum is 104051
+[m[2;32m2018-04-28 15:41:01,221 - INFO  [Thread-129:GameServer@464] - userId10372进入房间104051成功
+[m[2;32m2018-04-28 15:41:02,197 - INFO  [Thread-49:GameServer@400] - in enter room, userId is 10360roomNum is 104051
+[m[2;32m2018-04-28 15:41:02,211 - INFO  [Thread-49:GameServer@464] - userId10360进入房间104051成功
+[m[2;32m2018-04-28 15:41:07,156 - INFO  [Thread-143:GameServer@592] - in enter table, userId is 10372,tableId is 104051
+[m[2;32m2018-04-28 15:41:09,201 - INFO  [Thread-34:GameServer@1018] - in start game, userId is 10360,tableId is 104051
+[m[2;32m2018-04-28 15:41:09,205 - INFO  [Thread-34:EngineFactory@36] - 游戏开始，初始化引擎时,从资源池中获取引擎资源，模式--牛牛上庄
+[m[2;32m2018-04-28 15:41:09,293 - INFO  [pool-16-thread-1:GameEngine@308] - 1准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:41:09,493 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:41:11,493 - INFO  [pool-16-thread-1:GameEngine@1294] - 1庄家确定，押注阶段
+[m[2;32m2018-04-28 15:41:12,898 - INFO  [Thread-119:GameServer@592] - in enter table, userId is 10360,tableId is 104051
+[m[2;32m2018-04-28 15:41:17,318 - INFO  [Thread-37:GameServer@1252] - in bet, userId is 10372bet_coin is 4
+[m[2;32m2018-04-28 15:41:17,492 - INFO  [pool-16-thread-1:GameEngine@360] - 1发牌阶段
+[m[2;32m2018-04-28 15:41:17,692 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xd2,0x93,0x12,0x73,0x22
+[m[2;32m2018-04-28 15:41:17,692 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xd4,0xd1,0xa4,0x53,0x43
+[m[2;32m2018-04-28 15:41:17,693 - INFO  [pool-16-thread-1:GameEngine@370] - 1比牌阶段
+[m[2;32m2018-04-28 15:41:20,095 - INFO  [Thread-24:GameServer@1343] - in openCards, userId is 10371
+[m[2;32m2018-04-28 15:41:20,887 - INFO  [Thread-99:GameServer@1343] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:41:21,135 - INFO  [pool-16-thread-1:GameEngine@390] - 1进入庄家开牌阶段
+[m[2;32m2018-04-28 15:41:21,320 - INFO  [pool-16-thread-1:GameEngine@398] - 1发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:41:23,293 - INFO  [pool-16-thread-1:GameEngine@406] - 1比牌阶段
+[m[2;32m2018-04-28 15:41:24,106 - INFO  [pool-16-thread-1:GameEngine@426] - 1游戏结果
+[m[2;32m2018-04-28 15:41:24,106 - INFO  [pool-16-thread-1:GameEngine@436] - 1播放金币动画
+[m[2;32m2018-04-28 15:41:28,322 - INFO  [pool-16-thread-1:GameEngine@453] - 2准备阶段
+[m[2;32m2018-04-28 15:41:30,314 - INFO  [Thread-10:GameServer@1105] - in ready, userId is 10360
+[m[2;32m2018-04-28 15:41:30,900 - INFO  [Thread-60:GameServer@1105] - in ready, userId is 10371
+[m[2;32m2018-04-28 15:41:31,385 - INFO  [Thread-20:GameServer@1105] - in ready, userId is 10372
+[m[2;32m2018-04-28 15:41:31,503 - INFO  [pool-16-thread-1:GameEngine@308] - 2准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:41:31,693 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:41:33,718 - INFO  [pool-16-thread-1:GameEngine@1294] - 2庄家确定，押注阶段
+[m[2;32m2018-04-28 15:41:35,534 - INFO  [Thread-151:GameServer@1252] - in bet, userId is 10360bet_coin is 4
+[m[2;32m2018-04-28 15:41:36,136 - INFO  [Thread-48:GameServer@1252] - in bet, userId is 10372bet_coin is 4
+[m[2;32m2018-04-28 15:41:36,321 - INFO  [pool-16-thread-1:GameEngine@360] - 2发牌阶段
+[m[2;32m2018-04-28 15:41:36,561 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xc4,0x74,0x32,0x91,0x73
+[m[2;32m2018-04-28 15:41:36,562 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:3,cards:0xd2,0xa2,0xa1,0x14,0x12
+[m[2;32m2018-04-28 15:41:36,562 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xc3,0xb1,0x81,0x72,0x11
+[m[2;32m2018-04-28 15:41:36,563 - INFO  [pool-16-thread-1:GameEngine@370] - 2比牌阶段
+[m[2;32m2018-04-28 15:41:38,587 - INFO  [Thread-78:GameServer@1343] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:41:39,093 - INFO  [Thread-79:GameServer@1343] - in openCards, userId is 10371
+[m[2;32m2018-04-28 15:41:39,613 - INFO  [Thread-98:GameServer@1343] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:41:39,694 - INFO  [pool-16-thread-1:GameEngine@390] - 2进入庄家开牌阶段
+[m[2;32m2018-04-28 15:41:39,894 - INFO  [pool-16-thread-1:GameEngine@398] - 2发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:41:41,893 - INFO  [pool-16-thread-1:GameEngine@406] - 2比牌阶段
+[m[2;32m2018-04-28 15:41:42,558 - INFO  [pool-16-thread-1:GameEngine@426] - 2游戏结果
+[m[2;32m2018-04-28 15:41:42,558 - INFO  [pool-16-thread-1:GameEngine@436] - 2播放金币动画
+[m[2;32m2018-04-28 15:41:46,641 - INFO  [pool-16-thread-1:GameEngine@453] - 3准备阶段
+[m[2;32m2018-04-28 15:41:56,294 - INFO  [pool-16-thread-1:GameEngine@308] - 3准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:41:56,494 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:41:58,494 - INFO  [pool-16-thread-1:GameEngine@1294] - 3庄家确定，押注阶段
+[m[2;32m2018-04-28 15:42:08,494 - INFO  [pool-16-thread-1:GameEngine@360] - 3发牌阶段
+[m[2;32m2018-04-28 15:42:08,693 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xd4,0xd1,0x83,0x53,0x32
+[m[2;32m2018-04-28 15:42:08,694 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:3,cards:0xc1,0xa2,0x64,0x21,0x14
+[m[2;32m2018-04-28 15:42:08,694 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xb4,0xb1,0x73,0x63,0x52
+[m[2;32m2018-04-28 15:42:08,695 - INFO  [pool-16-thread-1:GameEngine@370] - 3比牌阶段
+[m[2;32m2018-04-28 15:42:23,694 - INFO  [pool-16-thread-1:GameEngine@390] - 3进入庄家开牌阶段
+[m[2;32m2018-04-28 15:42:23,894 - INFO  [pool-16-thread-1:GameEngine@398] - 3发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:42:25,894 - INFO  [pool-16-thread-1:GameEngine@406] - 3比牌阶段
+[m[2;32m2018-04-28 15:42:26,330 - INFO  [pool-16-thread-1:GameEngine@426] - 3游戏结果
+[m[2;32m2018-04-28 15:42:26,330 - INFO  [pool-16-thread-1:GameEngine@436] - 3播放金币动画
+[m[2;32m2018-04-28 15:42:30,655 - INFO  [pool-16-thread-1:GameEngine@453] - 4准备阶段
+[m[2;32m2018-04-28 15:42:40,294 - INFO  [pool-16-thread-1:GameEngine@308] - 4准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:42:40,494 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:42:42,494 - INFO  [pool-16-thread-1:GameEngine@1294] - 4庄家确定，押注阶段
+[m[2;32m2018-04-28 15:42:52,495 - INFO  [pool-16-thread-1:GameEngine@360] - 4发牌阶段
+[m[2;32m2018-04-28 15:42:52,695 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xd4,0xb4,0x84,0x82,0x63
+[m[2;32m2018-04-28 15:42:52,695 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:3,cards:0xc1,0x74,0x33,0x92,0x53
+[m[2;32m2018-04-28 15:42:52,696 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xc2,0xa2,0x91,0x51,0x24
+[m[2;32m2018-04-28 15:42:52,696 - INFO  [pool-16-thread-1:GameEngine@370] - 4比牌阶段
+[m[2;32m2018-04-28 15:43:07,696 - INFO  [pool-16-thread-1:GameEngine@390] - 4进入庄家开牌阶段
+[m[2;32m2018-04-28 15:43:07,895 - INFO  [pool-16-thread-1:GameEngine@398] - 4发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:43:09,895 - INFO  [pool-16-thread-1:GameEngine@406] - 4比牌阶段
+[m[2;32m2018-04-28 15:43:10,325 - INFO  [pool-16-thread-1:GameEngine@426] - 4游戏结果
+[m[2;32m2018-04-28 15:43:10,325 - INFO  [pool-16-thread-1:GameEngine@436] - 4播放金币动画
+[m[2;32m2018-04-28 15:43:14,520 - INFO  [pool-16-thread-1:GameEngine@453] - 5准备阶段
+[m[2;32m2018-04-28 15:43:24,296 - INFO  [pool-16-thread-1:GameEngine@308] - 5准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:43:24,496 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:43:26,497 - INFO  [pool-16-thread-1:GameEngine@1294] - 5庄家确定，押注阶段
+[m[2;32m2018-04-28 15:43:36,497 - INFO  [pool-16-thread-1:GameEngine@360] - 5发牌阶段
+[m[2;32m2018-04-28 15:43:36,695 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xd4,0xd3,0xc2,0xb2,0x44
+[m[2;32m2018-04-28 15:43:36,695 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:3,cards:0xb3,0x74,0x31,0x94,0x64
+[m[2;32m2018-04-28 15:43:36,696 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0x73,0x72,0x43,0x32,0x22
+[m[2;32m2018-04-28 15:43:36,696 - INFO  [pool-16-thread-1:GameEngine@370] - 5比牌阶段
+[m[2;32m2018-04-28 15:43:51,697 - INFO  [pool-16-thread-1:GameEngine@390] - 5进入庄家开牌阶段
+[m[2;32m2018-04-28 15:43:51,897 - INFO  [pool-16-thread-1:GameEngine@398] - 5发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:43:53,896 - INFO  [pool-16-thread-1:GameEngine@406] - 5比牌阶段
+[m[2;32m2018-04-28 15:43:54,356 - INFO  [pool-16-thread-1:GameEngine@426] - 5游戏结果
+[m[2;32m2018-04-28 15:43:54,357 - INFO  [pool-16-thread-1:GameEngine@436] - 5播放金币动画
+[m[2;32m2018-04-28 15:43:58,440 - INFO  [pool-16-thread-1:GameEngine@453] - 6准备阶段
+[m[2;32m2018-04-28 15:44:08,296 - INFO  [pool-16-thread-1:GameEngine@308] - 6准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:44:08,496 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:44:10,496 - INFO  [pool-16-thread-1:GameEngine@1294] - 6庄家确定，押注阶段
+[m[2;32m2018-04-28 15:44:20,497 - INFO  [pool-16-thread-1:GameEngine@360] - 6发牌阶段
+[m[2;32m2018-04-28 15:44:20,697 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xa2,0xa1,0x83,0x44,0x14
+[m[2;32m2018-04-28 15:44:20,697 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:3,cards:0xb4,0xa4,0x84,0x81,0x64
+[m[2;32m2018-04-28 15:44:20,698 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xd3,0x71,0x31,0xb2,0x52
+[m[2;32m2018-04-28 15:44:20,698 - INFO  [pool-16-thread-1:GameEngine@370] - 6比牌阶段
+[m[2;32m2018-04-28 15:44:35,701 - INFO  [pool-16-thread-1:GameEngine@390] - 6进入庄家开牌阶段
+[m[2;32m2018-04-28 15:44:35,898 - INFO  [pool-16-thread-1:GameEngine@398] - 6发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:44:37,897 - INFO  [pool-16-thread-1:GameEngine@406] - 6比牌阶段
+[m[2;32m2018-04-28 15:44:38,352 - INFO  [pool-16-thread-1:GameEngine@426] - 6游戏结果
+[m[2;32m2018-04-28 15:44:38,352 - INFO  [pool-16-thread-1:GameEngine@436] - 6播放金币动画
+[m[2;32m2018-04-28 15:44:42,512 - INFO  [pool-16-thread-1:GameEngine@453] - 7准备阶段
+[m[2;32m2018-04-28 15:44:52,297 - INFO  [pool-16-thread-1:GameEngine@308] - 7准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:44:52,498 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:44:54,498 - INFO  [pool-16-thread-1:GameEngine@1294] - 7庄家确定，押注阶段
+[m[2;32m2018-04-28 15:45:04,498 - INFO  [pool-16-thread-1:GameEngine@360] - 7发牌阶段
+[m[2;32m2018-04-28 15:45:04,697 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0x91,0x61,0x52,0xd2,0xa4
+[m[2;32m2018-04-28 15:45:04,698 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:3,cards:0xd1,0xc1,0x81,0x62,0x13
+[m[2;32m2018-04-28 15:45:04,698 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xc3,0x74,0x33,0x53,0x41
+[m[2;32m2018-04-28 15:45:04,699 - INFO  [pool-16-thread-1:GameEngine@370] - 7比牌阶段
+[m[2;32m2018-04-28 15:45:19,699 - INFO  [pool-16-thread-1:GameEngine@390] - 7进入庄家开牌阶段
+[m[2;32m2018-04-28 15:45:19,898 - INFO  [pool-16-thread-1:GameEngine@398] - 7发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:45:21,898 - INFO  [pool-16-thread-1:GameEngine@406] - 7比牌阶段
+[m[2;32m2018-04-28 15:45:22,347 - INFO  [pool-16-thread-1:GameEngine@426] - 7游戏结果
+[m[2;32m2018-04-28 15:45:22,347 - INFO  [pool-16-thread-1:GameEngine@436] - 7播放金币动画
+[m[2;32m2018-04-28 15:45:26,424 - INFO  [pool-16-thread-1:GameEngine@453] - 8准备阶段
+[m[2;32m2018-04-28 15:45:36,298 - INFO  [pool-16-thread-1:GameEngine@308] - 8准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:45:36,498 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:45:38,498 - INFO  [pool-16-thread-1:GameEngine@1294] - 8庄家确定，押注阶段
+[m[2;32m2018-04-28 15:45:48,499 - INFO  [pool-16-thread-1:GameEngine@360] - 8发牌阶段
+[m[2;32m2018-04-28 15:45:48,699 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xc3,0xc2,0xa3,0x91,0x13
+[m[2;32m2018-04-28 15:45:48,699 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:3,cards:0xd2,0xb1,0x81,0x64,0x51
+[m[2;32m2018-04-28 15:45:48,700 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xd4,0x93,0x83,0x74,0x73
+[m[2;32m2018-04-28 15:45:48,700 - INFO  [pool-16-thread-1:GameEngine@370] - 8比牌阶段
+[m[2;32m2018-04-28 15:46:03,701 - INFO  [pool-16-thread-1:GameEngine@390] - 8进入庄家开牌阶段
+[m[2;32m2018-04-28 15:46:03,899 - INFO  [pool-16-thread-1:GameEngine@398] - 8发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:46:05,899 - INFO  [pool-16-thread-1:GameEngine@406] - 8比牌阶段
+[m[2;32m2018-04-28 15:46:06,328 - INFO  [pool-16-thread-1:GameEngine@426] - 8游戏结果
+[m[2;32m2018-04-28 15:46:06,328 - INFO  [pool-16-thread-1:GameEngine@436] - 8播放金币动画
+[m[2;32m2018-04-28 15:46:10,470 - INFO  [pool-16-thread-1:GameEngine@453] - 9准备阶段
+[m[2;32m2018-04-28 15:46:20,301 - INFO  [pool-16-thread-1:GameEngine@308] - 9准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:46:20,500 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:46:22,501 - INFO  [pool-16-thread-1:GameEngine@1294] - 9庄家确定，押注阶段
+[m[2;32m2018-04-28 15:46:32,499 - INFO  [pool-16-thread-1:GameEngine@360] - 9发牌阶段
+[m[2;32m2018-04-28 15:46:32,553 - INFO  [Thread-102:GameServer@1252] - in bet, userId is 10360bet_coin is 4
+[m[7;31m2018-04-28 15:46:32,562 - ERROR [Thread-102:GameServer@1300] - 玩家押注时，重复押注，userId=10360,coin:4
+[m[2;32m2018-04-28 15:46:32,699 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xc3,0xb4,0x82,0x53,0x43
+[m[2;32m2018-04-28 15:46:32,699 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:3,cards:0xd3,0x84,0x44,0x42,0x13
+[m[2;32m2018-04-28 15:46:32,699 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xd1,0xb3,0xb1,0x92,0x33
+[m[2;32m2018-04-28 15:46:32,700 - INFO  [pool-16-thread-1:GameEngine@370] - 9比牌阶段
+[m[2;32m2018-04-28 15:46:34,377 - INFO  [Thread-93:GameServer@1343] - in openCards, userId is 10371
+[m[2;32m2018-04-28 15:46:34,851 - INFO  [Thread-37:GameServer@1343] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:46:35,515 - INFO  [Thread-1:GameServer@1343] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:46:35,700 - INFO  [pool-16-thread-1:GameEngine@390] - 9进入庄家开牌阶段
+[m[2;32m2018-04-28 15:46:35,900 - INFO  [pool-16-thread-1:GameEngine@398] - 9发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:46:37,900 - INFO  [pool-16-thread-1:GameEngine@406] - 9比牌阶段
+[m[2;32m2018-04-28 15:46:38,296 - INFO  [pool-16-thread-1:GameEngine@426] - 9游戏结果
+[m[2;32m2018-04-28 15:46:38,300 - INFO  [pool-16-thread-1:GameEngine@436] - 9播放金币动画
+[m[2;32m2018-04-28 15:46:42,449 - INFO  [pool-16-thread-1:GameEngine@453] - 10准备阶段
+[m[2;32m2018-04-28 15:46:43,088 - INFO  [Thread-114:GameServer@1105] - in ready, userId is 10360
+[m[2;32m2018-04-28 15:46:43,634 - INFO  [Thread-106:GameServer@1105] - in ready, userId is 10371
+[m[2;32m2018-04-28 15:46:44,193 - INFO  [Thread-63:GameServer@1105] - in ready, userId is 10372
+[m[2;32m2018-04-28 15:46:44,300 - INFO  [pool-16-thread-1:GameEngine@308] - 10准备完成，进入庄家确定阶段
+[m[2;32m2018-04-28 15:46:44,500 - INFO  [pool-16-thread-1:GameEngine@1279] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-04-28 15:46:46,500 - INFO  [pool-16-thread-1:GameEngine@1294] - 10庄家确定，押注阶段
+[m[2;32m2018-04-28 15:46:47,224 - INFO  [Thread-91:GameServer@1252] - in bet, userId is 10360bet_coin is 4
+[m[2;32m2018-04-28 15:46:47,803 - INFO  [Thread-2:GameServer@1252] - in bet, userId is 10372bet_coin is 4
+[m[2;32m2018-04-28 15:46:47,900 - INFO  [pool-16-thread-1:GameEngine@360] - 10发牌阶段
+[m[2;32m2018-04-28 15:46:48,100 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:1,cards:0xd1,0x73,0x31,0xa4,0x81
+[m[2;32m2018-04-28 15:46:48,100 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:3,cards:0xb4,0x92,0x43,0x42,0x34
+[m[2;32m2018-04-28 15:46:48,101 - INFO  [pool-16-thread-1:GameEngine@661] - locationId:4,cards:0xd3,0x71,0x63,0x61,0x51
+[m[2;32m2018-04-28 15:46:48,101 - INFO  [pool-16-thread-1:GameEngine@370] - 10比牌阶段
+[m[2;32m2018-04-28 15:46:49,752 - INFO  [Thread-16:GameServer@1343] - in openCards, userId is 10360
+[m[2;32m2018-04-28 15:46:50,235 - INFO  [Thread-41:GameServer@1343] - in openCards, userId is 10371
+[m[2;32m2018-04-28 15:46:50,873 - INFO  [Thread-95:GameServer@1343] - in openCards, userId is 10372
+[m[2;32m2018-04-28 15:46:50,900 - INFO  [pool-16-thread-1:GameEngine@390] - 10进入庄家开牌阶段
+[m[2;32m2018-04-28 15:46:51,100 - INFO  [pool-16-thread-1:GameEngine@398] - 10发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-04-28 15:46:53,101 - INFO  [pool-16-thread-1:GameEngine@406] - 10比牌阶段
+[m[2;32m2018-04-28 15:46:53,526 - INFO  [pool-16-thread-1:GameEngine@426] - 10游戏结果
+[m[2;32m2018-04-28 15:46:53,686 - INFO  [pool-16-thread-1:GameEngine@1582] - 房间104051牌局完成，房间解散
+[m[2;32m2018-04-28 15:46:53,689 - INFO  [pool-16-thread-1:RedisResource@405] - 房间roomNum=104051解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-28 15:46:53,696 - INFO  [New I/O worker #2:GameServer@190] - 玩家10371<掉线>
+[m[2;32m2018-04-28 15:46:53,697 - INFO  [New I/O worker #4:GameServer@190] - 玩家10360<掉线>
+[m[2;32m2018-04-28 15:46:53,697 - INFO  [New I/O worker #3:GameServer@190] - 玩家10372<掉线>
+[m[2;32m2018-04-28 15:54:49,752 - INFO  [Thread-4:GameServer@400] - in enter room, userId is 10360roomNum is 132084
+[m[2;32m2018-04-28 15:54:49,760 - INFO  [Thread-4:GameServer@443] - room132084从资源池获取房间
+[m[2;32m2018-04-28 15:54:49,760 - INFO  [Thread-4:GameServer@444] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-28 15:54:49,760 - INFO  [Thread-4:GameServer@446] - 从资源池中获取的上一个房间经过初始化后的房主：10360
+[m[2;32m2018-04-28 15:54:49,760 - INFO  [Thread-4:GameServer@464] - userId10360进入房间132084成功
+[m[2;32m2018-04-28 15:54:50,905 - INFO  [Thread-32:GameServer@775] - in roomOwnerDissolution , userId is 10360,roomNum is 132084
+[m[2;32m2018-04-28 15:54:50,977 - INFO  [Thread-32:RedisResource@405] - 房间roomNum=132084解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-28 15:57:02,759 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 15:57:02,762 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-28 15:57:02,762 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-04-28 15:57:03,059 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 15:57:03,059 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-28 15:57:03,059 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-04-28 15:57:03,119 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-28 15:57:03,119 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-04-28 15:57:03,239 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-28 15:57:03,250 - INFO  [main:ServerBootstrap@103] - Application PID:	17296
+[m[2;32m2018-04-28 15:58:30,678 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 15:58:30,680 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-28 15:58:30,681 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-04-28 15:58:30,971 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 15:58:30,971 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-28 15:58:30,971 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-04-28 15:58:31,027 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-28 15:58:31,028 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-04-28 15:58:31,131 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-28 15:58:31,141 - INFO  [main:ServerBootstrap@103] - Application PID:	15624
+[m[2;32m2018-04-28 15:59:33,846 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 15:59:33,849 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-28 15:59:33,849 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-04-28 15:59:34,176 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-28 15:59:34,176 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-28 15:59:34,176 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-04-28 15:59:34,259 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-28 15:59:34,260 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-04-28 15:59:34,378 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-28 15:59:34,392 - INFO  [main:ServerBootstrap@103] - Application PID:	17540
+[m[2;32m2018-05-02 11:12:17,844 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-02 11:12:17,846 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-05-02 11:12:17,846 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-05-02 11:12:18,117 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-02 11:12:18,118 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-05-02 11:12:18,118 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-05-02 11:12:18,183 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-05-02 11:12:18,183 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-05-02 11:12:18,268 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-05-02 11:12:18,277 - INFO  [main:ServerBootstrap@103] - Application PID:	7252
+[m[2;32m2018-05-02 11:13:44,248 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-02 11:13:44,251 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-05-02 11:13:44,251 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[7;31m2018-05-02 11:14:19,279 - ERROR [Thread-173:RPCThreadPool$RPCWorkThread@58] - SEND
+[mjava.util.concurrent.ExecutionException: java.lang.Exception: Create connection to localhost:22110 error
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.linyun.bottom.rmi.RemoteChannelFactory.get(RemoteChannelFactory.java:87)
+	at com.linyun.bottom.rmi.RemoteChannelFactory.get(RemoteChannelFactory.java:48)
+	at com.linyun.bottom.rmi.thread.RPCThreadPool$RPCWorkThread.sendObject(RPCThreadPool.java:68)
+	at com.linyun.bottom.rmi.thread.RPCThreadPool$RPCWorkThread.run(RPCThreadPool.java:56)
+Caused by: java.lang.Exception: Create connection to localhost:22110 error
+	at com.linyun.bottom.rmi.RemoteChannelFactory.createChannel(RemoteChannelFactory.java:122)
+	at com.linyun.bottom.rmi.RemoteChannelFactory$1.call(RemoteChannelFactory.java:71)
+	at com.linyun.bottom.rmi.RemoteChannelFactory$1.call(RemoteChannelFactory.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at com.linyun.bottom.rmi.RemoteChannelFactory.get(RemoteChannelFactory.java:80)
+	... 3 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:148)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:104)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:78)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:41)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2;32m2018-05-02 11:16:17,866 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-02 11:16:17,869 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-05-02 11:16:17,869 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-05-02 11:16:18,138 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-02 11:16:18,138 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-05-02 11:16:18,138 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-05-02 11:16:18,202 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-05-02 11:16:18,202 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-05-02 11:16:18,319 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-05-02 11:16:18,328 - INFO  [main:ServerBootstrap@103] - Application PID:	9652
+[m[7;31m2018-05-02 11:16:19,389 - ERROR [Thread-188:RPCThreadPool$RPCWorkThread@58] - SEND
+[mjava.util.concurrent.ExecutionException: java.lang.Exception: Create connection to localhost:22110 error
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.linyun.bottom.rmi.RemoteChannelFactory.get(RemoteChannelFactory.java:87)
+	at com.linyun.bottom.rmi.RemoteChannelFactory.get(RemoteChannelFactory.java:48)
+	at com.linyun.bottom.rmi.thread.RPCThreadPool$RPCWorkThread.sendObject(RPCThreadPool.java:65)
+	at com.linyun.bottom.rmi.thread.RPCThreadPool$RPCWorkThread.run(RPCThreadPool.java:56)
+Caused by: java.lang.Exception: Create connection to localhost:22110 error
+	at com.linyun.bottom.rmi.RemoteChannelFactory.createChannel(RemoteChannelFactory.java:122)
+	at com.linyun.bottom.rmi.RemoteChannelFactory$1.call(RemoteChannelFactory.java:71)
+	at com.linyun.bottom.rmi.RemoteChannelFactory$1.call(RemoteChannelFactory.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at com.linyun.bottom.rmi.RemoteChannelFactory.get(RemoteChannelFactory.java:80)
+	... 3 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:148)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:104)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:78)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:41)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2;32m2018-05-02 11:16:58,468 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-02 11:16:58,470 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-05-02 11:16:58,471 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-05-02 11:16:58,737 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-05-02 11:16:58,737 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-05-02 11:16:58,738 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-05-02 11:16:58,804 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-05-02 11:16:58,804 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-05-02 11:16:58,887 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-05-02 11:16:58,897 - INFO  [main:ServerBootstrap@103] - Application PID:	5500
+[m

@@ -1,0 +1,175 @@
+[2;32m2018-04-20 10:41:31,668 - INFO  [Thread-3:GameServer@396] - in enter room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:41:31,680 - INFO  [Thread-3:GameServer@439] - room713299从资源池获取房间
+[m[2;32m2018-04-20 10:41:31,680 - INFO  [Thread-3:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:41:31,681 - INFO  [Thread-3:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:41:31,681 - INFO  [Thread-3:GameServer@460] - userId10361进入房间713299成功
+[m[2;32m2018-04-20 10:41:45,094 - INFO  [Thread-4:GameServer@507] - in exit room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:41:47,369 - INFO  [Thread-73:GameServer@396] - in enter room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:41:47,374 - INFO  [Thread-73:GameServer@439] - room713299从资源池获取房间
+[m[2;32m2018-04-20 10:41:47,374 - INFO  [Thread-73:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:41:47,374 - INFO  [Thread-73:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:41:47,375 - INFO  [Thread-73:GameServer@460] - userId10361进入房间713299成功
+[m[2;32m2018-04-20 10:41:51,475 - INFO  [Thread-157:GameServer@507] - in exit room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:41:56,239 - INFO  [Thread-59:GameServer@396] - in enter room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:41:56,246 - INFO  [Thread-59:GameServer@439] - room713299从资源池获取房间
+[m[2;32m2018-04-20 10:41:56,246 - INFO  [Thread-59:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:41:56,246 - INFO  [Thread-59:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:41:56,247 - INFO  [Thread-59:GameServer@460] - userId10361进入房间713299成功
+[m[2;32m2018-04-20 10:42:02,101 - INFO  [Thread-83:GameServer@507] - in exit room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:42:15,069 - INFO  [Thread-160:GameServer@396] - in enter room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:42:15,075 - INFO  [Thread-160:GameServer@439] - room724776从资源池获取房间
+[m[2;32m2018-04-20 10:42:15,075 - INFO  [Thread-160:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:42:15,075 - INFO  [Thread-160:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:42:15,075 - INFO  [Thread-160:GameServer@460] - userId10361进入房间724776成功
+[m[2;32m2018-04-20 10:42:19,006 - INFO  [Thread-54:GameServer@507] - in exit room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:42:34,027 - INFO  [Thread-151:GameServer@396] - in enter room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:42:34,035 - INFO  [Thread-151:GameServer@439] - room724776从资源池获取房间
+[m[2;32m2018-04-20 10:42:34,035 - INFO  [Thread-151:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:42:34,035 - INFO  [Thread-151:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:42:34,035 - INFO  [Thread-151:GameServer@460] - userId10361进入房间724776成功
+[m[2;32m2018-04-20 10:42:58,534 - INFO  [Thread-58:GameServer@507] - in exit room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:43:00,935 - INFO  [Thread-15:GameServer@396] - in enter room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:43:00,943 - INFO  [Thread-15:GameServer@439] - room724776从资源池获取房间
+[m[2;32m2018-04-20 10:43:00,943 - INFO  [Thread-15:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:43:00,943 - INFO  [Thread-15:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:43:00,943 - INFO  [Thread-15:GameServer@460] - userId10361进入房间724776成功
+[m[2;32m2018-04-20 10:43:04,250 - INFO  [Thread-8:GameServer@507] - in exit room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:43:05,041 - INFO  [Thread-88:GameServer@396] - in enter room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:43:05,046 - INFO  [Thread-88:GameServer@439] - room713299从资源池获取房间
+[m[2;32m2018-04-20 10:43:05,046 - INFO  [Thread-88:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:43:05,046 - INFO  [Thread-88:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:43:05,046 - INFO  [Thread-88:GameServer@460] - userId10361进入房间713299成功
+[m[2;32m2018-04-20 10:43:17,052 - INFO  [Thread-64:GameServer@507] - in exit room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:43:20,851 - INFO  [Thread-9:GameServer@396] - in enter room, userId is 10361roomNum is 157329
+[m[2;32m2018-04-20 10:43:20,856 - INFO  [Thread-9:GameServer@439] - room157329从资源池获取房间
+[m[2;32m2018-04-20 10:43:20,857 - INFO  [Thread-9:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:43:20,857 - INFO  [Thread-9:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:43:20,857 - INFO  [Thread-9:GameServer@460] - userId10361进入房间157329成功
+[m[2;32m2018-04-20 10:43:23,754 - INFO  [Thread-17:GameServer@587] - in enter table, userId is 10361,tableId is 157329
+[m[2;32m2018-04-20 10:43:23,759 - INFO  [Thread-17:GameServer@657] - 桌子157329不存在，创建桌子
+[m[2;32m2018-04-20 10:43:25,293 - INFO  [Thread-135:GameServer@507] - in exit room, userId is 10361roomNum is 157329
+[m[2;32m2018-04-20 10:43:26,537 - INFO  [Thread-111:GameServer@396] - in enter room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:43:26,541 - INFO  [Thread-111:GameServer@439] - room713299从资源池获取房间
+[m[2;32m2018-04-20 10:43:26,541 - INFO  [Thread-111:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:43:26,542 - INFO  [Thread-111:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:43:26,542 - INFO  [Thread-111:GameServer@460] - userId10361进入房间713299成功
+[m[2;32m2018-04-20 10:43:28,133 - INFO  [Thread-49:GameServer@507] - in exit room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:43:29,190 - INFO  [Thread-33:GameServer@396] - in enter room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:43:29,196 - INFO  [Thread-33:GameServer@439] - room724776从资源池获取房间
+[m[2;32m2018-04-20 10:43:29,196 - INFO  [Thread-33:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:43:29,196 - INFO  [Thread-33:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:43:29,197 - INFO  [Thread-33:GameServer@460] - userId10361进入房间724776成功
+[m[2;32m2018-04-20 10:43:30,428 - INFO  [Thread-2:GameServer@507] - in exit room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:43:31,760 - INFO  [Thread-13:GameServer@396] - in enter room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:43:31,769 - INFO  [Thread-13:GameServer@439] - room724776从资源池获取房间
+[m[2;32m2018-04-20 10:43:31,769 - INFO  [Thread-13:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:43:31,769 - INFO  [Thread-13:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:43:31,770 - INFO  [Thread-13:GameServer@460] - userId10361进入房间724776成功
+[m[2;32m2018-04-20 10:43:34,391 - INFO  [Thread-126:GameServer@507] - in exit room, userId is 10361roomNum is 724776
+[m[2;32m2018-04-20 10:43:35,835 - INFO  [Thread-129:GameServer@396] - in enter room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:43:35,840 - INFO  [Thread-129:GameServer@439] - room713299从资源池获取房间
+[m[2;32m2018-04-20 10:43:35,841 - INFO  [Thread-129:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:43:35,841 - INFO  [Thread-129:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:43:35,841 - INFO  [Thread-129:GameServer@460] - userId10361进入房间713299成功
+[m[2;32m2018-04-20 10:43:37,023 - INFO  [Thread-106:GameServer@507] - in exit room, userId is 10361roomNum is 713299
+[m[2;32m2018-04-20 10:43:38,756 - INFO  [Thread-81:GameServer@396] - in enter room, userId is 10361roomNum is 157329
+[m[2;32m2018-04-20 10:43:38,761 - INFO  [Thread-81:GameServer@460] - userId10361进入房间157329成功
+[m[2;32m2018-04-20 10:43:40,286 - INFO  [Thread-109:GameServer@587] - in enter table, userId is 10361,tableId is 157329
+[m[2;32m2018-04-20 10:43:40,290 - INFO  [Thread-109:GameServer@657] - 桌子157329不存在，创建桌子
+[m[2;32m2018-04-20 10:43:40,290 - INFO  [Thread-109:GameServer@667] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-20 10:43:40,290 - INFO  [Thread-109:GameServer@669] - 从资源库获取对象，经过初始化之后的桌子号是:157329
+[m[2;32m2018-04-20 10:44:00,054 - INFO  [Thread-115:GameServer@507] - in exit room, userId is 10361roomNum is 157329
+[m[2;32m2018-04-20 10:44:59,235 - INFO  [Thread-93:GameServer@396] - in enter room, userId is 10361roomNum is 280957
+[m[2;32m2018-04-20 10:44:59,241 - INFO  [Thread-93:GameServer@439] - room280957从资源池获取房间
+[m[2;32m2018-04-20 10:44:59,241 - INFO  [Thread-93:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 10:44:59,241 - INFO  [Thread-93:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 10:44:59,242 - INFO  [Thread-93:GameServer@460] - userId10361进入房间280957成功
+[m[2;32m2018-04-20 10:45:09,360 - INFO  [Thread-30:GameServer@765] - in roomOwnerDissolution , userId is 10361,roomNum is 280957
+[m[2;32m2018-04-20 10:45:09,363 - INFO  [Thread-30:RedisResource@405] - 房间roomNum=280957解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 11:11:42,685 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=713299解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 11:11:42,742 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 713299超时，被解散
+[m[2;32m2018-04-20 11:12:42,686 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=724776解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 11:12:42,730 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 724776超时，被解散
+[m[2;32m2018-04-20 11:13:42,690 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=157329解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 11:13:42,803 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 157329超时，被解散
+[m[2;32m2018-04-20 11:45:42,088 - INFO  [Thread-77:GameServer@396] - in enter room, userId is 10279roomNum is 966792
+[m[2;32m2018-04-20 11:45:42,095 - INFO  [Thread-77:GameServer@439] - room966792从资源池获取房间
+[m[2;32m2018-04-20 11:45:42,095 - INFO  [Thread-77:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 11:45:42,095 - INFO  [Thread-77:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10279
+[m[2;32m2018-04-20 11:45:42,096 - INFO  [Thread-77:GameServer@460] - userId10279进入房间966792成功
+[m[2;32m2018-04-20 11:45:45,060 - INFO  [Thread-82:GameServer@765] - in roomOwnerDissolution , userId is 10279,roomNum is 966792
+[m[2;32m2018-04-20 11:45:45,104 - INFO  [Thread-82:RedisResource@405] - 房间roomNum=966792解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 11:52:48,755 - INFO  [Thread-84:GameServer@396] - in enter room, userId is 10279roomNum is 961845
+[m[2;32m2018-04-20 11:52:48,760 - INFO  [Thread-84:GameServer@439] - room961845从资源池获取房间
+[m[2;32m2018-04-20 11:52:48,760 - INFO  [Thread-84:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 11:52:48,760 - INFO  [Thread-84:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10279
+[m[2;32m2018-04-20 11:52:48,760 - INFO  [Thread-84:GameServer@460] - userId10279进入房间961845成功
+[m[2;32m2018-04-20 11:52:52,163 - INFO  [Thread-95:GameServer@765] - in roomOwnerDissolution , userId is 10279,roomNum is 961845
+[m[2;32m2018-04-20 11:52:52,247 - INFO  [Thread-95:RedisResource@405] - 房间roomNum=961845解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 11:53:10,121 - INFO  [Thread-124:GameServer@396] - in enter room, userId is 10279roomNum is 389745
+[m[2;32m2018-04-20 11:53:10,128 - INFO  [Thread-124:GameServer@439] - room389745从资源池获取房间
+[m[2;32m2018-04-20 11:53:10,128 - INFO  [Thread-124:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 11:53:10,128 - INFO  [Thread-124:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10279
+[m[2;32m2018-04-20 11:53:10,128 - INFO  [Thread-124:GameServer@460] - userId10279进入房间389745成功
+[m[2;32m2018-04-20 11:54:35,218 - INFO  [Thread-11:GameServer@507] - in exit room, userId is 10279roomNum is 389745
+[m[2;32m2018-04-20 11:54:49,149 - INFO  [Thread-53:GameServer@396] - in enter room, userId is 10279roomNum is 389745
+[m[2;32m2018-04-20 11:54:49,155 - INFO  [Thread-53:GameServer@439] - room389745从资源池获取房间
+[m[2;32m2018-04-20 11:54:49,155 - INFO  [Thread-53:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 11:54:49,155 - INFO  [Thread-53:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10279
+[m[2;32m2018-04-20 11:54:49,156 - INFO  [Thread-53:GameServer@460] - userId10279进入房间389745成功
+[m[2;32m2018-04-20 11:55:09,082 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@190] - 玩家10279<掉线>
+[m[2;32m2018-04-20 11:55:09,082 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@207] - 玩家10279未加入桌子，在房间内掉线，389745
+[m[2;32m2018-04-20 11:56:17,943 - INFO  [Thread-51:GameServer@396] - in enter room, userId is 10279roomNum is 284609
+[m[2;32m2018-04-20 11:56:17,948 - INFO  [Thread-51:GameServer@439] - room284609从资源池获取房间
+[m[2;32m2018-04-20 11:56:17,949 - INFO  [Thread-51:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 11:56:17,949 - INFO  [Thread-51:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10279
+[m[2;32m2018-04-20 11:56:17,949 - INFO  [Thread-51:GameServer@460] - userId10279进入房间284609成功
+[m[2;32m2018-04-20 11:56:39,088 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@190] - 玩家10279<掉线>
+[m[2;32m2018-04-20 11:56:39,088 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@207] - 玩家10279未加入桌子，在房间内掉线，284609
+[m[2;32m2018-04-20 11:57:05,097 - INFO  [Thread-92:GameServer@396] - in enter room, userId is 10279roomNum is 284609
+[m[2;32m2018-04-20 11:57:05,105 - INFO  [Thread-92:GameServer@460] - userId10279进入房间284609成功
+[m[2;32m2018-04-20 11:57:06,249 - INFO  [Thread-21:GameServer@587] - in enter table, userId is 10279,tableId is 284609
+[m[2;32m2018-04-20 11:57:06,255 - INFO  [Thread-21:GameServer@657] - 桌子284609不存在，创建桌子
+[m[2;32m2018-04-20 11:57:06,255 - INFO  [Thread-21:GameServer@667] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-04-20 11:57:06,255 - INFO  [Thread-21:GameServer@669] - 从资源库获取对象，经过初始化之后的桌子号是:284609
+[m[2;32m2018-04-20 11:57:15,602 - INFO  [Thread-24:GameServer@765] - in roomOwnerDissolution , userId is 10279,roomNum is 284609
+[m[2;32m2018-04-20 11:57:15,655 - INFO  [Thread-24:RedisResource@405] - 房间roomNum=284609解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 11:57:17,772 - INFO  [Thread-68:GameServer@396] - in enter room, userId is 10279roomNum is 389745
+[m[2;32m2018-04-20 11:57:17,777 - INFO  [Thread-68:GameServer@460] - userId10279进入房间389745成功
+[m[2;32m2018-04-20 11:57:19,355 - INFO  [Thread-55:GameServer@507] - in exit room, userId is 10279roomNum is 389745
+[m[2;32m2018-04-20 12:23:42,806 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=389745解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 12:23:42,896 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 389745超时，被解散
+[m[2;32m2018-04-20 12:26:06,286 - INFO  [Thread-78:GameServer@396] - in enter room, userId is 10362roomNum is 456405
+[m[2;32m2018-04-20 12:26:06,293 - INFO  [Thread-78:GameServer@439] - room456405从资源池获取房间
+[m[2;32m2018-04-20 12:26:06,293 - INFO  [Thread-78:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 12:26:06,293 - INFO  [Thread-78:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10362
+[m[2;32m2018-04-20 12:26:06,294 - INFO  [Thread-78:GameServer@460] - userId10362进入房间456405成功
+[m[2;32m2018-04-20 12:26:08,984 - INFO  [Thread-103:GameServer@765] - in roomOwnerDissolution , userId is 10362,roomNum is 456405
+[m[2;32m2018-04-20 12:26:09,068 - INFO  [Thread-103:RedisResource@405] - 房间roomNum=456405解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 14:04:57,471 - INFO  [Thread-72:GameServer@396] - in enter room, userId is 10361roomNum is 391714
+[m[2;32m2018-04-20 14:04:57,476 - INFO  [Thread-72:GameServer@439] - room391714从资源池获取房间
+[m[2;32m2018-04-20 14:04:57,476 - INFO  [Thread-72:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 14:04:57,476 - INFO  [Thread-72:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 14:04:57,476 - INFO  [Thread-72:GameServer@460] - userId10361进入房间391714成功
+[m[2;32m2018-04-20 14:06:29,836 - INFO  [Thread-4:GameServer@765] - in roomOwnerDissolution , userId is 10361,roomNum is 391714
+[m[2;32m2018-04-20 14:06:29,897 - INFO  [Thread-4:RedisResource@405] - 房间roomNum=391714解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 14:40:38,932 - INFO  [Thread-34:GameServer@396] - in enter room, userId is 10361roomNum is 729909
+[m[2;32m2018-04-20 14:40:38,942 - INFO  [Thread-34:GameServer@439] - room729909从资源池获取房间
+[m[2;32m2018-04-20 14:40:38,943 - INFO  [Thread-34:GameServer@440] - 从资源池中获取的上一个房间没有初始化前的房主：0
+[m[2;32m2018-04-20 14:40:38,943 - INFO  [Thread-34:GameServer@442] - 从资源池中获取的上一个房间经过初始化后的房主：10361
+[m[2;32m2018-04-20 14:40:38,944 - INFO  [Thread-34:GameServer@460] - userId10361进入房间729909成功
+[m[2;32m2018-04-20 14:40:54,962 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@190] - 玩家10361<掉线>
+[m[2;32m2018-04-20 14:40:54,962 - INFO  [JUICE-STALE-CONNECTION-CHECK-THREAD-2-1-thread:GameServer@207] - 玩家10361未加入桌子，在房间内掉线，729909
+[m[2;32m2018-04-20 15:10:43,090 - INFO  [pool-9-thread-1:RedisResource@405] - 房间roomNum=729909解散，redis中该房间内玩家数据，清除success!
+[m[2;32m2018-04-20 15:10:43,203 - INFO  [pool-9-thread-1:RoomTimeOutTask$1@120] - Room 729909超时，被解散
+[m[2;32m2018-04-20 15:14:49,593 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-20 15:14:49,596 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-04-20 15:14:49,596 - INFO  [main:ServerBootstrap@77] - Server port:	2112
+[m[2;32m2018-04-20 15:14:49,953 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-04-20 15:14:49,954 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-04-20 15:14:49,955 - INFO  [main:ServerBootstrap@77] - Server port:	52112
+[m[2;32m2018-04-20 15:14:50,036 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-04-20 15:14:50,037 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22100
+[m[2;32m2018-04-20 15:14:50,164 - INFO  [main:Application@22] - Init servers......
+[m[2;32m2018-04-20 15:14:50,178 - INFO  [main:ServerBootstrap@103] - Application PID:	40492
+[m

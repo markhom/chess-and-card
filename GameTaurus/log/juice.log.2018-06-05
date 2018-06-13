@@ -1,0 +1,196 @@
+[2;32m2018-06-05 10:34:21,883 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 10:34:21,886 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-05 10:34:21,886 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-05 10:34:22,146 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 10:34:22,146 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-05 10:34:22,146 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-05 10:34:22,198 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-05 10:34:22,199 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-05 10:34:22,273 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-05 10:34:22,282 - INFO  [main:ServerBootstrap@103] - Application PID:	10052
+[m[2;32m2018-06-05 11:42:17,416 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 11:42:17,418 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-05 11:42:17,418 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-05 11:42:17,664 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 11:42:17,664 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-05 11:42:17,664 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-05 11:42:17,710 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-05 11:42:17,710 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-05 11:42:17,782 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-05 11:42:17,789 - INFO  [main:ServerBootstrap@103] - Application PID:	12308
+[m[2;32m2018-06-05 16:17:47,209 - INFO  [Thread-68:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-05 16:17:47,210 - INFO  [Thread-95:LobbyServer@455] - userId:10349拉取公告
+[m[2;32m2018-06-05 16:17:47,226 - INFO  [Thread-8:LobbyServer@761] - userId:10349get contact info
+[m[2;32m2018-06-05 16:17:47,228 - INFO  [Thread-30:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-05 16:17:47,234 - INFO  [Thread-30:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[7;31m2018-06-05 16:33:00,900 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x688f6e83, /127.0.0.1:8417 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-06-05 16:33:00,937 - ERROR [JUICE-SERVER-Handler-8-3-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x0f8a2719, /127.0.0.1:8419 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-06-05 16:33:00,951 - ERROR [JUICE-SERVER-Handler-8-3-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x64a830d6, /127.0.0.1:8418 :> /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-06-05 16:33:37,392 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 16:33:37,394 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-05 16:33:37,394 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-05 16:33:37,648 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 16:33:37,649 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-05 16:33:37,649 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-05 16:33:37,714 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-05 16:33:37,715 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-05 16:33:37,803 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-05 16:33:37,817 - INFO  [main:ServerBootstrap@103] - Application PID:	6616
+[m[2;32m2018-06-05 17:14:11,943 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 17:14:11,945 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-05 17:14:11,945 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-05 17:14:12,188 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 17:14:12,189 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-05 17:14:12,189 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-05 17:14:12,241 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-05 17:14:12,241 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-05 17:14:12,312 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-05 17:14:12,321 - INFO  [main:ServerBootstrap@103] - Application PID:	9152
+[m[2;32m2018-06-05 17:16:42,433 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 17:16:42,435 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-05 17:16:42,435 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-05 17:16:42,677 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 17:16:42,677 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-05 17:16:42,677 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-05 17:16:42,731 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-05 17:16:42,732 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-05 17:16:42,803 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-05 17:16:42,811 - INFO  [main:ServerBootstrap@103] - Application PID:	11768
+[m[7;31m2018-06-05 17:16:58,744 - ERROR [JUICE-SERVER-Handler-8-3-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0x79f1503d, /127.0.0.1:32683 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-06-05 17:16:58,744 - ERROR [JUICE-SERVER-Handler-8-2-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0xc64cdaca, /127.0.0.1:32681 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[7;31m2018-06-05 17:16:58,744 - ERROR [JUICE-SERVER-Handler-8-1-thread:ConnectionException@23] - uncaughtException :
+[mcom.linyun.bottom.exception.JuiceException: 远程主机强迫关闭了一个现有的连接。 on [id: 0xc4947b37, /127.0.0.1:32682 => /127.0.0.1:52212]
+	at com.linyun.bottom.exception.JuiceException.fromException(JuiceException.java:38)
+	at com.linyun.bottom.exception.JuiceException.fromExceptionEvent(JuiceException.java:32)
+	at com.linyun.bottom.util.ConnectionHelper$2.run(ConnectionHelper.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	... 3 more
+[2;32m2018-06-05 17:17:16,506 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 17:17:16,508 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-05 17:17:16,508 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-05 17:17:16,753 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 17:17:16,753 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-05 17:17:16,754 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-05 17:17:16,807 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-05 17:17:16,807 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-05 17:17:16,883 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-05 17:17:16,892 - INFO  [main:ServerBootstrap@103] - Application PID:	9692
+[m[2;32m2018-06-05 17:20:33,844 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 17:20:33,846 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-05 17:20:33,846 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-05 17:20:34,126 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-05 17:20:34,126 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-05 17:20:34,127 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-05 17:20:34,177 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-05 17:20:34,178 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-05 17:20:34,247 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-05 17:20:34,254 - INFO  [main:ServerBootstrap@103] - Application PID:	14184
+[m

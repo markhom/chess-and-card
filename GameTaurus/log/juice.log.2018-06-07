@@ -1,0 +1,288 @@
+[2;32m2018-06-07 14:41:31,426 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-07 14:41:31,428 - INFO  [main:ServerBootstrap@76] - Server protocol:	http
+[m[2;32m2018-06-07 14:41:31,429 - INFO  [main:ServerBootstrap@77] - Server port:	2212
+[m[2;32m2018-06-07 14:41:31,673 - INFO  [main:ServerBootstrap@75] - Configurationv Server bootstrap params.......
+[m[2;32m2018-06-07 14:41:31,673 - INFO  [main:ServerBootstrap@76] - Server protocol:	socket
+[m[2;32m2018-06-07 14:41:31,674 - INFO  [main:ServerBootstrap@77] - Server port:	52212
+[m[2;32m2018-06-07 14:41:31,717 - INFO  [main:ServerBootstrap@87] - Configuration Remote Server.......
+[m[2;32m2018-06-07 14:41:31,717 - INFO  [main:ServerBootstrap@90] - Add Remote Server - Name:DBSystem;Address:localhost;Port:22110
+[m[2;32m2018-06-07 14:41:31,794 - INFO  [main:Application@23] - Init servers......
+[m[2;32m2018-06-07 14:41:31,803 - INFO  [main:ServerBootstrap@103] - Application PID:	12580
+[m[2;32m2018-06-07 15:05:56,890 - INFO  [Thread-73:LobbyServer@455] - userId:10273拉取公告
+[m[2;32m2018-06-07 15:05:56,890 - INFO  [Thread-63:LobbyServer@525] - 玩家：userId=10273拉取房间列表的详情
+[m[2;32m2018-06-07 15:05:56,903 - INFO  [Thread-53:LobbyServer@761] - userId:10273get contact info
+[m[2;32m2018-06-07 15:05:56,904 - INFO  [Thread-81:LobbyServer@629] - uid:10273request refresh userInfo start
+[m[2;32m2018-06-07 15:05:56,920 - INFO  [Thread-81:LobbyServer@635] - uid:10273request refresh userInfo end
+[m[2;32m2018-06-07 15:06:19,166 - INFO  [Thread-65:LobbyServer@594] - userId:10273joinRoom
+[m[2;32m2018-06-07 15:06:26,646 - INFO  [Thread-12:LobbyServer@594] - userId:10273joinRoom
+[m[2;32m2018-06-07 15:06:26,887 - INFO  [Thread-24:LobbyServer@629] - uid:10273request refresh userInfo start
+[m[2;32m2018-06-07 15:06:26,890 - INFO  [Thread-24:LobbyServer@635] - uid:10273request refresh userInfo end
+[m[2;32m2018-06-07 15:06:26,892 - INFO  [Thread-13:LobbyServer@525] - 玩家：userId=10273拉取房间列表的详情
+[m[2;32m2018-06-07 15:25:35,732 - INFO  [Thread-15:LobbyServer@455] - userId:10273拉取公告
+[m[2;32m2018-06-07 15:25:35,732 - INFO  [Thread-43:LobbyServer@525] - 玩家：userId=10273拉取房间列表的详情
+[m[2;32m2018-06-07 15:25:35,738 - INFO  [Thread-64:LobbyServer@629] - uid:10273request refresh userInfo start
+[m[2;32m2018-06-07 15:25:35,745 - INFO  [Thread-16:LobbyServer@761] - userId:10273get contact info
+[m[2;32m2018-06-07 15:25:35,755 - INFO  [Thread-64:LobbyServer@635] - uid:10273request refresh userInfo end
+[m[2;32m2018-06-07 15:25:38,817 - INFO  [Thread-80:LobbyServer@671] - userId:10273create room
+[m[2;32m2018-06-07 15:25:38,958 - INFO  [Thread-80:RedisResource@261] - 玩家:userId=10273创建房间:535449，玩家数据插入redis success
+[m[2;32m2018-06-07 15:25:38,959 - INFO  [Thread-80:LobbyServer@738] - 创建房间时，玩家:userId=10273创建房间成功，房间号是roomNum=535449
+[m[2;32m2018-06-07 15:25:39,054 - INFO  [Thread-157:GameServer@407] - in enter room, userId is 10273roomNum is 535449
+[m[2;32m2018-06-07 15:25:39,062 - INFO  [Thread-157:GameServer@444] - room535449不存在，创建房间
+[m[2;32m2018-06-07 15:25:39,070 - INFO  [Thread-157:GameServer@475] - userId10273进入房间535449成功
+[m[2;32m2018-06-07 15:25:42,600 - INFO  [Thread-33:LobbyServer@455] - userId:10275拉取公告
+[m[2;32m2018-06-07 15:25:42,601 - INFO  [Thread-68:LobbyServer@525] - 玩家：userId=10275拉取房间列表的详情
+[m[2;32m2018-06-07 15:25:42,608 - INFO  [Thread-17:LobbyServer@761] - userId:10275get contact info
+[m[2;32m2018-06-07 15:25:42,610 - INFO  [Thread-3:LobbyServer@629] - uid:10275request refresh userInfo start
+[m[2;32m2018-06-07 15:25:42,627 - INFO  [Thread-3:LobbyServer@635] - uid:10275request refresh userInfo end
+[m[2;32m2018-06-07 15:25:46,943 - INFO  [Thread-104:LobbyServer@594] - userId:10275joinRoom
+[m[2;32m2018-06-07 15:25:46,948 - INFO  [Thread-104:RedisResource@336] - 玩家userId=10275加入房间：535449玩家数据插入redis success
+[m[2;32m2018-06-07 15:25:47,373 - INFO  [Thread-57:GameServer@407] - in enter room, userId is 10275roomNum is 535449
+[m[2;32m2018-06-07 15:25:47,379 - INFO  [Thread-57:GameServer@475] - userId10275进入房间535449成功
+[m[2;32m2018-06-07 15:25:49,498 - INFO  [Thread-18:LobbyServer@455] - userId:10349拉取公告
+[m[2;32m2018-06-07 15:25:49,501 - INFO  [Thread-59:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-07 15:25:49,506 - INFO  [Thread-28:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-07 15:25:49,511 - INFO  [Thread-44:LobbyServer@761] - userId:10349get contact info
+[m[2;32m2018-06-07 15:25:49,515 - INFO  [Thread-28:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[2;32m2018-06-07 15:25:54,886 - INFO  [Thread-116:LobbyServer@594] - userId:10349joinRoom
+[m[2;32m2018-06-07 15:25:54,891 - INFO  [Thread-116:RedisResource@336] - 玩家userId=10349加入房间：535449玩家数据插入redis success
+[m[2;32m2018-06-07 15:25:55,427 - INFO  [Thread-60:GameServer@407] - in enter room, userId is 10349roomNum is 535449
+[m[2;32m2018-06-07 15:25:55,442 - INFO  [Thread-60:GameServer@475] - userId10349进入房间535449成功
+[m[2;32m2018-06-07 15:25:56,139 - INFO  [Thread-85:GameServer@603] - in enter table, userId is 10273,tableId is 535449
+[m[2;32m2018-06-07 15:25:56,143 - INFO  [Thread-85:GameServer@673] - 桌子535449不存在，创建桌子
+[m[7;31m2018-06-07 15:25:56,848 - ERROR [Thread-96:DefaultJuiceHandler@76] - 
+[m[7;31m2018-06-07 15:25:56,849 - ERROR [Thread-96:DefaultJuiceHandler@77] - com.linyun.bottom.exception.JuiceException: handler request error,path:7021
+[m[2;32m2018-06-07 15:26:03,144 - INFO  [Thread-26:GameServer@522] - in exit room, userId is 10273roomNum is 535449
+[m[2;32m2018-06-07 15:26:03,258 - INFO  [Thread-89:LobbyServer@455] - userId:10273拉取公告
+[m[2;32m2018-06-07 15:26:03,258 - INFO  [Thread-98:LobbyServer@525] - 玩家：userId=10273拉取房间列表的详情
+[m[2;32m2018-06-07 15:26:03,268 - INFO  [Thread-129:LobbyServer@761] - userId:10273get contact info
+[m[2;32m2018-06-07 15:26:03,271 - INFO  [Thread-54:LobbyServer@629] - uid:10273request refresh userInfo start
+[m[2;32m2018-06-07 15:26:03,278 - INFO  [Thread-54:LobbyServer@635] - uid:10273request refresh userInfo end
+[m[2;32m2018-06-07 15:26:04,512 - INFO  [Thread-142:LobbyServer@594] - userId:10273joinRoom
+[m[2;32m2018-06-07 15:26:04,529 - INFO  [Thread-142:RedisResource@336] - 玩家userId=10273加入房间：535449玩家数据插入redis success
+[m[2;32m2018-06-07 15:26:04,606 - INFO  [Thread-78:GameServer@407] - in enter room, userId is 10273roomNum is 535449
+[m[2;32m2018-06-07 15:26:04,617 - INFO  [Thread-78:GameServer@475] - userId10273进入房间535449成功
+[m[2;32m2018-06-07 15:26:05,505 - INFO  [Thread-108:GameServer@603] - in enter table, userId is 10273,tableId is 535449
+[m[2;32m2018-06-07 15:26:05,510 - INFO  [Thread-108:GameServer@673] - 桌子535449不存在，创建桌子
+[m[2;32m2018-06-07 15:26:05,510 - INFO  [Thread-108:GameServer@683] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-06-07 15:26:05,511 - INFO  [Thread-108:GameServer@685] - 从资源库获取对象，经过初始化之后的桌子号是:535449
+[m[2;32m2018-06-07 15:26:33,373 - INFO  [Thread-20:GameServer@522] - in exit room, userId is 10273roomNum is 535449
+[m[2;32m2018-06-07 15:26:33,482 - INFO  [Thread-101:LobbyServer@455] - userId:10273拉取公告
+[m[2;32m2018-06-07 15:26:33,483 - INFO  [Thread-35:LobbyServer@525] - 玩家：userId=10273拉取房间列表的详情
+[m[2;32m2018-06-07 15:26:33,489 - INFO  [Thread-153:LobbyServer@629] - uid:10273request refresh userInfo start
+[m[2;32m2018-06-07 15:26:33,494 - INFO  [Thread-153:LobbyServer@635] - uid:10273request refresh userInfo end
+[m[2;32m2018-06-07 15:26:33,495 - INFO  [Thread-147:LobbyServer@761] - userId:10273get contact info
+[m[2;32m2018-06-07 15:26:34,367 - INFO  [Thread-99:LobbyServer@594] - userId:10273joinRoom
+[m[2;32m2018-06-07 15:26:34,380 - INFO  [Thread-99:RedisResource@336] - 玩家userId=10273加入房间：535449玩家数据插入redis success
+[m[2;32m2018-06-07 15:26:34,481 - INFO  [Thread-67:GameServer@407] - in enter room, userId is 10273roomNum is 535449
+[m[2;32m2018-06-07 15:26:34,497 - INFO  [Thread-67:GameServer@475] - userId10273进入房间535449成功
+[m[2;32m2018-06-07 15:26:40,143 - INFO  [Thread-120:GameServer@603] - in enter table, userId is 10273,tableId is 535449
+[m[2;32m2018-06-07 15:26:40,149 - INFO  [Thread-120:GameServer@673] - 桌子535449不存在，创建桌子
+[m[2;32m2018-06-07 15:26:40,150 - INFO  [Thread-120:GameServer@683] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-06-07 15:26:40,150 - INFO  [Thread-120:GameServer@685] - 从资源库获取对象，经过初始化之后的桌子号是:535449
+[m[2;32m2018-06-07 15:27:21,453 - INFO  [New I/O worker #3:GameServer@192] - 玩家10275<掉线>
+[m[2;32m2018-06-07 15:27:21,454 - INFO  [New I/O worker #3:GameServer@209] - 玩家10275未加入桌子，在房间内掉线，535449
+[m[2;32m2018-06-07 15:27:21,603 - INFO  [New I/O worker #6:GameServer@192] - 玩家10273<掉线>
+[m[2;32m2018-06-07 15:27:21,603 - INFO  [New I/O worker #6:GameServer@214] - 玩家10273加入桌子，在房间内掉线,535449
+[m[2;32m2018-06-07 15:27:21,832 - INFO  [New I/O worker #4:GameServer@192] - 玩家10349<掉线>
+[m[2;32m2018-06-07 15:27:21,833 - INFO  [New I/O worker #4:GameServer@209] - 玩家10349未加入桌子，在房间内掉线，535449
+[m[2;32m2018-06-07 15:27:29,372 - INFO  [Thread-49:GameServer@329] - 用户10273 游戏外重连
+[m[2;32m2018-06-07 15:27:29,375 - INFO  [Thread-49:GameServer@373] - 用户10273游戏外重连535449成功
+[m[2;32m2018-06-07 15:27:30,670 - INFO  [Thread-1:LobbyServer@455] - userId:10349拉取公告
+[m[2;32m2018-06-07 15:27:30,672 - INFO  [Thread-119:LobbyServer@525] - 玩家：userId=10349拉取房间列表的详情
+[m[2;32m2018-06-07 15:27:30,684 - INFO  [Thread-121:LobbyServer@761] - userId:10349get contact info
+[m[2;32m2018-06-07 15:27:30,688 - INFO  [Thread-73:LobbyServer@629] - uid:10349request refresh userInfo start
+[m[2;32m2018-06-07 15:27:30,691 - INFO  [Thread-73:LobbyServer@635] - uid:10349request refresh userInfo end
+[m[2;32m2018-06-07 15:27:33,009 - INFO  [Thread-83:LobbyServer@594] - userId:10349joinRoom
+[m[2;32m2018-06-07 15:27:33,019 - INFO  [Thread-83:RedisResource@336] - 玩家userId=10349加入房间：535449玩家数据插入redis success
+[m[2;32m2018-06-07 15:27:33,530 - INFO  [Thread-75:GameServer@407] - in enter room, userId is 10349roomNum is 535449
+[m[2;32m2018-06-07 15:27:33,544 - INFO  [Thread-75:GameServer@475] - userId10349进入房间535449成功
+[m[2;32m2018-06-07 15:27:38,236 - INFO  [Thread-94:LobbyServer@455] - userId:10275拉取公告
+[m[2;32m2018-06-07 15:27:38,237 - INFO  [Thread-122:LobbyServer@525] - 玩家：userId=10275拉取房间列表的详情
+[m[2;32m2018-06-07 15:27:38,244 - INFO  [Thread-77:LobbyServer@629] - uid:10275request refresh userInfo start
+[m[2;32m2018-06-07 15:27:38,249 - INFO  [Thread-160:LobbyServer@761] - userId:10275get contact info
+[m[2;32m2018-06-07 15:27:38,262 - INFO  [Thread-77:LobbyServer@635] - uid:10275request refresh userInfo end
+[m[2;32m2018-06-07 15:27:39,441 - INFO  [Thread-48:LobbyServer@594] - userId:10275joinRoom
+[m[2;32m2018-06-07 15:27:39,453 - INFO  [Thread-48:RedisResource@336] - 玩家userId=10275加入房间：535449玩家数据插入redis success
+[m[2;32m2018-06-07 15:27:39,982 - INFO  [Thread-38:GameServer@407] - in enter room, userId is 10275roomNum is 535449
+[m[2;32m2018-06-07 15:27:39,992 - INFO  [Thread-38:GameServer@475] - userId10275进入房间535449成功
+[m[2;32m2018-06-07 15:27:42,267 - INFO  [Thread-87:GameServer@522] - in exit room, userId is 10273roomNum is 535449
+[m[2;32m2018-06-07 15:27:43,009 - INFO  [Thread-31:LobbyServer@455] - userId:10273拉取公告
+[m[2;32m2018-06-07 15:27:43,010 - INFO  [Thread-96:LobbyServer@525] - 玩家：userId=10273拉取房间列表的详情
+[m[2;32m2018-06-07 15:27:43,017 - INFO  [Thread-27:LobbyServer@761] - userId:10273get contact info
+[m[2;32m2018-06-07 15:27:43,017 - INFO  [Thread-32:LobbyServer@629] - uid:10273request refresh userInfo start
+[m[2;32m2018-06-07 15:27:43,024 - INFO  [Thread-32:LobbyServer@635] - uid:10273request refresh userInfo end
+[m[2;32m2018-06-07 15:27:43,927 - INFO  [Thread-154:LobbyServer@594] - userId:10273joinRoom
+[m[2;32m2018-06-07 15:27:43,935 - INFO  [Thread-154:RedisResource@336] - 玩家userId=10273加入房间：535449玩家数据插入redis success
+[m[2;32m2018-06-07 15:27:44,046 - INFO  [Thread-106:GameServer@407] - in enter room, userId is 10273roomNum is 535449
+[m[2;32m2018-06-07 15:27:44,055 - INFO  [Thread-106:GameServer@475] - userId10273进入房间535449成功
+[m[2;32m2018-06-07 15:27:44,907 - INFO  [Thread-149:GameServer@603] - in enter table, userId is 10273,tableId is 535449
+[m[2;32m2018-06-07 15:27:44,921 - INFO  [Thread-149:GameServer@673] - 桌子535449不存在，创建桌子
+[m[2;32m2018-06-07 15:27:44,922 - INFO  [Thread-149:GameServer@683] - 从资源库获取对象，没有初始化前的桌子号是：null
+[m[2;32m2018-06-07 15:27:44,922 - INFO  [Thread-149:GameServer@685] - 从资源库获取对象，经过初始化之后的桌子号是:535449
+[m[2;32m2018-06-07 15:27:47,845 - INFO  [Thread-82:GameServer@603] - in enter table, userId is 10275,tableId is 535449
+[m[2;32m2018-06-07 15:27:49,440 - INFO  [Thread-80:GameServer@1029] - in start game, userId is 10273,tableId is 535449
+[m[2;32m2018-06-07 15:27:49,459 - INFO  [Thread-80:EngineFactory@31] - 游戏开始，初始化引擎，资源池中没有空闲引擎，new一个新的！模式--牛牛上庄
+[m[2;32m2018-06-07 15:27:49,465 - INFO  [pool-15-thread-1:GameEngine@311] - 1准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:27:49,666 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:27:51,666 - INFO  [pool-15-thread-1:GameEngine@1312] - 1庄家确定，押注阶段
+[m[2;32m2018-06-07 15:27:52,812 - INFO  [Thread-100:GameServer@1263] - in bet, userId is 10273bet_coin is 4
+[m[2;32m2018-06-07 15:27:52,865 - INFO  [pool-15-thread-1:GameEngine@363] - 1发牌阶段
+[m[2;32m2018-06-07 15:27:53,067 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0x84,0x74,0x54,0x72,0x22
+[m[2;32m2018-06-07 15:27:53,068 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0x62,0x24,0x21,0x94,0x31
+[m[2;32m2018-06-07 15:27:53,069 - INFO  [pool-15-thread-1:GameEngine@373] - 1比牌阶段
+[m[2;32m2018-06-07 15:27:54,565 - INFO  [Thread-118:GameServer@1354] - in openCards, userId is 10273
+[m[2;32m2018-06-07 15:27:55,111 - INFO  [Thread-155:GameServer@1354] - in openCards, userId is 10275
+[m[2;32m2018-06-07 15:27:55,265 - INFO  [pool-15-thread-1:GameEngine@393] - 1进入庄家开牌阶段
+[m[2;32m2018-06-07 15:27:55,465 - INFO  [pool-15-thread-1:GameEngine@401] - 1发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:27:57,465 - INFO  [pool-15-thread-1:GameEngine@409] - 1比牌阶段
+[m[2;32m2018-06-07 15:27:57,850 - INFO  [pool-15-thread-1:GameEngine@429] - 1游戏结果
+[m[2;32m2018-06-07 15:27:57,865 - INFO  [pool-15-thread-1:GameEngine@439] - 1播放金币动画
+[m[2;32m2018-06-07 15:28:02,062 - INFO  [pool-15-thread-1:GameEngine@456] - 2准备阶段
+[m[2;32m2018-06-07 15:28:03,218 - INFO  [Thread-46:GameServer@603] - in enter table, userId is 10349,tableId is 535449
+[m[2;32m2018-06-07 15:28:07,084 - INFO  [Thread-85:GameServer@1116] - in ready, userId is 10349
+[m[7;31m2018-06-07 15:28:07,087 - ERROR [Thread-85:GameServer@1156] - 玩家准备时，重复准备，userId=10349
+[m[2;32m2018-06-07 15:28:07,734 - INFO  [Thread-125:GameServer@1116] - in ready, userId is 10273
+[m[2;32m2018-06-07 15:28:08,248 - INFO  [Thread-89:GameServer@1116] - in ready, userId is 10275
+[m[2;32m2018-06-07 15:28:08,266 - INFO  [pool-15-thread-1:GameEngine@311] - 2准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:28:08,466 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:28:10,466 - INFO  [pool-15-thread-1:GameEngine@1312] - 2庄家确定，押注阶段
+[m[2;32m2018-06-07 15:28:11,552 - INFO  [Thread-139:GameServer@1263] - in bet, userId is 10273bet_coin is 4
+[m[2;32m2018-06-07 15:28:11,665 - INFO  [pool-15-thread-1:GameEngine@363] - 2发牌阶段
+[m[2;32m2018-06-07 15:28:11,865 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0xd4,0x72,0x33,0x14,0x12
+[m[2;32m2018-06-07 15:28:11,866 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0xc3,0x62,0x43,0x22,0x11
+[m[2;32m2018-06-07 15:28:11,867 - INFO  [pool-15-thread-1:GameEngine@373] - 2比牌阶段
+[m[2;32m2018-06-07 15:28:13,573 - INFO  [Thread-57:GameServer@1354] - in openCards, userId is 10273
+[m[2;32m2018-06-07 15:28:14,354 - INFO  [Thread-22:GameServer@1354] - in openCards, userId is 10275
+[m[2;32m2018-06-07 15:28:14,465 - INFO  [pool-15-thread-1:GameEngine@393] - 2进入庄家开牌阶段
+[m[2;32m2018-06-07 15:28:14,665 - INFO  [pool-15-thread-1:GameEngine@401] - 2发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:28:16,665 - INFO  [pool-15-thread-1:GameEngine@409] - 2比牌阶段
+[m[2;32m2018-06-07 15:28:17,031 - INFO  [pool-15-thread-1:GameEngine@429] - 2游戏结果
+[m[2;32m2018-06-07 15:28:17,065 - INFO  [pool-15-thread-1:GameEngine@439] - 2播放金币动画
+[m[2;32m2018-06-07 15:28:21,209 - INFO  [pool-15-thread-1:GameEngine@456] - 3准备阶段
+[m[2;32m2018-06-07 15:28:22,451 - INFO  [Thread-90:GameServer@1116] - in ready, userId is 10349
+[m[2;32m2018-06-07 15:28:22,984 - INFO  [Thread-159:GameServer@1116] - in ready, userId is 10273
+[m[2;32m2018-06-07 15:28:23,473 - INFO  [Thread-59:GameServer@1116] - in ready, userId is 10275
+[m[2;32m2018-06-07 15:28:23,666 - INFO  [pool-15-thread-1:GameEngine@311] - 3准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:28:23,866 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:28:25,866 - INFO  [pool-15-thread-1:GameEngine@1312] - 3庄家确定，押注阶段
+[m[2;32m2018-06-07 15:28:26,499 - INFO  [Thread-3:GameServer@1263] - in bet, userId is 10349bet_coin is 4
+[m[2;32m2018-06-07 15:28:27,070 - INFO  [Thread-98:GameServer@1263] - in bet, userId is 10273bet_coin is 4
+[m[2;32m2018-06-07 15:28:27,266 - INFO  [pool-15-thread-1:GameEngine@363] - 3发牌阶段
+[m[2;32m2018-06-07 15:28:27,466 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:1,cards:0xd2,0xb2,0xa2,0x31,0x21
+[m[2;32m2018-06-07 15:28:27,467 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0x51,0x34,0x22,0x91,0x32
+[m[2;32m2018-06-07 15:28:27,467 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0xc2,0xb4,0xa1,0x62,0x52
+[m[2;32m2018-06-07 15:28:27,468 - INFO  [pool-15-thread-1:GameEngine@373] - 3比牌阶段
+[m[2;32m2018-06-07 15:28:28,835 - INFO  [Thread-114:GameServer@1354] - in openCards, userId is 10349
+[m[2;32m2018-06-07 15:28:29,399 - INFO  [Thread-83:GameServer@1354] - in openCards, userId is 10273
+[m[2;32m2018-06-07 15:28:30,172 - INFO  [Thread-103:GameServer@1354] - in openCards, userId is 10275
+[m[2;32m2018-06-07 15:28:30,266 - INFO  [pool-15-thread-1:GameEngine@393] - 3进入庄家开牌阶段
+[m[2;32m2018-06-07 15:28:30,467 - INFO  [pool-15-thread-1:GameEngine@401] - 3发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:28:32,466 - INFO  [pool-15-thread-1:GameEngine@409] - 3比牌阶段
+[m[2;32m2018-06-07 15:28:33,014 - INFO  [pool-15-thread-1:GameEngine@429] - 3游戏结果
+[m[2;32m2018-06-07 15:28:33,014 - INFO  [pool-15-thread-1:GameEngine@439] - 3播放金币动画
+[m[2;32m2018-06-07 15:28:36,987 - INFO  [pool-15-thread-1:GameEngine@456] - 4准备阶段
+[m[2;32m2018-06-07 15:28:46,866 - INFO  [pool-15-thread-1:GameEngine@311] - 4准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:28:47,066 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:28:47,892 - INFO  [New I/O worker #2:GameServer@192] - 玩家10275<掉线>
+[m[2;32m2018-06-07 15:28:47,892 - INFO  [New I/O worker #2:GameServer@214] - 玩家10275加入桌子，在房间内掉线,535449
+[m[2;32m2018-06-07 15:28:48,067 - INFO  [New I/O worker #3:GameServer@192] - 玩家10273<掉线>
+[m[2;32m2018-06-07 15:28:48,068 - INFO  [New I/O worker #3:GameServer@214] - 玩家10273加入桌子，在房间内掉线,535449
+[m[2;32m2018-06-07 15:28:48,183 - INFO  [New I/O worker #1:GameServer@192] - 玩家10349<掉线>
+[m[2;32m2018-06-07 15:28:48,184 - INFO  [New I/O worker #1:GameServer@214] - 玩家10349加入桌子，在房间内掉线,535449
+[m[2;32m2018-06-07 15:28:49,066 - INFO  [pool-15-thread-1:GameEngine@1312] - 4庄家确定，押注阶段
+[m[2;32m2018-06-07 15:28:54,070 - INFO  [pool-15-thread-1:GameEngine@363] - 4发牌阶段
+[m[2;32m2018-06-07 15:28:54,267 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:1,cards:0xa4,0xa2,0x54,0x44,0x24
+[m[2;32m2018-06-07 15:28:54,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0xc1,0xb1,0x81,0x61,0x52
+[m[2;32m2018-06-07 15:28:54,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0x82,0x14,0x13,0xc4,0xc2
+[m[2;32m2018-06-07 15:28:54,269 - INFO  [pool-15-thread-1:GameEngine@373] - 4比牌阶段
+[m[2;32m2018-06-07 15:28:59,267 - INFO  [pool-15-thread-1:GameEngine@393] - 4进入庄家开牌阶段
+[m[2;32m2018-06-07 15:28:59,467 - INFO  [pool-15-thread-1:GameEngine@401] - 4发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:29:01,466 - INFO  [pool-15-thread-1:GameEngine@409] - 4比牌阶段
+[m[2;32m2018-06-07 15:29:01,870 - INFO  [pool-15-thread-1:GameEngine@429] - 4游戏结果
+[m[2;32m2018-06-07 15:29:01,870 - INFO  [pool-15-thread-1:GameEngine@439] - 4播放金币动画
+[m[2;32m2018-06-07 15:29:06,022 - INFO  [pool-15-thread-1:GameEngine@456] - 5准备阶段
+[m[2;32m2018-06-07 15:29:10,866 - INFO  [pool-15-thread-1:GameEngine@311] - 5准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:29:11,066 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:29:13,066 - INFO  [pool-15-thread-1:GameEngine@1312] - 5庄家确定，押注阶段
+[m[2;32m2018-06-07 15:29:18,067 - INFO  [pool-15-thread-1:GameEngine@363] - 5发牌阶段
+[m[2;32m2018-06-07 15:29:18,267 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:1,cards:0xb2,0x93,0x51,0x33,0x32
+[m[2;32m2018-06-07 15:29:18,267 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0xc4,0x81,0x52,0x41,0x34
+[m[2;32m2018-06-07 15:29:18,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0xd4,0xa3,0xa1,0x63,0x12
+[m[2;32m2018-06-07 15:29:18,268 - INFO  [pool-15-thread-1:GameEngine@373] - 5比牌阶段
+[m[2;32m2018-06-07 15:29:23,267 - INFO  [pool-15-thread-1:GameEngine@393] - 5进入庄家开牌阶段
+[m[2;32m2018-06-07 15:29:23,467 - INFO  [pool-15-thread-1:GameEngine@401] - 5发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:29:25,467 - INFO  [pool-15-thread-1:GameEngine@409] - 5比牌阶段
+[m[2;32m2018-06-07 15:29:26,222 - INFO  [pool-15-thread-1:GameEngine@429] - 5游戏结果
+[m[2;32m2018-06-07 15:29:26,222 - INFO  [pool-15-thread-1:GameEngine@439] - 5播放金币动画
+[m[2;32m2018-06-07 15:29:30,313 - INFO  [pool-15-thread-1:GameEngine@456] - 6准备阶段
+[m[2;32m2018-06-07 15:29:34,867 - INFO  [pool-15-thread-1:GameEngine@311] - 6准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:29:35,067 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:29:37,067 - INFO  [pool-15-thread-1:GameEngine@1312] - 6庄家确定，押注阶段
+[m[2;32m2018-06-07 15:29:42,067 - INFO  [pool-15-thread-1:GameEngine@363] - 6发牌阶段
+[m[2;32m2018-06-07 15:29:42,267 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:1,cards:0x84,0x83,0x42,0xd2,0xc1
+[m[2;32m2018-06-07 15:29:42,267 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0x93,0x64,0x52,0xb1,0x34
+[m[2;32m2018-06-07 15:29:42,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0xd3,0xb4,0xb2,0x92,0x13
+[m[2;32m2018-06-07 15:29:42,268 - INFO  [pool-15-thread-1:GameEngine@373] - 6比牌阶段
+[m[2;32m2018-06-07 15:29:47,267 - INFO  [pool-15-thread-1:GameEngine@393] - 6进入庄家开牌阶段
+[m[2;32m2018-06-07 15:29:47,467 - INFO  [pool-15-thread-1:GameEngine@401] - 6发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:29:49,467 - INFO  [pool-15-thread-1:GameEngine@409] - 6比牌阶段
+[m[2;32m2018-06-07 15:29:49,983 - INFO  [pool-15-thread-1:GameEngine@429] - 6游戏结果
+[m[2;32m2018-06-07 15:29:49,984 - INFO  [pool-15-thread-1:GameEngine@439] - 6播放金币动画
+[m[2;32m2018-06-07 15:29:54,140 - INFO  [pool-15-thread-1:GameEngine@456] - 7准备阶段
+[m[2;32m2018-06-07 15:29:58,867 - INFO  [pool-15-thread-1:GameEngine@311] - 7准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:29:59,067 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:30:01,067 - INFO  [pool-15-thread-1:GameEngine@1312] - 7庄家确定，押注阶段
+[m[2;32m2018-06-07 15:30:06,067 - INFO  [pool-15-thread-1:GameEngine@363] - 7发牌阶段
+[m[2;32m2018-06-07 15:30:06,267 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:1,cards:0xd4,0xb2,0xa4,0xa2,0xa1
+[m[2;32m2018-06-07 15:30:06,267 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0x42,0x34,0x31,0x62,0x24
+[m[2;32m2018-06-07 15:30:06,267 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0x51,0x41,0x14,0xc3,0xb1
+[m[2;32m2018-06-07 15:30:06,267 - INFO  [pool-15-thread-1:GameEngine@373] - 7比牌阶段
+[m[2;32m2018-06-07 15:30:11,268 - INFO  [pool-15-thread-1:GameEngine@393] - 7进入庄家开牌阶段
+[m[2;32m2018-06-07 15:30:11,468 - INFO  [pool-15-thread-1:GameEngine@401] - 7发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:30:13,468 - INFO  [pool-15-thread-1:GameEngine@409] - 7比牌阶段
+[m[2;32m2018-06-07 15:30:13,934 - INFO  [pool-15-thread-1:GameEngine@429] - 7游戏结果
+[m[2;32m2018-06-07 15:30:13,934 - INFO  [pool-15-thread-1:GameEngine@439] - 7播放金币动画
+[m[2;32m2018-06-07 15:30:18,034 - INFO  [pool-15-thread-1:GameEngine@456] - 8准备阶段
+[m[2;32m2018-06-07 15:30:22,867 - INFO  [pool-15-thread-1:GameEngine@311] - 8准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:30:23,067 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:30:25,067 - INFO  [pool-15-thread-1:GameEngine@1312] - 8庄家确定，押注阶段
+[m[2;32m2018-06-07 15:30:30,068 - INFO  [pool-15-thread-1:GameEngine@363] - 8发牌阶段
+[m[2;32m2018-06-07 15:30:30,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:1,cards:0xd2,0x62,0x44,0xb3,0x94
+[m[2;32m2018-06-07 15:30:30,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0xd3,0x64,0x43,0x42,0x22
+[m[2;32m2018-06-07 15:30:30,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0xb2,0x92,0x14,0x84,0x21
+[m[2;32m2018-06-07 15:30:30,268 - INFO  [pool-15-thread-1:GameEngine@373] - 8比牌阶段
+[m[2;32m2018-06-07 15:30:35,268 - INFO  [pool-15-thread-1:GameEngine@393] - 8进入庄家开牌阶段
+[m[2;32m2018-06-07 15:30:35,468 - INFO  [pool-15-thread-1:GameEngine@401] - 8发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:30:37,468 - INFO  [pool-15-thread-1:GameEngine@409] - 8比牌阶段
+[m[2;32m2018-06-07 15:30:38,056 - INFO  [pool-15-thread-1:GameEngine@429] - 8游戏结果
+[m[2;32m2018-06-07 15:30:38,057 - INFO  [pool-15-thread-1:GameEngine@439] - 8播放金币动画
+[m[2;32m2018-06-07 15:30:42,051 - INFO  [pool-15-thread-1:GameEngine@456] - 9准备阶段
+[m[2;32m2018-06-07 15:30:46,868 - INFO  [pool-15-thread-1:GameEngine@311] - 9准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:30:47,068 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:30:49,068 - INFO  [pool-15-thread-1:GameEngine@1312] - 9庄家确定，押注阶段
+[m[2;32m2018-06-07 15:30:54,068 - INFO  [pool-15-thread-1:GameEngine@363] - 9发牌阶段
+[m[2;32m2018-06-07 15:30:54,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:1,cards:0xd4,0xd2,0x91,0x74,0x24
+[m[2;32m2018-06-07 15:30:54,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0xb4,0x71,0x33,0x32,0x21
+[m[2;32m2018-06-07 15:30:54,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0xc2,0x84,0x23,0xa2,0x82
+[m[2;32m2018-06-07 15:30:54,268 - INFO  [pool-15-thread-1:GameEngine@373] - 9比牌阶段
+[m[2;32m2018-06-07 15:30:59,268 - INFO  [pool-15-thread-1:GameEngine@393] - 9进入庄家开牌阶段
+[m[2;32m2018-06-07 15:30:59,468 - INFO  [pool-15-thread-1:GameEngine@401] - 9发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:31:01,469 - INFO  [pool-15-thread-1:GameEngine@409] - 9比牌阶段
+[m[2;32m2018-06-07 15:31:01,907 - INFO  [pool-15-thread-1:GameEngine@429] - 9游戏结果
+[m[2;32m2018-06-07 15:31:01,908 - INFO  [pool-15-thread-1:GameEngine@439] - 9播放金币动画
+[m[2;32m2018-06-07 15:31:06,015 - INFO  [pool-15-thread-1:GameEngine@456] - 10准备阶段
+[m[2;32m2018-06-07 15:31:10,869 - INFO  [pool-15-thread-1:GameEngine@311] - 10准备完成，进入庄家确定阶段
+[m[2;32m2018-06-07 15:31:11,069 - INFO  [pool-15-thread-1:GameEngine@1297] - 庄家确定，进入播放庄家动画阶段
+[m[2;32m2018-06-07 15:31:13,068 - INFO  [pool-15-thread-1:GameEngine@1312] - 10庄家确定，押注阶段
+[m[2;32m2018-06-07 15:31:18,068 - INFO  [pool-15-thread-1:GameEngine@363] - 10发牌阶段
+[m[2;32m2018-06-07 15:31:18,268 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:1,cards:0x83,0x81,0x42,0x32,0x21
+[m[2;32m2018-06-07 15:31:18,269 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:2,cards:0xd4,0x71,0x63,0x14,0x12
+[m[2;32m2018-06-07 15:31:18,269 - INFO  [pool-15-thread-1:GameEngine@678] - locationId:3,cards:0xb3,0xa3,0x91,0x73,0x61
+[m[2;32m2018-06-07 15:31:18,270 - INFO  [pool-15-thread-1:GameEngine@373] - 10比牌阶段
+[m[2;32m2018-06-07 15:31:23,269 - INFO  [pool-15-thread-1:GameEngine@393] - 10进入庄家开牌阶段
+[m[2;32m2018-06-07 15:31:23,469 - INFO  [pool-15-thread-1:GameEngine@401] - 10发送庄家开牌阶段状态变化，进入比牌阶段
+[m[2;32m2018-06-07 15:31:25,469 - INFO  [pool-15-thread-1:GameEngine@409] - 10比牌阶段
+[m[2;32m2018-06-07 15:31:25,889 - INFO  [pool-15-thread-1:GameEngine@429] - 10游戏结果
+[m[2;32m2018-06-07 15:31:26,038 - INFO  [pool-15-thread-1:GameEngine@1600] - 房间535449牌局完成，房间解散
+[m[2;32m2018-06-07 15:31:26,044 - INFO  [pool-15-thread-1:RedisResource@405] - 房间roomNum=535449解散，redis中该房间内玩家数据，清除success!
+[m
